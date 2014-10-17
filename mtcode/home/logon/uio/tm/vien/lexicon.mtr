@@ -1,0 +1,18 @@
+;;; Hey, emacs(1), this is -*- Mode: TDL; Package: LKB; Coding: utf-8 -*- got it?
+
+;;; 
+;;; Reversible predicates for the mrs test-suite
+;;;
+
+
+dog_n-mtr := noun_mtr &
+[ INPUT.RELS < [ PRED "_chim_n_rel" ] >,
+  OUTPUT.RELS < [ PRED "_bird_n_1_rel" ] > ].
+
+laugh_v-mtr := arg1_v_mtr &
+[ INPUT.RELS < [ PRED "_bay_v_rel" ] >,
+  OUTPUT.RELS < [ PRED "_fly_v_at_rel" ] > ].
+
+exists-def_udef_a_q := quantifier_mtr &
+[ INPUT.RELS < [ PRED "exist_q_rel" ] >,
+  OUTPUT.RELS < [ PRED _the_q_rel ] > ].

@@ -1,0 +1,256 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Grammar of Vietnamese
+;;; created at:
+;;;     Sun May 11 10:49:55 UTC 2014
+;;; based on Matrix customization system version of:
+;;;     Sat Feb 22 09:32:37 UTC 2014
+;;;
+;;; 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Type assigning empty mod list. Added to basic types for nouns, verbs and determiners.
+
+non-mod-lex-item := lex-item &
+  [ SYNSEM.LOCAL.CAT.HEAD.MOD < > ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; Matrix Type Addenda
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+png :+ [ PER person ].
+
+basic-head-comp-phrase :+ [ SYNSEM.LOCAL.CAT.MC #mc,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+basic-head-mod-phrase-simple :+ [ SYNSEM.LOCAL.CAT.MC #mc,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+;;;;;;;;;;;;;;
+;;; Features
+;;;;;;;;;;;;;;
+
+;;; Person
+
+person := *top*.
+1st := person.
+2nd := person.
+3rd := person.
+
+;;;;;;;;;;;;;;;;;;;
+;;; Lexical Types
+;;;;;;;;;;;;;;;;;;;
+
+;;; Nouns
+
+noun-lex := basic-noun-lex & basic-one-arg & no-hcons-lex-item & non-mod-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL [ SPR < #spr &
+                                 [ LOCAL.CAT.HEAD det ] >,
+                           COMPS < >,
+                           SUBJ < >,
+                           SPEC < > ],
+    ARG-ST < #spr > ].
+
+common-noun-lex := noun-lex.
+
+pronoun-noun-lex := noun-lex.
+
+;;; Verbs
+
+verb-lex := basic-verb-lex & non-mod-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPR < >,
+                             SPEC < >,
+                             SUBJ < #subj > ],
+                   CONT.HOOK.XARG #xarg ],
+    ARG-ST.FIRST #subj &
+                 [ LOCAL [ CAT.VAL [ SPR < >,
+                                     COMPS < > ],
+                           CONT.HOOK.INDEX #xarg ] ] ].
+
+intransitive-verb-lex := verb-lex & intransitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < >,
+    ARG-ST.FIRST.LOCAL.CAT.HEAD noun ].
+
+transitive-verb-lex := verb-lex & transitive-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #comps >,
+    ARG-ST < [ LOCAL.CAT.HEAD noun ],
+             #comps &
+             [ LOCAL.CAT [ VAL [ SPR < >,
+                                 COMPS < > ],
+                           HEAD noun ] ] > ].
+
+intr-verb-lex := intransitive-verb-lex.
+
+tr-verb-lex := transitive-verb-lex.
+
+;;; Others
+
+;;; Determiners
+;;; SPEC is non-empty, and already specified by basic-determiner-lex.
+
+determiner-lex := basic-determiner-lex & basic-zero-arg & non-mod-lex-item &
+  [ SYNSEM.LOCAL.CAT.VAL [ SPR < >,
+                           COMPS < >,
+                           SUBJ < > ] ].
+
+determinative-determiner-lex := determiner-lex & no-icons-lex-item.
+
+;;;;;;;;;;;;;;;;;;;
+;;; Lexical Rules
+;;;;;;;;;;;;;;;;;;;
+
+;;; Lexical rule types
+
+;;;;;;;;;;;;;;;;;;;
+;;; Phrasal Types
+;;;;;;;;;;;;;;;;;;;
+
+;Constraint on MC used to be part of matrix.tdl
+;;it applies to all wo implementations, except for v2
+
+; The head of head-comp-phrase can't be: ['comp']
+
+head-comp-phrase := basic-head-1st-comp-phrase & head-initial &
+  [ SYNSEM.LOCAL.CAT.HEAD +nvjrpdmo ].
+
+subj-head-phrase := decl-head-subj-phrase & head-final &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
+; Rules for building NPs.  Note that the Matrix uses SPR for
+; the specifier of nouns and SUBJ for the subject (specifier) of verbs.
+
+head-spec-phrase := basic-head-spec-phrase & head-initial.
+
+; Bare NP phrase.  Consider modifying the PRED value of the quantifier relation
+; introduced to match the semantic effect of bare NPs in your language.
+
+bare-np-phrase := basic-bare-np-phrase &
+  [ C-CONT.RELS <! [ PRED "exist_q_rel" ] !> ].
+
+; comp-head-phrase requires things that are [ HEAD comp ].
+
+comp-head-phrase := basic-head-1st-comp-phrase & head-final &
+  [ SYNSEM.LOCAL.CAT.HEAD comp ].
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+; Added by Le Tuan Anh <tuananh.ke@gmail.com>
+
++nvcdmo :+ [ MOD < > ].
+
+noncls-common-noun-lex := common-noun-lex &
+		      [ SYNSEM.LOCAL.CAT.HEAD [ CLASSIFIED - ] ] .
+
+cls-common-noun-lex := common-noun-lex &
+		      [ SYNSEM.LOCAL.CAT.HEAD [ CLASSIFIED + ] ] .
+
+
+classifier-lex :=  basic-classifier-lex-item &
+  	      [ SYNSEM [ LOCAL [ CAT [ HEAD  [ MOD < [ LOCAL [ CAT [ HEAD noun & [ CLASSIFIED - ] ,
+              	                                      VAL.SPR cons ] ] ]> ],
+						      VAL [ SPR < >,
+							    SUBJ < >,
+							    COMPS < >,
+							    SPEC < > ],
+				       POSTHEAD - ]]]].
+
+adjective-lex := basic-adjective-lex & intersective-mod-lex &
+	      norm-ltop-lex-item &
+  	      [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT [ HEAD noun,
+              	                                      VAL.SPR cons ]]>,
+						      VAL [ SPR < >,
+				 SUBJ < >,
+				 COMPS < >,
+				 SPEC < > ],
+			   POSTHEAD + ]]]].
+
+
+; adj-head-scop-phrase := basic-adverb-lex & intersective-mod-lex &
+;   [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT.HEAD verb ]>,
+; 			   VAL [ SPR < >,
+; 				 SUBJ < >,
+; 				 COMPS < >,
+; 				 SPEC < > ] , POSTHEAD - ]]]].
+
+neg-scopal-adverb-lex := basic-adverb-lex & intersective-mod-lex 
+  & [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT.HEAD verb ]>,
+			   VAL [ SPR < >,
+				 SUBJ < >,
+				 COMPS < >,
+				 SPEC < > ] , POSTHEAD - ]]]
+      ,ARG-ST < >
+    ]
+    .
+
+adverb-lex := basic-adverb-lex & intersective-mod-lex &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT.HEAD verb ]>,
+			   VAL [ SPR < >,
+				 SUBJ < >,
+				 COMPS < >,
+				 SPEC < > ] , POSTHEAD + ]]]].
+
+;s-adverb-lex := adverb-lex &
+;   [SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.VAL.SUBJ  < > ] > ].
+
+possible-verb-lex := basic-verb-lex & trans-first-arg-raising-lex-item-1  & non-mod-lex-item &
+   [ SYNSEM.LOCAL.CAT [ VAL [ SUBJ < #subj >,
+                              COMPS < #comps >,
+                              SPR < >,
+                              SPEC < > ]
+			    ],
+     ARG-ST < #subj &
+              [ LOCAL.CAT [ VAL [ SPR < >,
+                                  COMPS < > ],
+                            HEAD noun ] ],
+              #comps &
+              [ LOCAL.CAT [ VAL [ SUBJ < [  ] >,
+                                  COMPS < > ]
+			    ,HEAD verb 
+				] ] > ] .
+
+determiner-lex-supertype := norm-hook-lex-item & basic-zero-arg &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD det,
+			   VAL[ SPEC.FIRST.LOCAL.CONT.HOOK [ INDEX #ind,
+				  			     LTOP #larg ],
+                                SPR < >,
+                                SUBJ < >,
+                                COMPS < >]],
+		     CONT.HCONS < ! qeq &
+				 [ HARG #harg,
+				   LARG #larg ] ! > ], 
+	     LKEYS.KEYREL quant-relation &
+		   [ ARG0 #ind,
+		     RSTR #harg ] ] ].
+
+;;; Demonstrative
+demonstrative_a_rel := determiner-lex-supertype.
+proximal+dem_a_rel := demonstrative_a_rel. ; close to speaker
+distal+dem_a_rel := demonstrative_a_rel.   ; away from speaker
+remote+dem_a_rel := distal+dem_a_rel.      ; away from speaker and hearer
+hearer+dem_a_rel := distal+dem_a_rel.      ; near hearer
+
+
+
+; We can inherit from basic-verb-lex directly
+; But I think we may rebuild the hierarchy in the future
+; So I added a new supertype for verb 
+
+;verb-lex-supertype := basic-verb-lex.
+verb-lex-supertype := tr-verb-lex.
+
+copula-verb-lex := verb-lex-supertype.
+
+; copula-verb-lex := verb-lex-supertype & 
+; 		   trans-first-arg-raising-lex-item-2 &
+;   [ SYNSEM.LOCAL [ CAT.VAL [ SUBJ < #subj >,
+;                              COMPS < #comps >,
+;                              SPR < >,
+;                              SPEC < > ],
+;                    CONT.HOOK.XARG #xarg ],
+;     ARG-ST < #subj &
+;              [ LOCAL [ CONT.HOOK.INDEX #xarg,
+;                        CAT [ VAL [ SPR < >,
+;                                    COMPS < > ],
+;                              HEAD noun ] ] ],
+;              #comps &
+;              [ LOCAL.CAT [ VAL [ COMPS < > ]
+;                            ;,HEAD jp 
+; 			       ] ] > ].

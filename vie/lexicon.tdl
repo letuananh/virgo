@@ -1,0 +1,200 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+; A toy lexicon of Vietnamese
+; Developed by Lê Tuấn Anh <tuananh.ke@gmail.com>
+
+;;; Nouns
+
+chim := noncls-common-noun-lex &
+  [ STEM < "chim" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chim_n_rel" ].
+
+hoc_sinh := cls-common-noun-lex &
+  [ STEM < "học", "sinh" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hoc-sinh_n_rel" ].
+
+giao_vien := cls-common-noun-lex &
+  [ STEM < "giáo", "viên" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_giao_vien_n_rel" ].
+
+nho := noncls-common-noun-lex &
+  [ STEM < "nho" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nho_n_rel" ].
+
+chó := noncls-common-noun-lex &
+  [ STEM < "chó" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chó_n_rel" ].
+
+mèo := noncls-common-noun-lex &
+  [ STEM < "mèo" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_mèo_n_rel" ].
+
+bút := noncls-common-noun-lex &
+  [ STEM < "bút" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bút_n_rel" ].
+
+bánh%20rán := noncls-common-noun-lex &
+  [ STEM < "bánh",
+           "rán" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bánh rán_n_rel" ].
+
+;the colour red
+đỏ-noun := noncls-common-noun-lex &
+  [ STEM < "đỏ" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_đỏ_n_rel" ].
+
+tôi := pronoun-noun-lex &
+  [ STEM < "tôi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_tôi_n_rel" ].
+
+cô%20ấy := pronoun-noun-lex &
+  [ STEM < "cô",
+           "ấy" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cô ấy_n_rel" ].
+
+anh%20ấy := pronoun-noun-lex &
+  [ STEM < "anh",
+           "ấy" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_anh ấy_n_rel" ].
+
+nó := pronoun-noun-lex &
+  [ STEM < "nó" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nó_n_rel" ].
+
+bạn := pronoun-noun-lex &
+  [ STEM < "bạn" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bạn_n_rel" ].
+
+đây := pronoun-noun-lex &
+  [ STEM < "đây" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_đây_n_rel" ].
+
+đó-dp := pronoun-noun-lex &
+  [ STEM < "đó" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_đó_n_rel" ].
+
+kia-dp := pronoun-noun-lex &
+  [ STEM < "kia" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kia_n_rel" ].
+
+
+;;; Adjectives
+xanh := adjective-lex &
+  [ STEM < "xanh" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_xanh_a_rel" ].
+
+đỏ := adjective-lex &
+  [ STEM < "đỏ" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_đỏ_a_rel" ].
+
+to := adjective-lex &
+  [ STEM < "to" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_to_a_rel" ].
+
+béo := adjective-lex &
+  [ STEM < "béo" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_béo_a_rel" ].
+
+thông-minh := adjective-lex &
+  [ STEM < "thông", "minh" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_thông-minh_a_rel" ].
+
+
+nhanh-adj := adjective-lex &
+  [ STEM < "nhanh" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_nhanh_a_rel" ].
+
+
+
+;;; Verbs
+bay := intr-verb-lex &
+  [ STEM < "bay" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bay_v_rel" ].
+
+cười := intr-verb-lex &
+  [ STEM < "cười" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cười_v_rel" ].
+
+ngủ := intr-verb-lex &
+  [ STEM < "ngủ" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ngủ_v_rel" ].
+
+
+
+sủa := intr-verb-lex &
+  [ STEM < "sủa" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sủa_v_rel" ].
+
+kêu := intr-verb-lex &
+  [ STEM < "kêu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_kêu_v_rel" ].
+
+ăn := tr-verb-lex &
+  [ STEM < "ăn" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ăn_v_rel" ].
+
+yêu := tr-verb-lex &
+  [ STEM < "yêu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_yêu_v_rel" ].
+
+đuổi := tr-verb-lex &
+  [ STEM < "đuổi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_đuổi_v_rel" ].
+
+rán := tr-verb-lex &
+  [ STEM < "rán" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_rán_v_rel" ].
+
+hỏi := tr-verb-lex &
+  [ STEM < "hỏi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hỏi_v_rel" ].
+
+thích := tr-verb-lex &
+  [ STEM < "thích" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thích_v_rel" ].
+
+
+duoc := possible-verb-lex &
+        [ STEM < "được" >,
+         SYNSEM.LKEYS.KEYREL.PRED "_duoc_v_rel" ].
+
+la := copula-verb-lex &
+       [ STEM < "là" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_la_cop_rel" ].
+
+;;; Determiners
+
+;;; Adverbs
+nhanh := adverb-lex &
+  [ STEM < "nhanh" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_nhanh_a_rel" ].
+
+;;; Demonstrative
+nay := proximal+dem_a_rel &
+       [ STEM < "này" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_nay_p_rel" ].
+
+kia := remote+dem_a_rel &
+       [ STEM < "kia" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_kia_p_rel" ].
+
+đó := distal+dem_a_rel &
+       [ STEM < "đó" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_đó_p_rel" ].
+
+;;; CLASSIFIERS
+con := classifier-lex &
+  [ STEM < "con" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_con_cl_rel" ].
+
+cái := classifier-lex &
+  [ STEM < "cái" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_cái_cl_rel" ].
+
+màu := classifier-lex &
+  [ STEM < "màu" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_màu_cl_rel" ].
+
+;; NEG
+khong := neg-scopal-adverb-lex &
+  [ STEM < "không" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_neg_r_rel" ].

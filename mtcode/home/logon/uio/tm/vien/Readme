@@ -1,0 +1,27 @@
+Chinese-English machine translation system
+
+Covered under the LICENSE in the parent directory (MIT).
+
+
+
+
+
+Setup:
+------
+ * Put an up-to-date MCG under logon/dfki/mcg
+ * ln -s ~/logon/uio/tm/zhen/scripts/mcg.lisp ~/logon/dfki/.
+
+Add a cpu to dot.tsdbrc
+
+ ;;; add mcg
+      (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "ja_JP.UTF-8" 
+                      "-L" (logon-file "dfki" "mcg.lisp" :string)))
+      :class :mcg@lkb :name "mcg" :grammar "MCG (current)"
+      :task '(:parse :generate) :wait (* wait 2) :quantum quantum)
+
+

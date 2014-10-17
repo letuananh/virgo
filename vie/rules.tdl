@@ -1,0 +1,29 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+decl-head-opt-subj := decl-head-opt-subj-phrase.
+
+basic-head-opt-comp := basic-head-opt-comp-phrase.
+
+head-comp := head-comp-phrase.
+
+subj-head := subj-head-phrase.
+
+head-spec := head-spec-phrase.
+
+bare-np := bare-np-phrase.
+
+comp-head := comp-head-phrase.
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+; Added by Le Tuan Anh <tuananh.ke@gmail.com>
+
+classifier-head-phrase := cls-head-int-phrase.
+
+head-adj-int := head-adj-int-phrase.
+
+adj-head-int := adj-head-int-phrase.
+
+; cls-head-phrase := 
+; 		   cls-head-int-phrase & 
+; 		   isect-mod-phrase &
+;   [ 
+;     NON-HEAD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD - ] 
+;   ].

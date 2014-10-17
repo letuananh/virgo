@@ -1,0 +1,794 @@
+;; Hey, Emacs, this file is -*- Mode: Common-Lisp; -*- ... got that?
+
+(in-package :tsdb)
+
+(setf *tsdb-cache-connections-p* t)
+
+(setf *pvm-encoding* :utf-8)
+
+;;
+;; define [incr tsdb()] clients in terms of binary to run, command-line
+;; arguments, and the host to run on; if the default of `(short-site-name)'
+;; for the current host does not work for you, then contact me for advice.
+;;                                                         (17-dec-03; oe)
+;;
+(let* ((erg (registry:lookup :erg "ERG (~a)" :vn))
+       (terg (registry:lookup :terg "ERG (~a)" :vn))
+       (gg (registry:lookup :gg "GG (~a)" :vn))
+       (jacy "JACY (0907)")
+       (srg (registry:lookup :srg "SRG (~a)" :vn))
+       (cheetah "Cheetah (1006)")
+       (hag "HAG (0908)")
+       (krg "KRG (1007)")
+       (wrapper (logon-file "bin" "logon" :string))
+       (options '(#-:runtime-standard "--source" 
+                  #+:runtime-standard "--binary" "--tty"))
+       (path (format nil "franz/~a" mk::%system-binaries%))
+       (binary (logon-file path "alisp" :string))
+       (base (logon-file path "base.dxl" :string))
+       (cheap (logon-file "bin" "cheap" :string))
+       (tnt@wsj
+        (format
+         nil "~a -z100 ~a -"
+         (logon-file "bin" "tnt" :string)
+         (logon-file "coli/tnt/models" "wsj" :string)))
+       (tnt@negra
+        (format
+         nil "~a -z100 ~a -"
+         (logon-file "bin" "tnt" :string)
+         (logon-file "coli/tnt/models" "negra" :string)))
+       (answer (logon-file "bin" "answer" :string))
+       (wait 300)
+       (quantum 600))
+  (setf *pvm-cpus*
+    (list
+     ;;
+     ;; a few non-LOGON MT systems, some of them on-line web interfaces
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn binary
+      :options (list "-I" base "-qq" "-locale" "no_NO.UTF-8"
+                     "-L" (logon-file "lingo" "smt.lisp" :string))
+      :class :smt :name "smt" :task '(:translate)
+      :template "%s/%t/%d" :wait wait :quantum 120)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn binary
+      :options (list "-I" base "-qq" "-locale" "no_NO.UTF-8"
+                     "-L" (logon-file "lingo" "google.lisp" :string))
+      :class :google :name "google" :task '(:translate)
+      :template "%s/%t/%d" :wait wait :quantum 120)
+     ;;
+     ;; next, our Japanese -- English open-source showcase MT system
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-packing" "-mrs"
+                     (registry:lookup :jacy "~a~a~a" :ln :rt :cp))
+      :class '(:jacy :jacy@pet) :name "pet" :grammar jacy
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-yy" "-packing" "-mrs"
+                     (registry:lookup :jacy "~a~a~a" :ln :rt :cp))
+      :preprocessor "tsdb::chasen-for-pet"
+      :class :jacy+chasen :name "pet" :grammar jacy
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "ja_JP.UTF-8" 
+                      "-L" (logon-file "dfki" "jacy.lisp" :string)))
+      :class :jacy@lkb :name "lkb" :grammar jacy
+      :task '(:parse :generate) :wait (* wait 2) :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "ja_JP.UTF-8" 
+                      "-L" (logon-file "dfki" "jacy.lisp" :string)))
+      :class :jacy :name "lkb" :grammar jacy
+      :task '(:generate) :wait (* wait 2) :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "ja_JP.UTF-8"
+                      "-L" (logon-file "lingo" "jaen.lisp" :string)))
+      :class :jaen :name "jaen" :grammar "JaEn (nov-08)" 
+      :task '(:transfer) :wait (* wait 3) :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "ja_JP.UTF-8"
+                      "-L" (logon-file "lingo" "ja2en.lisp" :string)))
+      :class :ja2en :name "ja2en" :task '(:translate)
+      :template "%s/%t/%d" :wait (* wait 4) :quantum 7200)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "ja_JP.UTF-8"
+                      "-L" (logon-file "lingo" "ja2en+chasen.lisp" :string)))
+      :class :ja2en+chasen :name "ja2en" :task '(:translate)
+      :template "%s/%t/%d" :wait (* wait 4) :quantum 7200)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "enja.lisp" :string)))
+      :class :enja :name "enja" :grammar "EnJa (current)" 
+      :task '(:transfer) :wait (* wait 3) :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "en2ja.lisp" :string)))
+      :class :en2ja :name "en2ja" :task '(:translate)
+      :template "%s/%t/%d" :wait (* wait 4) :quantum 7200)
+     ;;
+     ;; another baby MT pair: German -- English
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "de_DE.UTF-8" 
+                      "-L" (logon-file "dfki" "gg.lisp" :string)))
+      :class :gg :name "lkb" :grammar gg
+      :task '(:parse :generate) :wait 600 :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-yy" "-packing" "-mrs"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :gg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("lkb::repp-for-pet"
+                      :repp :tokenizer :calls (:xml :ascii))
+      :reader "tsdb::yy-read-input"
+      :class :gg@pet :task '(:parse) :name "pet" :grammar gg 
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-yy" "-packing" "-mrs"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :gg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("lkb::repp-for-pet"
+                      :repp :tokenizer :calls (:xml :ascii))
+      :tagger (list :tnt tnt@negra :n 2) :reader "tsdb::yy-read-input"
+      :class :gg+tnt :task '(:parse) :name "pet" :grammar gg 
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "de_DE.UTF-8"
+                      "-L" (logon-file "lingo" "deen.lisp" :string)))
+      :class :deen :name "lkb" :grammar "DeEn (nov-2008)" 
+      :task '(:transfer) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "de_DE.UTF-8"
+                      "-L" (logon-file "lingo" "de2en.lisp" :string)))
+      :class :de2en :name "de2en" :task '(:translate)
+      :template "%s/%t/%d" :wait 900 :quantum 7200)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "ende.lisp" :string)))
+      :class :ende :name "lkb" :grammar "EnDe (28-jun-06)" 
+      :task '(:transfer) :wait wait :quantum quantum)
+     ;;
+     ;; Vietnamese grammar
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "vi_VN.UTF-8"
+                      "-L" (logon-file "ntu" "vie.lisp" :string)))
+      :class :vie :name "vie" :grammar "Vie (15 Apr 2014)" 
+      :task '(:parse :generate) :wait wait :quantum quantum)
+     ;;
+     ;; Viet2Eng transfer language
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "vi_VN.UTF-8"
+                      "-L" (logon-file "lingo" "vien.lisp" :string)))
+      :class :vien :name "vien" :grammar "ViEn (Apr-2014)" 
+      :task '(:transfer) :wait (* wait 3) :quantum quantum)
+     ;;
+     ;; ------------
+     ;;
+     
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "en2de.lisp" :string)))
+      :class :en2de :name "en2de" :task '(:translate)
+      :template "%s/%t/%d" :wait 900 :quantum 7200)
+     ;;
+     ;; the English Resource Grammar (ERG), in quite a few configurations
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "erg.lisp" :string)))
+      :class :erg :grammar erg :task '(:parse :generate)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing"
+                     "-repp" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :cheap :grammar erg :name "pet"
+      :task '(:parse) :flags '(:generics nil)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :erg+tnt :grammar erg :name "pet"
+      :task '(:parse) :flags '(:generics t)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60" "-mrs=simple"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class '(:mrs :erg+tnt/mrs) :grammar erg :name "pet"
+      :task '(:parse) :flags '(:generics t)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-sm=wsj.mem"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :erg+tnt/wsj :grammar erg :name "pet"
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-sm=wsj--.mem"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :erg+tnt/wsj-- :grammar erg :name "pet"
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-sm=wsj--.mem"
+                     "-repp=wiki" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :erg+tnt/wiki/wsj-- :grammar erg :name "pet"
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-sm=wsj--.mem"
+                     "-repp=gml" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :erg+tnt/gml/wsj-- :grammar erg :name "pet"
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-sm=wsj--.mem"
+                     "-repp=wiki" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :erg+tnt/wiki/wsj-- :grammar erg :name "pet"
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-sm=wsj--.mem"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~aspeech.grm" :ln :rt))
+      :class :erg+tnt/speech/wsj-- :grammar erg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-sm=wescience.mem"
+                     "-repp=wiki" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=2048" "-timeout=120"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :erg+tnt/wiki :grammar erg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-sm=wescience.mem"
+                     "-repp=gml" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :class :erg+tnt/gml/wiki :grammar erg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~aspeech.grm" :ln :rt))
+      :class :erg+tnt/speech :grammar erg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-yy" "-packing" "-sm=genia.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1014" "-timeout=180"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("tsdb::genia+tagger-for-pet"
+                      :repp :tokenizer
+                      :calls (:xml :lgt :ascii :quotes) :nep :mask)
+      :tagger (list :tnt tnt@wsj :n 2) :reader "tsdb::yy-read-input"
+      :class :erg+genia+tnt :grammar erg :name "pet"
+      :task '(:parse) :wait wait :quantum (* 3 quantum))
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing" "-sm=wsj.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=2048" "-timeout=240"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("tsdb::conll-for-pet" :type :starsem)
+      :reader "tsdb::yy-read-input"
+      :class :erg/starsem :grammar erg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum :edges 200000)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-yy" "-packing" "-sm=genia.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1014" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("tsdb::genia+tagger-for-pet"
+                      :repp :tokenizer :calls (:xml :lgt :ascii) :nep :add)
+      :tagger (list :tnt tnt@wsj :n 2) :reader "tsdb::yy-read-input"
+      :class :erg+genia+tnt/bioscope :grammar erg :name "pet"
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-yy" "-packing"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("tsdb::genia-for-pet" 
+                      :repp :tokenizer
+                      :calls (:xml :lgt :ascii :quotes) :nep :add)
+      :tagger (list :tnt tnt@wsj :n 2) :reader "tsdb::yy-read-input"
+      :class :erg+genia+tnt/genia :grammar erg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-yy" "-packing"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :preprocessor "tsdb::genia-for-pet" :reader "tsdb::yy-read-input"
+      :class :erg/genia :grammar erg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-s" "-tsdb" "-yy" "-packing"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :erg "~a~a~a" :ln :rt :cp))
+      :preprocessor "tsdb::ptb-for-pet" :reader "tsdb::yy-read-input"
+      :class :erg/ptb :grammar erg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     ;;
+     ;; support for a testing, non-released version of the ERG
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "terg.lisp" :string)))
+      :class :terg :grammar terg :task '(:generate)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-packing"
+                     "-repp" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :class :terg :grammar terg :name "pet"
+      :task '(:parse) :flags '(:generics nil)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :reader "tsdb::yy-read-input"
+      :class :terg/yy :grammar terg :name "pet"
+      :task '(:parse) :flags '(:generics nil)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-packing"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :class :terg+tnt :grammar terg :name "pet"
+      :task '(:parse)  :flags '(:generics t)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-packing" "-sm=wsj.mem"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :class :terg+tnt/wsj :grammar terg :name "pet"
+      :task '(:parse)  :flags '(:generics t)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("lkb::repp-for-pet"
+                      :repp :tokenizer :calls (:xml :lgt :ascii :quotes))
+      :tagger (list :tnt tnt@wsj :n 2) :reader "tsdb::yy-read-input"
+      :class :terg+tnt/yy :grammar terg :name "pet"
+      :task '(:parse)  :flags '(:generics t)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-packing"
+                     "-repp" "-tagger" "-cm" "-default-les=all" "-mrs=simple"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :class :terg+tnt/mrs :grammar terg :name "pet"
+      :task '(:parse)  :flags '(:generics t)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-packing"
+                     "-repp=html" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :class :terg+tnt/html :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-packing" "-sm=wescience.mem"
+                     "-repp=wiki" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :class :terg+tnt/wiki :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-packing" "-sm=wescience.mem"
+                     "-repp=gml" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :class :terg+tnt/gml :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-packing"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~aspeech.grm" :ln :rt))
+      :class :terg+tnt/speech :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing" "-sm=wsj.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=2048" "-timeout=120"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :preprocessor "tsdb::ptb-for-pet" :reader "tsdb::yy-read-input"
+      :class :terg/ptb :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing" "-sm=genia.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1014" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("tsdb::genia+tagger-for-pet"
+                      :repp :tokenizer
+                      :calls (:xml :lgt :ascii :quotes) :nep :add)
+      :tagger (list :tnt tnt@wsj :n 2) :reader "tsdb::yy-read-input"
+      :class :terg+genia+tnt :grammar terg :name "pet"
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing" "-sm=genia.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1014" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("tsdb::genia+tagger-for-pet"
+                      :repp :tokenizer :calls (:xml :lgt :ascii) :nep :add)
+      :tagger (list :tnt tnt@wsj :n 2) :reader "tsdb::yy-read-input"
+      :class :terg+genia+tnt/bioscope :grammar terg :name "pet"
+      :task '(:parse) :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing" "-sm=genia.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :preprocessor "tsdb::genia-for-pet" :reader "tsdb::yy-read-input"
+      :class :terg/genia :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing" "-sm=genia.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("tsdb::genia-for-pet" 
+                      :repp :tokenizer
+                      :calls (:xml :lgt :ascii :quotes) :nep :add)
+      :tagger (list :tnt tnt@wsj :n 2) :reader "tsdb::yy-read-input"
+      :class :terg+genia+tnt/genia :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing" "-sm=redwoods.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=4096" "-timeout=180"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :preprocessor "tsdb::conll-for-pet" :reader "tsdb::yy-read-input"
+      :class :terg/conll :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum :edges 500000)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "--test" "-tsdb" "-yy" "-packing" "-sm=redwoods.mem"
+                     "-cm" "-default-les=all"
+                     "-memlimit=2048" "-timeout=180"
+                     (registry:lookup :terg "~a~a~a" :ln :rt :cp))
+      :preprocessor '("tsdb::conll-for-pet" :type :starsem)
+      :reader "tsdb::yy-read-input"
+      :class :terg/starsem :grammar terg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-yy" "-packing" "-sm=wsj.mem"
+                     "-repp" "-tagger" "-cm" "-default-les=all"
+                     "-memlimit=2048" "-timeout=180"
+                     (logon-file "coli/deepbank/erg" "english.grm" :string))
+      :class :deepbank :grammar "ERG (DeepBank)" :name "pet" :task '(:parse)
+      :wait wait :quantum quantum :edges 200000)
+     ;;
+     ;; ERG parsing and generation, using the Answer Constraint Engine (ACE)
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn answer
+      :options (list "--terg" 
+                     "--tnt-model" (logon-file "coli/tnt/models" "wsj" :string)
+                     "--max-chart-megabytes=1920" "--max-unpack-megabytes=2048"
+                     "-t")
+      :class :terg+tnt/ace :grammar terg :name "ace" :task '(:parse) :wait wait)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn answer
+      :options (list "--terg" "-e"
+                     "--max-chart-megabytes=1920" "--max-unpack-megabytes=2048"
+                     "-t")
+      :class :terg/ace :grammar terg :name "ace" :task '(:generate) :wait wait)
+     ;;
+     ;; the Spanish Resource Grammar, interesting due to its use of SPPP
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-yy" "-packing" "-default-les"
+                     "-memlimit=1024" "-timeout=60"
+                     (registry:lookup :srg "~a~a~a" :ln :rt :cp))
+      :preprocessor "lkb::sppp-for-pet" :edges 50000
+      :class :srg :grammar srg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-yy" "-packing" "-default-les"
+                     "-memlimit=1024" "-timeout=60" "-cp=s300"
+                     (registry:lookup :srg "~a~a~a" :ln :rt :cp))
+      :preprocessor "lkb::sppp-for-pet" :edges 50000
+      :class :srg/cp :grammar srg :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     ;;
+     ;; Cheetah, a German grammar semi-automatically learned off TiGer
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-yy" "-packing"
+                     "-cm"
+                     "-memlimit=1024" "-timeout=60"
+                     (logon-file "coli/cheetah" "german.grm" :string))
+      :preprocessor '("lkb::repp-for-pet"
+                      :repp :tokenizer :calls (:xml :ascii))
+      :reader "tsdb::yy-read-input"
+      :class :cheetah :grammar cheetah :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-yy" "-packing"
+                     "-cm" "-default-les"
+                     "-memlimit=1024" "-timeout=60"
+                     (logon-file "coli/cheetah" "german.grm" :string))
+      :preprocessor '("lkb::repp-for-pet"
+                      :repp :tokenizer :calls (:xml :ascii))
+      :tagger (list :tnt tnt@negra :n 2) :reader "tsdb::yy-read-input"
+      :class :cheetah+tnt :grammar cheetah :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     ;;
+     ;; from here on, convenience cpu definitions for developers
+     ;;
+     ;;
+     ;; a grammar of Hausa (by berthold crysmann)
+     ;;
+     (make-cpu
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append
+                options
+                (list "-I" base "-qq" "-locale" "de_DE.UTF-8"
+                      "-L" (logon-file "llf" "hag.lisp" :string)))
+      :class :hag :name "lkb" :grammar hag
+      :task '(:parse :generate) :wait 600 :quantum quantum)
+     (make-cpu
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-yy" "-cm" "-packing" "-mrs=simple"
+                     (logon-file "llf/hag" "hausa.grm" :string))
+      :preprocessor '("lkb::repp-for-pet"
+                      :repp :preprocessor :calls nil)
+      :reader "tsdb::yy-read-input"
+      :class :hag@pet :name "pet" :grammar hag
+      :task '(:parse) :wait 600 :quantum quantum)
+     ;;
+     ;; the Korean Resource Grammar (KRG)
+     ;;
+     (make-cpu    
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append
+                options
+                (list "-I" base "-qq" "-locale" "ko_KR.UTF-8"
+                      "-L" (logon-file "khu" "krg.lisp" :string)))
+      :class :krg :name "lkb" :grammar krg
+      :task '(:parse :generate) :wait 600 :quantum 180)
+     (make-cpu
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing" "-mrs=simple"
+                     (logon-file "khu/krg" "pet.grm" :string)) 
+      :class :krg@pet :name "pet" :grammar krg
+      :task '(:parse) :wait 300 :quantum 180)
+     ;;
+     ;; the UW Wambaya grammar (not yet publicly available)
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-packing"
+                     (logon-file "uw/wmb" "wambaya-pet.grm" :string))
+      :class :wmb :grammar "Wambaya (1-aug-08)" :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     ;;
+     ;; the CST grammar of Danish, not (yet) open-source
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn cheap
+      :options (list "-tsdb" "-yy" "-packing" "-default-les"
+                     (logon-file "cst/danish" "danish.grm" :string))
+      :preprocessor "lkb::cst-for-pet" :edges 50000
+      :class :cst :grammar "CST (27-apr-08)" :name "pet" :task '(:parse)
+      :wait wait :quantum quantum)
+     ;;
+     ;; a paraphraser, essentially MT from English to English
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "enen.lisp" :string)))
+      :class :enen :name "enen" :grammar "EnEn (trunk)" 
+      :task '(:transfer) :wait (* wait 3) :quantum quantum)
+     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "en2en.lisp" :string)))
+      :class :en2en :name "en2en" :task '(:translate)
+      :template "%s/%t/%d" :wait (* wait 4) :quantum 7200)
+     ;;
+     ;; a mere reflector, for testing purposes
+     ;;
+     (make-cpu 
+      :host (short-site-name)
+      :spawn (logon-file "lingo/lkb/src/tsdb/capi" "client" :string)
+      :options (list "-qq")
+      :class :test :wait wait))))

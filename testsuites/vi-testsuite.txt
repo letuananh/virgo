@@ -1,0 +1,1615 @@
+Language: Vietnamese
+Language code: vie
+Lines: orth translit gloss translat 
+Author: Le Tuan Anh
+Date: Feb 12, 2014
+
+#------------------------------------------------------------------------------
+# Source a: my head
+# Source b: Lorem ipsum
+# Vetted = verified by native speaker? t/f/s (true/false/grammar)
+# Judgment = g/u (grammatical/ungrammatical)
+# A comment for myself.
+# Đây  là một ví dụ.    # Original text
+# Đây  là một ví_dụ.    # transliteration
+# This be one example.  # Interlinear gloss
+# `This is an example.' # Free translation
+#
+###############################################################################
+# BASIC WORD ORDER
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo}
+Chó sủa.
+Chó sủa.
+Dog bark.
+`dog barks.'
+# Basic word order test. This sentence can be translated as either "(The) dogs bark" or "(the) dog barks".
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {wo}
+Sủa  chó.
+Sủa  chó.
+Bark dog.
+`dog barks.'
+# Basic word order test.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, pn}
+Tôi rán bánh rán.
+Tôi rán bánh-rán.
+I   fry cake-fry.
+`I fry fried-cake(s).'
+# Basic word order test.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {wo, pn}
+Tôi bánh rán rán.
+Tôi bánh-rán rán.
+I   cake-fry fry.
+`I fry fried-cake(s).'
+# Basic word order test.
+#
+
+###############################################################################
+# CONJUNCTIONS
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi và  cô ấy yêu  anh ấy.
+Tôi và  cô_ấy yêu  anh_ấy.
+I   and she   love he.
+`I and her love him.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi cô ấy yêu  anh ấy.
+Tôi cô_ấy yêu  anh_ấy.
+I   she   love he.
+`I and her love him.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi yêu  cô ấy và  anh ấy.
+Tôi yêu  cô_ấy và  anh_ấy.
+I   love she   and he.
+`I love her and him.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi yêu  chó và  ghét mèo.
+Tôi yêu  chó và  ghét mèo.
+I   love dog and hate cat.
+`I love dog and hate cat.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi yêu  chó ghét mèo.
+Tôi yêu  chó ghét mèo.
+I   love dog hate cat.
+`I love dog (and) hate cat.'
+# This kind of double verb phrase is really weird. I have checked with several
+# other native speakers and all said that this sounds right to them!
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi yêu  ghét chó mèo.
+Tôi yêu  ghét chó mèo.
+I   love hate dog cat.
+`I love and hate dog and cat.'
+# However this kind of double verb phrase doesn't work (We license 'chó mèo' as dog and cat)
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi và  yêu  chó mèo.
+Tôi và  yêu  chó mèo.
+I   and love dog cat.
+`'
+# We shouldn't license I and love
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi yêu  và  ghét và  chó.
+Tôi yêu  và  ghét và  chó.
+I   love and hate and dog.
+`I love and hate and dog.'
+# We shouldn't license V-V-N conjunction.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi và  cô ấy và  yêu  chó và  mèo.
+Tôi và  cô_ấy và  yêu  chó và  mèo.
+I   and she   and love dog and cat.
+`I love her and love dog and cat.'
+# We shouldn't license NP-V-VP conjunction either.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi yêu  con         chó và  con         mèo.
+Tôi yêu  con         chó và  con         mèo.
+I   love CLF.animate dog and CLF.animate cat.
+`I love the dog and the cat.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi yêu  chó và  mèo.
+Tôi yêu  chó và  mèo.
+I   love dog and cat.
+`I love dogs and cats.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi yêu  chó mèo.
+Tôi yêu  chó mèo.
+I   love dog cat.
+`I love dogs (and) cats.'
+# Another phenomenon N-N becomes N-conj-N
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi yêu  chó cô ấy.
+Tôi yêu  chó cô_ấy.
+I   love dog she.
+`I love dogs (and) her.'
+# But this combination (dog-she) doesn't work.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi yêu  cô ấy chó.
+Tôi yêu  cô_ấy chó.
+I   love she   dog.
+`I love her (and) dogs.'
+# and this combination (she & dogs) doesn't work either.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi yêu  cô ấy anh ấy.
+Tôi yêu  cô_ấy anh_ấy.
+I   love she   he.
+`I love her (and) him.'
+# and this combination (she & he) doesn't work either.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Con         chó kêu  và  sủa.
+Con         chó kêu  và  sủa.
+CLF.animate dog purr and bark.
+`The dog purrs and barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi yêu  cô ấy và  con         chó sủa.
+Tôi yêu  cô_ấy và  con         chó sủa.
+I   love she   and CLF.animate dog bark.
+`I love her and the dog barks.'
+# This is ambiguous, there's another reading `I love her and (I also love) the fact that the dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi, cô ấy và  anh ấy yêu  chó.
+Tôi, cô_ấy và  anh_ấy yêu  chó.
+I  , she   and he     love dog.
+`I, her and him love dogs.'
+# We don't need classifier here!
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {conjunction}
+Tôi và  cô ấy và  anh ấy yêu  chó.
+Tôi và  cô_ấy và  anh_ấy yêu  chó.
+I   and she   and he     love dog.
+`I and her and him love dogs.'
+# two conjunctions in the noun phrase (more is fine)
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi cô ấy anh ấy yêu  chó.
+Tôi cô_ấy anh_ấy yêu  chó.
+I   she   he     love dog.
+`I and her and him love dogs.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {conjunction}
+Tôi và  cô ấy anh ấy yêu  chó.
+Tôi và  cô_ấy anh_ấy yêu  chó.
+I   and she   he     love dog.
+`I and her and him love dogs.'
+# The conjunction must appear before the last noun in the noun phrase
+#
+###############################################################################
+# PRONOUNS, DETERMINERS & CLASSIFIERS
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, pn, det}
+Tôi ăn  cái       bánh rán này.
+Tôi ăn  cái       bánh-rán này.
+I   eat CLF.thing cake-fry this-DET.
+`I eat this fried-cake.'
+# Classifier must be used when này-DET being used.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, det}
+Chó đuổi  mèo.
+Chó đuổi  mèo.
+Dog chase cat.
+`Dog(s) chases cat(s).'
+# Lack of classifer is fine.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, det}
+Chó đuổi  mèo.
+Chó đuổi  mèo.
+Dog chase cat.
+`The dog chases the cat.'
+# Classifier is optional.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {det, clf}
+Con         chó đuổi  con         mèo.
+Con         chó đuổi  con         mèo.
+CLF.animate dog chase CLF.animate cat.
+`The dog chases the cat.'
+# Classifer is optional in this case
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {clf}
+Chó này      đuổi  mèo kia.
+Chó này      đuổi  mèo kia.
+Dog this-DET chase cat that-DET.
+`This dog chases that cat.'
+# Lack of classifer.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {det, clf}
+Con         chó này      đuổi  con         mèo kia.
+Con         chó này      đuổi  con         mèo kia.
+CLF.animate dog this-DET chase CLF.animate cat that-DET.
+`This dog chases that cat.'
+# With classifer and determiner
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {pn, det, clf}
+Tôi yêu  con         mèo này.
+Tôi yêu  con         mèo này.
+I   love CLF.animate cat this-DET.
+`I love this cat.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {pn, det, clf}
+Tôi yêu  mèo này.
+Tôi yêu  mèo này.
+I   love cat this-DET.
+`I love this cat.'
+# Lack of classifier for cat.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {pn, wo}
+Tôi yêu  mèo.
+Tôi yêu  mèo.
+I   love cat.
+`I love cats.'
+# Without determiner, classifer is optional?
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo}
+Tôi yêu  cô ấy.
+Tôi yêu  cô_ấy.
+I   love she  .
+`I love her.'
+# Basic word order test
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {wo}
+Tôi cô ấy yêu.
+Tôi cô_ấy yêu.
+I   she   love.
+`I love her.'
+# Basic word order test
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {wo}
+Yêu  tôi cô ấy.
+Yêu  tôi cô_ấy.
+Love I   she.
+`I love her.'
+# Basic word order test
+#
+###############################################################################
+# ARGUMENT OPTIONALITY
+###############################################################################
+#
+###############################################################################
+# AGREEMENT / CLASSIFIERS
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {classifier, agr}
+Tôi thích cái       bút này.
+Tôi thích cái       bút này.
+I   like  CLF.thing pen this-DET.
+`I like this pen.'
+# Basic word order test
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {agr}
+Tôi thích con         bút này.
+Tôi thích con         bút này.
+I   like  CLF.animate pen this-DET.
+`I like this pen.'
+# Wrong classifier
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {agr}
+Tôi thích con         mèo này.
+Tôi thích con         mèo này.
+I   like  CLF.animate cat this-DET.
+`I like this cat.'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {agr}
+Tôi thích cái       mèo này.
+Tôi thích cái       mèo này.
+I   like  CLF.thing cat this-DET.
+`I like this cat.'
+# Wrong classifier
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {agr}
+Tôi thích học sinh này.
+Tôi thích học_sinh này.
+I   like  pupil    this.
+`I like this pupil.'
+# We don't need classifier in some cases (học sinh = pupil, giáo viên = teacher, máy = machine, etc.)
+#
+###############################################################################
+# CASE
+###############################################################################
+#
+###############################################################################
+# NEGATION
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {neg, pr, wo}
+Tôi không yêu  cô ấy.
+Tôi không yêu  cô_ấy.
+I   not   love she.
+`I do not love her.'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {neg, pr, wo}
+Tôi không không yêu  cô ấy.
+Tôi không không yêu  cô_ấy.
+I   not   not   love she.
+`I don't not love her.'
+# Double negation
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {neg, pr, wo}
+Tôi không được    không yêu  cô ấy.
+Tôi không được    không yêu  cô_ấy.
+I   not   allowed not   love she.
+`I am not allowed to not love her.'
+# Double negation with modal
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {neg}
+Tôi yêu  không cô ấy.
+Tôi yêu  không cô_ấy.
+I   love not   she.
+`I do not love her.'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {neg, pr, wo}
+Không ai  yêu  cô ấy.
+Không ai  yêu  cô_ấy.
+Not   who love she.
+`No one love her.'
+# 
+###############################################################################
+# MATRIX YES-NO QUESTIONS
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy không?
+Bạn yêu  cô_ấy không?
+You love she   not?
+`Do you love her?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn không yêu  cô ấy không?
+Bạn không yêu  cô_ấy không?
+You not   love she   not?
+`Don't you love her?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn không yêu  cô ấy đúng    không?
+Bạn không yêu  cô_ấy đúng    không?
+You not   love she   correct not?
+`You don't love her, is that correct?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy đúng    không?
+Bạn yêu  cô_ấy đúng    không?
+You love she   correct not?
+`You love her is that correct?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn ăn  bánh rán   không?
+Bạn ăn  bánh_rán   không?
+You eat fried_cake not?
+`Do you eat fried cake?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn ăn  bánh rán   đúng    không?
+Bạn ăn  bánh_rán   đúng    không?
+You eat fried_cake correct not?
+`You eat fried cake is that correct?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn không ăn  bánh rán   không?
+Bạn không ăn  bánh_rán   không?
+You not   eat fried_cake not?
+`Don't you eat fried cake?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn không ăn  bánh rán   đúng    không?
+Bạn không ăn  bánh_rán   đúng    không?
+You not   eat fried_cake correct not?
+`You don't eat fried cake is that correct?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy hả?
+Bạn yêu  cô_ấy hả?
+You love she   Q?
+`Do you love her?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn không yêu  cô ấy hả?
+Bạn không yêu  cô_ấy hả?
+You not   love she   Q?
+`Don't you love her?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy không hả?
+Bạn yêu  cô_ấy không hả?
+You love she   not   Q?
+`Don't you love her?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn yêu  cô ấy hả không?
+Bạn yêu  cô_ấy hả không?
+You love she   Q  not?
+`Don't you love her?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn không yêu  cô ấy không hả?
+Bạn không yêu  cô_ấy không hả?
+You not   love she   not   Q?
+`Don't you not love her?'
+# 
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy à?
+Bạn yêu  cô_ấy à?
+You love she   Q?
+`you love her, right?'
+# "à" doesn't mean "right" but in this case, the asker is seeking confirmation 
+# from the person being asked.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn không yêu  cô ấy à?
+Bạn không yêu  cô_ấy à?
+You not   love she   Q?
+`you don't love her, right?'
+# "à" doesn't mean "right" but in this case, the asker is seeking confirmation 
+# from the person being asked.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn yêu  cô ấy không à?
+Bạn yêu  cô_ấy không à?
+You love she   not   Q?
+`you do love her, isn't it right?'
+# "à" doesn't mean "right" but in this case, the asker is seeking confirmation 
+# from the person being asked. This is an interesting phenomenon that I want to
+# study further. Sometimes it works as "ah" in English too. Such as "Ah, you love her!"
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn yêu  không cô ấy à?
+Bạn yêu  không cô_ấy à?
+You love not   she   Q?
+`you don't love her, right?'
+# "à" doesn't mean "right" but in this case, the asker is seeking confirmation 
+# from the person being asked.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy á?
+Bạn yêu  cô_ấy á?
+You love she   Q?
+`you don't love her, right?'
+# On the surface, "á" seems to have similar semantics with "à", but I've found some
+# different usages between the two.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn không yêu  cô ấy á?
+Bạn không yêu  cô_ấy á?
+You not   love she   Q?
+`you don't love her, right?'
+# "á" doesn't mean "right" but in this case, the asker is seeking confirmation 
+# from the person being asked.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy không á?
+Bạn yêu  cô_ấy không á?
+You love she   not   Q?
+`don't you love her?'
+# This is the case where "á" and "à" works differently. It's ungrammatical to say
+# "Bạn yêu cô ấy không à?" but it's perfectly normal to say "Bạn yêu cô ấy không á?"
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn không yêu  cô ấy không á?
+Bạn không yêu  cô_ấy không á?
+You not   love she   not   Q?
+`you don't love her, is that right?'
+# However, double negation doesn't work in this case.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy chứ?
+Bạn yêu  cô_ấy chứ?
+You love she   Q?
+`you love her, is that the case?'
+# It's very difficult to translate the question marker into English. Intuitively "chứ" works
+# as both question marker and contrastive marker to me but this phenomenon requires further study.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn không yêu  cô ấy chứ?
+Bạn không yêu  cô_ấy chứ?
+You not   love she   Q?
+`you don't love her, is that the case?'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy không chứ?
+Bạn yêu  cô_ấy không chứ?
+You love she   not   Q?
+`you love her, isn't that the case?'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn không yêu  cô ấy không chứ?
+Bạn không yêu  cô_ấy không chứ?
+You not   love she   not   Q?
+`you don't love her, isn't that the case?'
+# This judgement is questionable. My dialect should license this sentence but I believe
+# this is an error which is too obvious to fix and people still understand even when we
+# speak it incorrectly.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {q}
+Bạn yêu  cô ấy chứ hả?
+Bạn yêu  cô_ấy chứ hả?
+You love she   Q   Q?
+`you love her, isn't it?'
+# This is another interesting phenomenon to me, double question marker.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn yêu  cô ấy chứ à?
+Bạn yêu  cô_ấy chứ à?
+You love she   Q   Q?
+`you love her, isn't it?'
+# We can't combine "chứ" and "à"
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn yêu  cô ấy chứ á?
+Bạn yêu  cô_ấy chứ á?
+You love she   Q   Q?
+`you love her, isn't it?'
+# We can't combine "chứ" and "á"
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn yêu  cô ấy chứ chứ?
+Bạn yêu  cô_ấy chứ chứ?
+You love she   Q   Q?
+`you love her, isn't it?'
+# We can't combine "chứ" and "chứ"
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {q}
+Bạn yêu  cô ấy hả chứ?
+Bạn yêu  cô_ấy hả chứ?
+You love she   Q   Q?
+`you love her, isn't it?'
+# But this doesn't work.
+#
+###############################################################################
+# EMBEDDED CLAUSES
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi nghĩ  cô ấy yêu  anh ấy.
+Tôi nghĩ  cô_ấy yêu  anh_ấy.
+I   think she   love he.
+`I think that she loves him.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi nghĩ  là  cô ấy yêu  anh ấy.
+Tôi nghĩ  là  cô_ấy yêu  anh_ấy.
+I   think COP she   love he.
+`I think that she loves him.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi nghĩ  rằng cô ấy yêu  anh ấy.
+Tôi nghĩ  rằng cô_ấy yêu  anh_ấy.
+I   think that she   love he.
+`I think that she loves him.'
+# 'Rằng' has the similar meaning to 'that' in "I think that ...', not as in 'That is something'.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {emb-d}
+Tôi là  cô ấy yêu  anh ấy.
+Tôi là  cô_ấy yêu  anh_ấy.
+I   COP she   love he.
+`I think that she loves him.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {emb-d}
+Tôi rằng cô ấy yêu  anh ấy.
+Tôi rằng cô_ấy yêu  anh_ấy.
+I   that she   love he.
+`I think that she loves him.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {emb-d}
+Tôi là  rằng cô ấy yêu  anh ấy.
+Tôi là  rằng cô_ấy yêu  anh_ấy.
+I   COP that she   love he.
+`I think that she loves him.'
+#
+#
+#------------------------------------------------------------------------------
+
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {emb-d}
+Tôi rằng là  cô ấy yêu  anh ấy.
+Tôi rằng là  cô_ấy yêu  anh_ấy.
+I   that COP she   love he.
+`I think that she loves him.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi nghĩ  rằng là  cô ấy yêu  anh ấy.
+Tôi nghĩ  rằng là  cô_ấy yêu  anh_ấy.
+I   think that COP she   love he.
+`I think that she loves him.'
+# This sounds perfectly grammatical.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {emb-d}
+Tôi nghĩ  là  rằng cô ấy yêu  anh ấy.
+Tôi nghĩ  là  rằng cô_ấy yêu  anh_ấy.
+I   think COP that she   love he.
+`I think that she loves him.'
+# But my grammar doesn't license this.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi nghĩ  rằng rằng cô ấy yêu anh ấy.
+Tôi nghĩ  rằng rằng cô_ấy yêu anh_ấy.
+I   think that that she  love he.
+`I think that she loves him.'
+# and my grammar also doesn't license this.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi nghĩ  anh ấy nghĩ  cô ấy yêu  anh ấy.
+Tôi nghĩ  anh_ấy nghĩ  cô_ấy yêu  anh_ấy.
+I   think he     think she   love he.
+`I think that he thinks that she loves him.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi nghĩ  là  anh ấy nghĩ  là  cô ấy yêu  anh ấy.
+Tôi nghĩ  là  anh_ấy nghĩ  là  cô_ấy yêu  anh_ấy.
+I   think COP he     think COP she   love he.
+`I think that he thinks that she loves him.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi nghĩ  rằng anh ấy nghĩ  rằng cô ấy yêu  anh ấy.
+Tôi nghĩ  rằng anh_ấy nghĩ  rằng cô_ấy yêu  anh_ấy.
+I   think that he     think that she   love he.
+`I think that he thinks that she loves him.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Tôi là  tôi yêu  cô ấy.
+Tôi là  tôi yêu  cô_ấy.
+I   COP I   love she.
+`I am (the-one-who-in-fact-that) love her.'
+# An interesting phenomenon where we license a similar structure to the previous example:
+# Tôi là  cô_ấy yêu  anh_ấy.
+# I   COP she   love he.
+# `I think that she loves him.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {emb-d}
+Cô ấy là  cô ấy yêu  tôi.
+Cô_ấy là  cô_ấy yêu  tôi.
+She   COP she   love I.
+`She's (the-one-who-in-fact-that) love me.'
+# Another example. As long as the first and the second pronoun is the same, 
+# we'll license this structure.
+#
+###############################################################################
+# MODAL
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {m}
+Tôi được       ăn  bánh rán.
+Tôi được       ăn  bánh_rán.
+I   be_allowed eat fried_cake.
+`I'm allowed to eat fried-cake.'
+# No ambiguity here (compared to English)
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {m}
+Tôi không được       ăn  bánh rán.
+Tôi không được       ăn  bánh_rán.
+I   NEG   be_allowed eat fried_cake.
+`I'm not allowed to eat fried-cake.'
+# No ambiguity here (compared to English)
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {m}
+Tôi không được       yêu  con         chó to  béo thông minh đó.
+Tôi không được       yêu  con         chó to  béo thông_minh đó.
+I   NEG   be_allowed love CLF_animate dog big fat smart      that.
+`I'm not allowed to love that big smart fat dog.'
+# No ambiguity here (compared to English)
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {m}
+Tôi ăn  được    bánh rán.
+Tôi ăn  được    bánh_rán.
+I   eat able_to fried_cake.
+`I'm able to eat fried-cake.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {m}
+Tôi ăn  bánh rán   được.
+Tôi ăn  bánh_rán   được.
+I   eat fried_cake able_to.
+`I'm able to eat fried-cake.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {m}
+Tôi ăn  được    bánh rán   được.
+Tôi ăn  được    bánh_rán   được.
+I   eat able_to fried_cake able_to.
+`I'm able to be able to eat fried-cake.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {m}
+Tôi ăn  được    bánh rán   được.
+Tôi ăn  được    bánh_rán   được.
+I   eat able_to fried_cake able_to.
+`I'm able to be able to eat fried-cake.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {m}
+Tôi được       ăn  bánh rán   được.
+Tôi được       ăn  bánh_rán   được.
+I   am_allowed eat fried_cake able_to.
+`I'm allowed to be able to eat fried-cake.'
+# This judgement is questionable. While the sense is meaningless (The fact that you
+# are allowed to be able to do something doesn't make any sense), I believe that this
+# sentence is grammatically correct.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {m}
+Tôi được       ăn  được    bánh rán.
+Tôi được       ăn  được    bánh_rán.
+I   am_allowed eat able_to fried_cake.
+`I'm allowed to be able to eat fried-cake.'
+# This judgement is questionable. While the sense is meaningless (The fact that you
+# are allowed to be able to do something doesn't make any sense), I believe that this
+# sentence is grammatically correct.
+#
+###############################################################################
+# TENSE / ASPECT
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi yêu  cô ấy.
+Tôi yêu  cô_ấy.
+I   love she.
+`I love her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi đang yêu  cô ấy.
+Tôi đang yêu  cô_ấy.
+I   PROG love she.
+`I am loving her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi đã  yêu  cô ấy.
+Tôi đã  yêu  cô_ấy.
+I   PST love she.
+`I loved her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi chưa yêu  cô ấy.
+Tôi chưa yêu  cô_ấy.
+I   yet  love she.
+`I am yet to love her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {tam}
+Tôi đã  chưa yêu  cô ấy.
+Tôi đã  chưa yêu  cô_ấy.
+I   PST yet  love she.
+`I was yet to love her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {tam}
+Tôi đã  đang yêu  cô ấy.
+Tôi đã  đang yêu  cô_ấy.
+I   PST PROG love she.
+`I was loving her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi đã  từng    yêu  cô ấy.
+Tôi đã  từng    yêu  cô_ấy.
+I   PST used_to love she.
+`I used to love her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi sắp           yêu  cô ấy.
+Tôi sắp           yêu  cô_ấy.
+I   soon_will_FUT love she.
+`I will love her (very soon).'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {tam}
+Tôi sắp           sẽ           yêu  cô ấy.
+Tôi sắp           sẽ           yêu  cô_ấy.
+I   soon_will_FUT going_to_FUT love she.
+`I am going to love her (very soon).'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi sẽ           yêu  cô ấy.
+Tôi sẽ           yêu  cô_ấy.
+I   going_to_FUT love she.
+`I am going to love her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi mãi     yêu  cô ấy.
+Tôi mãi     yêu  cô_ấy.
+I   forever love she.
+`I love her forever.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi sẽ           mãi     yêu  cô ấy.
+Tôi sẽ           mãi     yêu  cô_ấy.
+I   going_to_FUT forever love she.
+`I am going to love her forever.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {tam}
+Tôi đã  mãi     yêu  cô ấy.
+Tôi đã  mãi     yêu  cô_ấy.
+I   PST forever love she.
+`I loved her forever.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi đã  và  sẽ           yêu  cô ấy.
+Tôi đã  và  sẽ           yêu  cô ấy.
+I   PST and going_to_FUT love she.
+`I loved and going to love her.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
+Tôi đã  đang     và  sẽ           yêu  cô ấy.
+Tôi đã  đang     và  sẽ           yêu  cô ấy.
+I   PST PRS-PROG and going_to_FUT love she.
+`I loved, still love and going to love her.'
+#
+###############################################################################
+# DEMONSTRATIVES / DEFINITENESS
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {det}
+Tôi thích con         chó kia.
+Tôi thích con         chó kia.
+I   like  CLF.animate dog that_DET.
+`I like that dog.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {det}
+Tôi thích một con         chó.
+Tôi thích một con         chó.
+I   like  one CLF.animate dog.
+`I like a dog.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {det}
+Tôi thích một con         chó kia.
+Tôi thích một con         chó kia.
+I   like  one CLF.animate dog that_DET.
+`I like that dog.'
+# English doesn't license this either.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {det}
+Tôi thích chó kia.
+Tôi thích chó kia.
+I   like  dog that_DET.
+`I like that dog.'
+#
+#
+###############################################################################
+# ATTRIBUTIVE ADJECTIVES
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Con         chó to  sủa.
+Con         chó to  sủa.
+CLF.animate dog big bark.
+`The big dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Con         chim xanh  bay  nhanh.
+Con         chim xanh  bay  nhanh.
+CLF.animate bird green fly  fast.
+`The green bird flies fast.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {adj}
+Chó to  sủa.
+chó to  sủa.
+dog big bark.
+`The big dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Con         chó đỏ  sủa.
+Con         chó đỏ  sủa.
+CLF.animate dog red bark.
+`The red dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {adj}
+Con         chó to  đỏ  sủa.
+Con         chó to  đỏ  sủa.
+CLF.animate dog big red bark.
+`The big red dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Con         chó đỏ  to  sủa.
+Con         chó đỏ  to  sủa.
+CLF.animate dog red big bark.
+`The red big dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Con         chó to  màu        đỏ  sủa.
+Con         chó to  màu        đỏ  sủa.
+CLF.animate dog big CLF.colour red bark.
+`The red big dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Con         chó to  béo thông minh màu        đỏ sủa.
+Con         chó to  béo thông_minh màu        đỏ sủa.
+CLF.animate dog big fat smart      CLF.colour red bark.
+`The big fat smart red dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Con         chó đỏ  to  béo thông minh sủa.
+Con         chó đỏ  to  béo thông_minh sủa.
+CLF.animate dog red big fat smart      bark.
+`The red big fat smart dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {adj}
+Con         chó to  béo thông minh đỏ  sủa.
+Con         chó to  béo thông_minh đỏ  sủa.
+CLF.animate dog big fat smart      red bark.
+`The big fat smart red dog barks.'
+#
+###############################################################################
+# ADVERBS
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Tôi ăn  nhanh.
+Tôi ăn  nhanh.
+I   eat fast.
+`I eat fast.'
+#------------------------------------------------------------------------------
+Source:    authorcon chó xanh sủa.
+Vetted:    t
+Judgment:  u
+Phenomena: {adj}
+Tôi nhanh ăn.
+Tôi nhanh ăn.
+I   fast  eat.
+`I eat fast.'
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Tôi ăn  một cái       bánh rán   nhanh.
+Tôi ăn  một cái       bánh_rán   nhanh.
+I   eat one CLF.thing fried_cake fast.
+`I eat a fried cake fast.'
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adj}
+Tôi ăn  nhanh một cái       bánh rán.
+Tôi ăn  nhanh một cái       bánh_rán.
+I   eat fast  one CLF.thing fried_cake.
+`I eat a fried cake fast.'
+###############################################################################
+# NON-VERBAL PREDICATES
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {cop}
+Tôi là  người thông minh.
+Tôi là  người thông_minh.
+I   COP human smart.
+`I am a smart person.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {cop}
+Tôi là  thông minh.
+Tôi là  thông_minh.
+I   COP smart.
+`I am smart.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {cop}
+Tôi là  người trên trời.
+Tôi là  người trên trời.
+I   COP human on   sky.
+`I am human from sky.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {cop}
+Tôi là  trên trời.
+Tôi là  trên trời.
+I   COP on   sky.
+`I am from sky.'
+# So far I couldn't find any example where ADJ and PP can be a predicate
+#
+###############################################################################
+# INFORMATION STRUCTURE
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {info}
+Chính con         chó đó       sủa.
+Chính con         chó đó       sủa.
+FOC   CLF.animate dog that_DET bark.
+`It_is_exactly that dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {info}
+Chính con         chó sủa.
+Chính con         chó sủa.
+FOC   CLF.animate dog bark.
+`It_is_exactly the dog barks.'
+# This judgement is questionable. In this conversation Q: "Which one bark the dog or the cat?"
+# A: "The dog.", this sentense is consider grammatical because the dog doesn't need to
+# refer to any more, so we don't need a determiner here.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {info}
+Chính cái       con         chó đó       sủa.
+Chính cái       con         chó đó       sủa.
+FOC   CLF.thing CLF.animate dog that_DET bark.
+`It_is_exactly that dog barks.'
+# The first classifier "cái" has been used to stress the listener attention 
+# onto the exact dog which barks.
+#
+###############################################################################
+# CONSTRUCTIONAL SEMANTICS
+###############################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {sem}
+Hôm qua   tôi ăn  bánh rán.
+Hôm_qua   tôi ăn  bánh_rán.
+Yesterday I   eat fried_cake.
+`Yesterday I ate fried cake.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {sem}
+Tôi ăn  bánh rán   hôm qua.
+Tôi ăn  bánh_rán   hôm_qua.
+I   eat fried_cake yesterday.
+`I ate fried cake (on) yesterday.'
+# There's no 'on' in the original text.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {sem}
+Hôm nay con         chó sủa.
+Hôm_nay con         chó sủa.
+Today   CLF.animate dog bark.
+`Today the dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {sem}
+Con         chó sủa  hôm nay.
+con         chó sủa  hôm_nay.
+CLF.animate dog bark today.
+`Today the dog barks.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {info}
+Con         chó hôm nay sủa.
+con         chó hôm_nay sủa.
+CLF.animate dog today   bark.
+`the dog (which we met) today barks.'
+# A possible world can be considered: The first person and the second person has seen
+# a dog yesterday and another one today. Then we can refer to the first one as chó-hôm_qua
+# (dog-yesterday) and chó-hôm_nay (dog-today).
+#
+#------------------------------------------------------------------------------

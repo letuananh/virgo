@@ -1,0 +1,145 @@
+1@author@@@1@{wo}@Chó sủa.@@@@1@2@`dog barks.'@Le Tuan Anh@Feb 12, 2014
+2@author@@@1@{wo}@Sủa  chó.@@@@0@2@`dog barks.'@Le Tuan Anh@Feb 12, 2014
+3@author@@@1@{wo,pn}@Tôi rán bánh rán.@@@@1@4@`I fry fried-cake(s).'@Le Tuan Anh@Feb 12, 2014
+4@author@@@1@{wo,pn}@Tôi bánh rán rán.@@@@0@4@`I fry fried-cake(s).'@Le Tuan Anh@Feb 12, 2014
+5@author@@@1@{conjunction}@Tôi và  cô ấy yêu  anh ấy.@@@@1@7@`I and her love him.'@Le Tuan Anh@Feb 12, 2014
+6@author@@@1@{conjunction}@Tôi cô ấy yêu  anh ấy.@@@@0@6@`I and her love him.'@Le Tuan Anh@Feb 12, 2014
+7@author@@@1@{conjunction}@Tôi yêu  cô ấy và  anh ấy.@@@@1@7@`I love her and him.'@Le Tuan Anh@Feb 12, 2014
+8@author@@@1@{conjunction}@Tôi yêu  chó và  ghét mèo.@@@@1@6@`I love dog and hate cat.'@Le Tuan Anh@Feb 12, 2014
+9@author@@@1@{conjunction}@Tôi yêu  chó ghét mèo.@@@@1@5@`I love dog (and) hate cat.'@Le Tuan Anh@Feb 12, 2014
+10@author@@@1@{conjunction}@Tôi yêu  ghét chó mèo.@@@@0@5@`I love and hate dog and cat.'@Le Tuan Anh@Feb 12, 2014
+11@author@@@1@{conjunction}@Tôi và  yêu  chó mèo.@@@@0@5@`'@Le Tuan Anh@Feb 12, 2014
+12@author@@@1@{conjunction}@Tôi yêu  và  ghét và  chó.@@@@0@6@`I love and hate and dog.'@Le Tuan Anh@Feb 12, 2014
+13@author@@@1@{conjunction}@Tôi và  cô ấy và  yêu  chó và  mèo.@@@@0@9@`I love her and love dog and cat.'@Le Tuan Anh@Feb 12, 2014
+14@author@@@1@{conjunction}@Tôi yêu  con         chó và  con         mèo.@@@@1@7@`I love the dog and the cat.'@Le Tuan Anh@Feb 12, 2014
+15@author@@@1@{conjunction}@Tôi yêu  chó và  mèo.@@@@1@5@`I love dogs and cats.'@Le Tuan Anh@Feb 12, 2014
+16@author@@@1@{conjunction}@Tôi yêu  chó mèo.@@@@1@4@`I love dogs (and) cats.'@Le Tuan Anh@Feb 12, 2014
+17@author@@@1@{conjunction}@Tôi yêu  chó cô ấy.@@@@0@5@`I love dogs (and) her.'@Le Tuan Anh@Feb 12, 2014
+18@author@@@1@{conjunction}@Tôi yêu  cô ấy chó.@@@@0@5@`I love her (and) dogs.'@Le Tuan Anh@Feb 12, 2014
+19@author@@@1@{conjunction}@Tôi yêu  cô ấy anh ấy.@@@@0@6@`I love her (and) him.'@Le Tuan Anh@Feb 12, 2014
+20@author@@@1@{conjunction}@Con         chó kêu  và  sủa.@@@@1@5@`The dog purrs and barks.'@Le Tuan Anh@Feb 12, 2014
+21@author@@@1@{conjunction}@Tôi yêu  cô ấy và  con         chó sủa.@@@@1@8@`I love her and the dog barks.'@Le Tuan Anh@Feb 12, 2014
+22@author@@@1@{conjunction}@Tôi, cô ấy và  anh ấy yêu  chó.@@@@1@8@`I, her and him love dogs.'@Le Tuan Anh@Feb 12, 2014
+23@author@@@1@{conjunction}@Tôi và  cô ấy và  anh ấy yêu  chó.@@@@1@9@`I and her and him love dogs.'@Le Tuan Anh@Feb 12, 2014
+24@author@@@1@{conjunction}@Tôi cô ấy anh ấy yêu  chó.@@@@0@7@`I and her and him love dogs.'@Le Tuan Anh@Feb 12, 2014
+25@author@@@1@{conjunction}@Tôi và  cô ấy anh ấy yêu  chó.@@@@0@8@`I and her and him love dogs.'@Le Tuan Anh@Feb 12, 2014
+26@author@@@1@{wo,pn,det}@Tôi ăn  cái       bánh rán này.@@@@1@6@`I eat this fried-cake.'@Le Tuan Anh@Feb 12, 2014
+27@author@@@1@{wo,det}@Chó đuổi  mèo.@@@@1@3@`Dog(s) chases cat(s).'@Le Tuan Anh@Feb 12, 2014
+28@author@@@1@{wo,det}@Chó đuổi  mèo.@@@@1@3@`The dog chases the cat.'@Le Tuan Anh@Feb 12, 2014
+29@author@@@1@{det,clf}@Con         chó đuổi  con         mèo.@@@@1@5@`The dog chases the cat.'@Le Tuan Anh@Feb 12, 2014
+30@author@@@1@{clf}@Chó này      đuổi  mèo kia.@@@@0@5@`This dog chases that cat.'@Le Tuan Anh@Feb 12, 2014
+31@author@@@1@{det,clf}@Con         chó này      đuổi  con         mèo kia.@@@@1@7@`This dog chases that cat.'@Le Tuan Anh@Feb 12, 2014
+32@author@@@1@{pn,det,clf}@Tôi yêu  con         mèo này.@@@@1@5@`I love this cat.'@Le Tuan Anh@Feb 12, 2014
+33@author@@@1@{pn,det,clf}@Tôi yêu  mèo này.@@@@0@4@`I love this cat.'@Le Tuan Anh@Feb 12, 2014
+34@author@@@1@{pn,wo}@Tôi yêu  mèo.@@@@1@3@`I love cats.'@Le Tuan Anh@Feb 12, 2014
+35@author@@@1@{wo}@Tôi yêu  cô ấy.@@@@1@4@`I love her.'@Le Tuan Anh@Feb 12, 2014
+36@author@@@1@{wo}@Tôi cô ấy yêu.@@@@0@4@`I love her.'@Le Tuan Anh@Feb 12, 2014
+37@author@@@1@{wo}@Yêu  tôi cô ấy.@@@@0@4@`I love her.'@Le Tuan Anh@Feb 12, 2014
+38@author@@@1@{classifier,agr}@Tôi thích cái       bút này.@@@@1@5@`I like this pen.'@Le Tuan Anh@Feb 12, 2014
+39@author@@@1@{agr}@Tôi thích con         bút này.@@@@0@5@`I like this pen.'@Le Tuan Anh@Feb 12, 2014
+40@author@@@1@{agr}@Tôi thích con         mèo này.@@@@1@5@`I like this cat.'@Le Tuan Anh@Feb 12, 2014
+41@author@@@1@{agr}@Tôi thích cái       mèo này.@@@@0@5@`I like this cat.'@Le Tuan Anh@Feb 12, 2014
+42@author@@@1@{agr}@Tôi thích học sinh này.@@@@1@5@`I like this pupil.'@Le Tuan Anh@Feb 12, 2014
+43@author@@@1@{neg,pr,wo}@Tôi không yêu  cô ấy.@@@@1@5@`I do not love her.'@Le Tuan Anh@Feb 12, 2014
+44@author@@@1@{neg,pr,wo}@Tôi không không yêu  cô ấy.@@@@1@6@`I don't not love her.'@Le Tuan Anh@Feb 12, 2014
+45@author@@@1@{neg,pr,wo}@Tôi không được    không yêu  cô ấy.@@@@1@7@`I am not allowed to not love her.'@Le Tuan Anh@Feb 12, 2014
+46@author@@@1@{neg}@Tôi yêu  không cô ấy.@@@@0@5@`I do not love her.'@Le Tuan Anh@Feb 12, 2014
+47@author@@@1@{neg,pr,wo}@Không ai  yêu  cô ấy.@@@@1@5@`No one love her.'@Le Tuan Anh@Feb 12, 2014
+48@author@@@1@{q}@Bạn yêu  cô ấy không?@@@@1@5@`Do you love her?'@Le Tuan Anh@Feb 12, 2014
+49@author@@@1@{q}@Bạn không yêu  cô ấy không?@@@@0@6@`Don't you love her?'@Le Tuan Anh@Feb 12, 2014
+50@author@@@1@{q}@Bạn không yêu  cô ấy đúng    không?@@@@1@7@`You don't love her, is that correct?'@Le Tuan Anh@Feb 12, 2014
+51@author@@@1@{q}@Bạn yêu  cô ấy đúng    không?@@@@1@6@`You love her is that correct?'@Le Tuan Anh@Feb 12, 2014
+52@author@@@1@{q}@Bạn ăn  bánh rán   không?@@@@1@5@`Do you eat fried cake?'@Le Tuan Anh@Feb 12, 2014
+53@author@@@1@{q}@Bạn ăn  bánh rán   đúng    không?@@@@1@6@`You eat fried cake is that correct?'@Le Tuan Anh@Feb 12, 2014
+54@author@@@1@{q}@Bạn không ăn  bánh rán   không?@@@@0@6@`Don't you eat fried cake?'@Le Tuan Anh@Feb 12, 2014
+55@author@@@1@{q}@Bạn không ăn  bánh rán   đúng    không?@@@@1@7@`You don't eat fried cake is that correct?'@Le Tuan Anh@Feb 12, 2014
+56@author@@@1@{q}@Bạn yêu  cô ấy hả?@@@@1@5@`Do you love her?'@Le Tuan Anh@Feb 12, 2014
+57@author@@@1@{q}@Bạn không yêu  cô ấy hả?@@@@1@6@`Don't you love her?'@Le Tuan Anh@Feb 12, 2014
+58@author@@@1@{q}@Bạn yêu  cô ấy không hả?@@@@1@6@`Don't you love her?'@Le Tuan Anh@Feb 12, 2014
+59@author@@@1@{q}@Bạn yêu  cô ấy hả không?@@@@0@6@`Don't you love her?'@Le Tuan Anh@Feb 12, 2014
+60@author@@@1@{q}@Bạn không yêu  cô ấy không hả?@@@@0@7@`Don't you not love her?'@Le Tuan Anh@Feb 12, 2014
+61@author@@@1@{q}@Bạn yêu  cô ấy à?@@@@1@5@`you love her, right?'@Le Tuan Anh@Feb 12, 2014
+62@author@@@1@{q}@Bạn không yêu  cô ấy à?@@@@1@6@`you don't love her, right?'@Le Tuan Anh@Feb 12, 2014
+63@author@@@1@{q}@Bạn yêu  cô ấy không à?@@@@0@6@`you do love her, isn't it right?'@Le Tuan Anh@Feb 12, 2014
+64@author@@@1@{q}@Bạn yêu  không cô ấy à?@@@@0@6@`you don't love her, right?'@Le Tuan Anh@Feb 12, 2014
+65@author@@@1@{q}@Bạn yêu  cô ấy á?@@@@1@5@`you don't love her, right?'@Le Tuan Anh@Feb 12, 2014
+66@author@@@1@{q}@Bạn không yêu  cô ấy á?@@@@1@6@`you don't love her, right?'@Le Tuan Anh@Feb 12, 2014
+67@author@@@1@{q}@Bạn yêu  cô ấy không á?@@@@1@6@`don't you love her?'@Le Tuan Anh@Feb 12, 2014
+68@author@@@1@{q}@Bạn không yêu  cô ấy không á?@@@@0@7@`you don't love her, is that right?'@Le Tuan Anh@Feb 12, 2014
+69@author@@@1@{q}@Bạn yêu  cô ấy chứ?@@@@1@5@`you love her, is that the case?'@Le Tuan Anh@Feb 12, 2014
+70@author@@@1@{q}@Bạn không yêu  cô ấy chứ?@@@@1@6@`you don't love her, is that the case?'@Le Tuan Anh@Feb 12, 2014
+71@author@@@1@{q}@Bạn yêu  cô ấy không chứ?@@@@1@6@`you love her, isn't that the case?'@Le Tuan Anh@Feb 12, 2014
+72@author@@@1@{q}@Bạn không yêu  cô ấy không chứ?@@@@0@7@`you don't love her, isn't that the case?'@Le Tuan Anh@Feb 12, 2014
+73@author@@@1@{q}@Bạn yêu  cô ấy chứ hả?@@@@1@6@`you love her, isn't it?'@Le Tuan Anh@Feb 12, 2014
+74@author@@@1@{q}@Bạn yêu  cô ấy chứ à?@@@@0@6@`you love her, isn't it?'@Le Tuan Anh@Feb 12, 2014
+75@author@@@1@{q}@Bạn yêu  cô ấy chứ á?@@@@0@6@`you love her, isn't it?'@Le Tuan Anh@Feb 12, 2014
+76@author@@@1@{q}@Bạn yêu  cô ấy chứ chứ?@@@@0@6@`you love her, isn't it?'@Le Tuan Anh@Feb 12, 2014
+77@author@@@1@{q}@Bạn yêu  cô ấy hả chứ?@@@@0@6@`you love her, isn't it?'@Le Tuan Anh@Feb 12, 2014
+78@author@@@1@{emb-d}@Tôi nghĩ  cô ấy yêu  anh ấy.@@@@1@7@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+79@author@@@1@{emb-d}@Tôi nghĩ  là  cô ấy yêu  anh ấy.@@@@1@8@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+80@author@@@1@{emb-d}@Tôi nghĩ  rằng cô ấy yêu  anh ấy.@@@@1@8@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+81@author@@@1@{emb-d}@Tôi là  cô ấy yêu  anh ấy.@@@@0@7@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+82@author@@@1@{emb-d}@Tôi rằng cô ấy yêu  anh ấy.@@@@0@7@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+83@author@@@1@{emb-d}@Tôi là  rằng cô ấy yêu  anh ấy.@@@@0@8@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+84@author@@@1@{emb-d}@Tôi rằng là  cô ấy yêu  anh ấy.@@@@0@8@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+85@author@@@1@{emb-d}@Tôi nghĩ  rằng là  cô ấy yêu  anh ấy.@@@@1@9@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+86@author@@@1@{emb-d}@Tôi nghĩ  là  rằng cô ấy yêu  anh ấy.@@@@0@9@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+87@author@@@1@{emb-d}@Tôi nghĩ  rằng rằng cô ấy yêu anh ấy.@@@@1@9@`I think that she loves him.'@Le Tuan Anh@Feb 12, 2014
+88@author@@@1@{emb-d}@Tôi nghĩ  anh ấy nghĩ  cô ấy yêu  anh ấy.@@@@1@10@`I think that he thinks that she loves him.'@Le Tuan Anh@Feb 12, 2014
+89@author@@@1@{emb-d}@Tôi nghĩ  là  anh ấy nghĩ  là  cô ấy yêu  anh ấy.@@@@1@12@`I think that he thinks that she loves him.'@Le Tuan Anh@Feb 12, 2014
+90@author@@@1@{emb-d}@Tôi nghĩ  rằng anh ấy nghĩ  rằng cô ấy yêu  anh ấy.@@@@1@12@`I think that he thinks that she loves him.'@Le Tuan Anh@Feb 12, 2014
+91@author@@@1@{emb-d}@Tôi là  tôi yêu  cô ấy.@@@@1@6@`I am (the-one-who-in-fact-that) love her.'@Le Tuan Anh@Feb 12, 2014
+92@author@@@1@{emb-d}@Cô ấy là  cô ấy yêu  tôi.@@@@1@7@`She's (the-one-who-in-fact-that) love me.'@Le Tuan Anh@Feb 12, 2014
+93@author@@@1@{m}@Tôi được       ăn  bánh rán.@@@@1@5@`I'm allowed to eat fried-cake.'@Le Tuan Anh@Feb 12, 2014
+94@author@@@1@{m}@Tôi không được       ăn  bánh rán.@@@@1@6@`I'm not allowed to eat fried-cake.'@Le Tuan Anh@Feb 12, 2014
+95@author@@@1@{m}@Tôi không được       yêu  con         chó to  béo thông minh đó.@@@@1@11@`I'm not allowed to love that big smart fat dog.'@Le Tuan Anh@Feb 12, 2014
+96@author@@@1@{m}@Tôi ăn  được    bánh rán.@@@@1@5@`I'm able to eat fried-cake.'@Le Tuan Anh@Feb 12, 2014
+97@author@@@1@{m}@Tôi ăn  bánh rán   được.@@@@1@5@`I'm able to eat fried-cake.'@Le Tuan Anh@Feb 12, 2014
+98@author@@@1@{m}@Tôi ăn  được    bánh rán   được.@@@@0@6@`I'm able to be able to eat fried-cake.'@Le Tuan Anh@Feb 12, 2014
+99@author@@@1@{m}@Tôi ăn  được    bánh rán   được.@@@@0@6@`I'm able to be able to eat fried-cake.'@Le Tuan Anh@Feb 12, 2014
+100@author@@@1@{m}@Tôi được       ăn  bánh rán   được.@@@@1@6@`I'm allowed to be able to eat fried-cake.'@Le Tuan Anh@Feb 12, 2014
+101@author@@@1@{m}@Tôi được       ăn  được    bánh rán.@@@@1@6@`I'm allowed to be able to eat fried-cake.'@Le Tuan Anh@Feb 12, 2014
+102@author@@@1@{tam}@Tôi yêu  cô ấy.@@@@1@4@`I love her.'@Le Tuan Anh@Feb 12, 2014
+103@author@@@1@{tam}@Tôi đang yêu  cô ấy.@@@@1@5@`I am loving her.'@Le Tuan Anh@Feb 12, 2014
+104@author@@@1@{tam}@Tôi đã  yêu  cô ấy.@@@@1@5@`I loved her.'@Le Tuan Anh@Feb 12, 2014
+105@author@@@1@{tam}@Tôi chưa yêu  cô ấy.@@@@1@5@`I am yet to love her.'@Le Tuan Anh@Feb 12, 2014
+106@author@@@1@{tam}@Tôi đã  chưa yêu  cô ấy.@@@@0@6@`I was yet to love her.'@Le Tuan Anh@Feb 12, 2014
+107@author@@@1@{tam}@Tôi đã  đang yêu  cô ấy.@@@@0@6@`I was loving her.'@Le Tuan Anh@Feb 12, 2014
+108@author@@@1@{tam}@Tôi đã  từng    yêu  cô ấy.@@@@1@6@`I used to love her.'@Le Tuan Anh@Feb 12, 2014
+109@author@@@1@{tam}@Tôi sắp           yêu  cô ấy.@@@@1@5@`I will love her (very soon).'@Le Tuan Anh@Feb 12, 2014
+110@author@@@1@{tam}@Tôi sắp           sẽ           yêu  cô ấy.@@@@0@6@`I am going to love her (very soon).'@Le Tuan Anh@Feb 12, 2014
+111@author@@@1@{tam}@Tôi sẽ           yêu  cô ấy.@@@@1@5@`I am going to love her.'@Le Tuan Anh@Feb 12, 2014
+112@author@@@1@{tam}@Tôi mãi     yêu  cô ấy.@@@@1@5@`I love her forever.'@Le Tuan Anh@Feb 12, 2014
+113@author@@@1@{tam}@Tôi sẽ           mãi     yêu  cô ấy.@@@@1@6@`I am going to love her forever.'@Le Tuan Anh@Feb 12, 2014
+114@author@@@1@{tam}@Tôi đã  mãi     yêu  cô ấy.@@@@0@6@`I loved her forever.'@Le Tuan Anh@Feb 12, 2014
+115@author@@@1@{tam}@Tôi đã  và  sẽ           yêu  cô ấy.@@@@1@7@`I loved and going to love her.'@Le Tuan Anh@Feb 12, 2014
+116@author@@@1@{tam}@Tôi đã  đang     và  sẽ           yêu  cô ấy.@@@@1@8@`I loved, still love and going to love her.'@Le Tuan Anh@Feb 12, 2014
+117@author@@@1@{det}@Tôi thích con         chó kia.@@@@1@5@`I like that dog.'@Le Tuan Anh@Feb 12, 2014
+118@author@@@1@{det}@Tôi thích một con         chó.@@@@1@5@`I like a dog.'@Le Tuan Anh@Feb 12, 2014
+119@author@@@1@{det}@Tôi thích một con         chó kia.@@@@0@6@`I like that dog.'@Le Tuan Anh@Feb 12, 2014
+120@author@@@1@{det}@Tôi thích chó kia.@@@@0@4@`I like that dog.'@Le Tuan Anh@Feb 12, 2014
+121@author@@@1@{adj}@Con         chó to  sủa.@@@@1@4@`The big dog barks.'@Le Tuan Anh@Feb 12, 2014
+122@author@@@1@{adj}@Chó to  sủa.@@@@0@3@`The big dog barks.'@Le Tuan Anh@Feb 12, 2014
+123@author@@@1@{adj}@Con         chó đỏ  sủa.@@@@1@4@`The red dog barks.'@Le Tuan Anh@Feb 12, 2014
+124@author@@@1@{adj}@Con         chó to  đỏ  sủa.@@@@0@5@`The big red dog barks.'@Le Tuan Anh@Feb 12, 2014
+125@author@@@1@{adj}@Con         chó đỏ  to  sủa.@@@@1@5@`The red big dog barks.'@Le Tuan Anh@Feb 12, 2014
+126@author@@@1@{adj}@Con         chó to  màu        đỏ  sủa.@@@@1@6@`The red big dog barks.'@Le Tuan Anh@Feb 12, 2014
+127@author@@@1@{adj}@Con         chó to  béo thông minh màu        đỏ sủa.@@@@1@9@`The big fat smart red dog barks.'@Le Tuan Anh@Feb 12, 2014
+128@author@@@1@{adj}@Con         chó đỏ  to  béo thông minh sủa.@@@@1@8@`The red big fat smart dog barks.'@Le Tuan Anh@Feb 12, 2014
+129@author@@@1@{adj}@Con         chó to  béo thông minh đỏ  sủa.@@@@0@8@`The big fat smart red dog barks.'@Le Tuan Anh@Feb 12, 2014
+130@author@@@1@{adj}@Tôi ăn  nhanh.@@@@1@3@`I eat fast.'@Le Tuan Anh@Feb 12, 2014
+131@authorcon chó xanh sủa.@@@1@{adj}@Tôi nhanh ăn.@@@@0@3@`I eat fast.'@Le Tuan Anh@Feb 12, 2014
+132@author@@@1@{adj}@Tôi ăn  một cái       bánh rán   nhanh.@@@@1@7@`I eat a fried cake fast.'@Le Tuan Anh@Feb 12, 2014
+133@author@@@1@{adj}@Tôi ăn  nhanh một cái       bánh rán.@@@@1@7@`I eat a fried cake fast.'@Le Tuan Anh@Feb 12, 2014
+134@author@@@1@{cop}@Tôi là  người thông minh.@@@@1@5@`I am a smart person.'@Le Tuan Anh@Feb 12, 2014
+135@author@@@1@{cop}@Tôi là  thông minh.@@@@0@4@`I am smart.'@Le Tuan Anh@Feb 12, 2014
+136@author@@@1@{cop}@Tôi là  người trên trời.@@@@1@5@`I am human from sky.'@Le Tuan Anh@Feb 12, 2014
+137@author@@@1@{cop}@Tôi là  trên trời.@@@@0@4@`I am from sky.'@Le Tuan Anh@Feb 12, 2014
+138@author@@@1@{info}@Chính con         chó đó       sủa.@@@@1@5@`It_is_exactly that dog barks.'@Le Tuan Anh@Feb 12, 2014
+139@author@@@1@{info}@Chính con         chó sủa.@@@@0@4@`It_is_exactly the dog barks.'@Le Tuan Anh@Feb 12, 2014
+140@author@@@1@{info}@Chính cái       con         chó đó       sủa.@@@@1@6@`It_is_exactly that dog barks.'@Le Tuan Anh@Feb 12, 2014
+141@author@@@1@{sem}@Hôm qua   tôi ăn  bánh rán.@@@@1@6@`Yesterday I ate fried cake.'@Le Tuan Anh@Feb 12, 2014
+142@author@@@1@{sem}@Tôi ăn  bánh rán   hôm qua.@@@@1@6@`I ate fried cake (on) yesterday.'@Le Tuan Anh@Feb 12, 2014
+143@author@@@1@{sem}@Hôm nay con         chó sủa.@@@@1@5@`Today the dog barks.'@Le Tuan Anh@Feb 12, 2014
+144@author@@@1@{sem}@Con         chó sủa  hôm nay.@@@@1@5@`Today the dog barks.'@Le Tuan Anh@Feb 12, 2014
+145@author@@@1@{info}@Con         chó hôm nay sủa.@@@@1@5@`the dog (which we met) today barks.'@Le Tuan Anh@Feb 12, 2014
