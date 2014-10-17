@@ -213,9 +213,9 @@ determiner-lex-supertype := norm-hook-lex-item & basic-zero-arg &
                                 SPR < >,
                                 SUBJ < >,
                                 COMPS < >]],
-		     CONT.HCONS < ! qeq &
+		     CONT.HCONS <! qeq &
 				 [ HARG #harg,
-				   LARG #larg ] ! > ], 
+				   LARG #larg ] !> ], 
 	     LKEYS.KEYREL quant-relation &
 		   [ ARG0 #ind,
 		     RSTR #harg ] ] ].
