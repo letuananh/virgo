@@ -27,3 +27,16 @@ adj-head-int := adj-head-int-phrase.
 ;   [ 
 ;     NON-HEAD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD - ] 
 ;   ].
+
+
+;; Also need to add to rules.tdl:
+
+xp-xp-bridge-c := bridge-binary-phrase.
+xp-bridge-c := bridge-unary-phrase.
+
+
+;; Also need to add root constraint for bridged phrases
+
+
+;; Also add node labels for parse tree display
+

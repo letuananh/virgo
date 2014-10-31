@@ -232,3 +232,15 @@ nump-label := label &
 cls-label := label & 
 	   [ SYNSEM.LOCAL [ CAT [ HEAD classifier ] ],
              LABEL-NAME "CLS" ].
+
+bridge-binary := label &
+  [ 
+    SYNSEM.LOCAL.CAT.HEAD bridge-head,
+    LABEL-NAME "BP" ].
+
+bridge-unary := label &
+  [ 
+    SYNSEM [ LOCAL.CAT.HEAD bridge-head
+	      ],
+    LABEL-NAME "BX" ].
+
