@@ -2,7 +2,8 @@ Language: Vietnamese
 Language code: vie
 Lines: orth translit gloss translat 
 Author: Le Tuan Anh
-Date: Feb 12, 2014
+Date: Oct 31, 2014 
+#Release note: Ver 0.1 - Feb 12, 2014
 
 #------------------------------------------------------------------------------
 # Source a: my head
@@ -1363,6 +1364,16 @@ Source:    author
 Vetted:    t
 Judgment:  u
 Phenomena: {adj}
+Con         chim xanh  bay  to.
+Con         chim xanh  bay  to.
+CLF.animate bird green fly  big.
+`The green bird flies big.'
+# Comment: semantics issue?
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {adj}
 Chó to  sủa.
 chó to  sủa.
 dog big bark.
@@ -1476,6 +1487,7 @@ Tôi ăn  nhanh một cái       bánh rán.
 Tôi ăn  nhanh một cái       bánh_rán.
 I   eat fast  one CLF.thing fried_cake.
 `I eat a fried cake fast.'
+
 ###############################################################################
 # NON-VERBAL PREDICATES
 ###############################################################################
