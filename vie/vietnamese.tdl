@@ -157,10 +157,13 @@ adjective-lex := basic-adjective-lex & intersective-mod-lex &
   	      [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT [ HEAD noun,
               	                                      VAL.SPR cons ]]>,
 						      VAL [ SPR < >,
-				 SUBJ < >,
-				 COMPS < >,
-				 SPEC < > ],
-			   POSTHEAD + ]]]].
+							    SUBJ < >,
+							    COMPS < >,
+							    SPEC < > ],
+				       POSTHEAD + ],
+				 CONT.HOOK.INDEX #index ],
+			 LKEYS.KEYREL.ARG0 #index ] 
+		       ].
 
 
 ; adj-head-scop-phrase := basic-adverb-lex & intersective-mod-lex &
@@ -266,26 +269,30 @@ copula-verb-lex := verb-lex-supertype.
 ;; normal edges that resulted from trying just a binary bridging rule that
 ;; accepted either bridge or normal edges.
 ;;
-bridge-head := head.
+
+;;bridge-head := head.
+bridge-head := head-min &
+  [ BRIDGED luk ].
 
 bridge-binary-phrase := basic-binary-phrase &
-  [ SYNSEM [ LOCAL [ CAT [ HEAD bridge-head & [ MOD < > ],
-			   VAL [ SUBJ < >,
-				 SPR < >,
-				 COMPS < > ] ] ],
-	     NON-LOCAL non-local-none ],
-    C-CONT [ RELS <! !>,
-	     HCONS <! !> ],
-    ARGS < [ SYNSEM.LOCAL.CAT.HEAD bridge-head ],
-	   [ SYNSEM.LOCAL.CAT.HEAD bridge-head ] > ].
+  [ SYNSEM [ LOCAL [ CAT [ HEAD bridge-head & [ BRIDGED + ],
+                           VAL [ SUBJ < >,
+                                 SPR < >,
+                                 COMPS < > ] ] ],
+             NON-LOCAL non-local-none ],
+    C-CONT [ HOOK [ LTOP #lbl, INDEX #arg0 ],
+             RELS <! [ LBL #lbl, PRED "bridge_x_rel", ARG0 #arg0, ARG1 #lind, ARG2 #rind ] !>,
+             HCONS <! !> ],
+    ARGS < [ SYNSEM.LOCAL [ CAT.HEAD bridge-head & [ BRIDGED - ], CONT.HOOK.INDEX #lind ] ],
+           [ SYNSEM.LOCAL [ CAT.HEAD bridge-head, CONT.HOOK.INDEX #rind ] ] > ].
 
 bridge-unary-phrase := basic-unary-phrase &
-  [
-    SYNSEM [ LOCAL [ CAT [ HEAD bridge-head & [ MOD < > ],
-			   VAL [ SUBJ < >,
-				 SPR < >,
-				 COMPS < > ] ] ],
-	     NON-LOCAL non-local-none ],
-    C-CONT [ RELS <! !>,
-	     HCONS <! !> ],
-    ARGS < [ SYNSEM.LOCAL.CAT.HEAD +nvjrpcdo ] > ].
+  [ SYNSEM [ LOCAL [ CAT [ HEAD bridge-head,
+                           VAL [ SUBJ < >,
+                                 SPR < >,
+                                 COMPS < > ] ] ],
+             NON-LOCAL non-local-none ],
+    C-CONT [ HOOK #hook, 
+	     RELS <! !>,
+             HCONS <! !> ],
+    ARGS < [ SYNSEM.LOCAL [ CAT.HEAD head, CONT.HOOK #hook ] ] > ].
