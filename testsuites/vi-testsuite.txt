@@ -54,6 +54,17 @@ I   fry cake-fry.
 #------------------------------------------------------------------------------
 Source:    author
 Vetted:    t
+Judgment:  g
+Phenomena: {wo, pn}
+Tôi ăn  bánh rán.
+Tôi ăn  bánh-rán.
+I   eat cake-fry.
+`I eat fried-cake(s).'
+# Basic word order test.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
 Judgment:  u
 Phenomena: {wo, pn}
 Tôi bánh rán rán.

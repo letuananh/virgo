@@ -10,11 +10,11 @@ chim := noncls-common-noun-lex &
 
 hoc+sinh := cls-common-noun-lex &
   [ STEM < "học", "sinh" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_hoc-sinh_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_hoc+sinh_n_rel" ].
 
 giao+vien := cls-common-noun-lex &
   [ STEM < "giáo", "viên" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_giao_vien_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_giao+vien_n_rel" ].
 
 nho := noncls-common-noun-lex &
   [ STEM < "nho" >,
@@ -35,7 +35,7 @@ bút := noncls-common-noun-lex &
 bánh+rán := noncls-common-noun-lex &
   [ STEM < "bánh",
            "rán" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_bánh rán_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_bánh+rán_n_rel" ].
 
 ;the colour red
 đỏ_noun := noncls-common-noun-lex &
@@ -49,12 +49,12 @@ tôi := pronoun-noun-lex &
 cô+ấy := pronoun-noun-lex &
   [ STEM < "cô",
            "ấy" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_cô ấy_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_cô+ấy_n_rel" ].
 
 anh+ấy := pronoun-noun-lex &
   [ STEM < "anh",
            "ấy" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_anh ấy_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_anh+ấy_n_rel" ].
 
 nó := pronoun-noun-lex &
   [ STEM < "nó" >,
@@ -94,9 +94,9 @@ béo := adjective-lex &
   [ STEM < "béo" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_béo_a_rel" ].
 
-thông_minh := adjective-lex &
+thông+minh := adjective-lex &
   [ STEM < "thông", "minh" >,  
-    SYNSEM.LKEYS.KEYREL.PRED "_thông-minh_a_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_thông+minh_a_rel" ].
 
 
 nhanh_adj := adjective-lex &
