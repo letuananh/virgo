@@ -1370,7 +1370,6 @@ Con         chim xanh  bay  nhanh.
 CLF.animate bird green fly  fast.
 `The green bird flies fast.'
 #
-# no tone
 #------------------------------------------------------------------------------
 Source:    author
 Vetted:    t
@@ -1635,5 +1634,50 @@ CLF.animate dog today   bark.
 # A possible world can be considered: The first person and the second person has seen
 # a dog yesterday and another one today. Then we can refer to the first one as chó-hôm_qua
 # (dog-yesterday) and chó-hôm_nay (dog-today).
+#
+#------------------------------------------------------------------------------
+# NO TONE
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo}
+Chim bay.
+Chim bay.
+Bird fly.
+`The(a) bird(s) fly(es).'
+# Basic word order test.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, classifier}
+Con         chim bay.
+Con         chim bay.
+CLF.animate bird fly.
+`The(a) bird flies.'
+# Basic word order test.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, classifier, adjective}
+Con         chim bay nhanh.
+Con         chim bay nhanh.
+CLF.animate bird fly fast.
+`The(a) bird flies fast.'
+# Basic word order test.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, classifier, adjective, adverb}
+Con         chim nhanh bay nhanh.
+Con         chim nhanh bay nhanh.
+CLF.animate bird fly.
+`The(a) fast bird flies fast.'
 #
 #------------------------------------------------------------------------------
