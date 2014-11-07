@@ -164,7 +164,12 @@ la := copula-verb-lex &
 ;;; Determiners
 
 ;;; Adverbs
-nhanh := adverb-lex &
+nhanh+nhanh := s-adverb-lex &
+  [ STEM < "nhanh", "nhanh" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_nhanh+nhanh_a_rel" ].
+
+
+nhanh := vp-adverb-lex &
   [ STEM < "nhanh" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_nhanh_a_rel" ].
 

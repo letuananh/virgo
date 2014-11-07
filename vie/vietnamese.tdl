@@ -183,15 +183,22 @@ neg-scopal-adverb-lex := basic-adverb-lex & intersective-mod-lex
     ]
     .
 
-adverb-lex := basic-adverb-lex & intersective-mod-lex &
+;; This is not true, I left intersective part here for testing purpose only
+adverb-lex := basic-int-adverb-lex &
   [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT.HEAD verb ]>,
 			   VAL [ SPR < >,
 				 SUBJ < >,
 				 COMPS < >,
-				 SPEC < > ] , POSTHEAD + ]]]].
+				 SPEC < > ] ] ] ] ].
 
-;s-adverb-lex := adverb-lex &
-;   [SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CAT.VAL.SUBJ  < > ] > ].
+s-adverb-lex := adverb-lex &
+   [ SYNSEM.LOCAL.CAT [ HEAD.MOD < [ LOCAL.CAT.VAL.SUBJ  < > ] >,
+			POSTHEAD - ] ].
+
+vp-adverb-lex := adverb-lex &
+   [ SYNSEM.LOCAL.CAT [ HEAD.MOD < [ LOCAL.CAT.VAL.SUBJ  < [ ] > ] >,
+			POSTHEAD + ] ].
+		 
 
 possible-verb-lex := basic-verb-lex & trans-first-arg-raising-lex-item-1  & non-mod-lex-item &
    [ SYNSEM.LOCAL.CAT [ VAL [ SUBJ < #subj >,

@@ -146,3 +146,7 @@
 146@author@@@1@{sem}@Hôm nay con         chó sủa.@@@@1@5@`Today the dog barks.'@Le Tuan Anh@Oct 31, 2014 
 147@author@@@1@{sem}@Con         chó sủa  hôm nay.@@@@1@5@`Today the dog barks.'@Le Tuan Anh@Oct 31, 2014 
 148@author@@@1@{info}@Con         chó hôm nay sủa.@@@@1@5@`the dog (which we met) today barks.'@Le Tuan Anh@Oct 31, 2014 
+149@author@@@1@{wo}@Chim bay.@@@@1@2@`The(a) bird(s) fly(es).'@Le Tuan Anh@Oct 31, 2014 
+150@author@@@1@{wo,classifier}@Con         chim bay.@@@@1@3@`The(a) bird flies.'@Le Tuan Anh@Oct 31, 2014 
+151@author@@@1@{wo,classifier,adjective}@Con         chim bay nhanh.@@@@1@4@`The(a) bird flies fast.'@Le Tuan Anh@Oct 31, 2014 
+152@author@@@1@{wo,classifier,adjective,adverb}@Con         chim nhanh bay nhanh.@@@@1@5@`The(a) fast bird flies fast.'@Le Tuan Anh@Oct 31, 2014 

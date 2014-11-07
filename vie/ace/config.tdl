@@ -19,7 +19,8 @@ lex-pred-path             := SYNSEM LKEYS KEYREL PRED.
 rule-rels-path            := C-CONT RELS.
 label-path                := LABEL-NAME.
 
-parsing-roots             := root root-bridge.
+;;;parsing-roots             := root root-bridge.
+parsing-roots             := root.
 generation-roots          := root.
 
 semarg-type               := semarg.
