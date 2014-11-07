@@ -1370,6 +1370,7 @@ Con         chim xanh  bay  nhanh.
 CLF.animate bird green fly  fast.
 `The green bird flies fast.'
 #
+# no tone
 #------------------------------------------------------------------------------
 Source:    author
 Vetted:    t
