@@ -65,6 +65,33 @@ I   eat cake-fry.
 #------------------------------------------------------------------------------
 Source:    author
 Vetted:    t
+Judgment:  g
+Phenomena: {wo, adj}
+Tôi ăn  bánh ngọt.
+Tôi ăn  bánh-ngọt.
+I   eat cake-sweet.
+`I eat cakes.'
+# Word boundary. This sentence should have at least two readings.
+# "I eat a cake which is sweet" vs. "I eat a cake."
+# (Bánh ngọt is a family of cakes, usually with cream or sweet, 
+# but not cookies or loaf.)
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, adv}
+Tôi ăn  bánh nhanh.
+Tôi ăn  bánh nhanh.
+I   eat cake fast.
+`I eat (a) cake fast.'
+# 'Nhanh' (fast) can be an adjective or an adverb.
+# In this context it should mean 'I eat a cake fast' and not 'I eat a fast cake'.
+#
+#------------------------------------------------------------------------------
+
+Source:    author
+Vetted:    t
 Judgment:  u
 Phenomena: {wo, pn}
 Tôi bánh rán rán.
@@ -1679,5 +1706,16 @@ Con         chim nhanh bay nhanh.
 Con         chim nhanh bay nhanh.
 CLF.animate bird fly.
 `The(a) fast bird flies fast.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {wo, classifier, adjective, adverb}
+Con         chó nhanh đuổi  con         mèo béo chậm.
+Con         chó nhanh đuổi  con         mèo béo chậm.
+CLF.animate dog fast  chase CLF.animate cat fat slow.
+`The fast dog chases the slow fat cat.'
+# 'Chậm' (slow) should modify the cat and not the chasing event.
 #
 #------------------------------------------------------------------------------

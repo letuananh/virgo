@@ -36,10 +36,19 @@ bút := noncls-common-noun-lex &
   [ STEM < "bút" >,
     SYNSEM.LKEYS.KEYREL.PRED "_but_n_rel" ].
 
+bánh := noncls-common-noun-lex &
+  [ STEM < "bánh" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_banh_n_rel" ].
+
 bánh+rán := noncls-common-noun-lex &
   [ STEM < "bánh",
            "rán" >,
     SYNSEM.LKEYS.KEYREL.PRED "_banh+ran_n_rel" ].
+
+bánh+ngọt := noncls-common-noun-lex &
+  [ STEM < "bánh",
+           "ngọt" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_banh+ngot_n_rel" ].
 
 ;the colour red
 đỏ_noun := noncls-common-noun-lex &
@@ -102,12 +111,25 @@ thông+minh := adjective-lex &
   [ STEM < "thông", "minh" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_thong+minh_a_rel" ].
 
-
 nhanh_adj := adjective-lex &
   [ STEM < "nhanh" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_nhanh_a_rel" ].
 
+chậm_adj := adjective-lex &
+  [ STEM < "chậm" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_cham_a_rel" ].
 
+nóng_adj := adjective-lex &
+  [ STEM < "nóng" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_nong_a_rel" ].
+
+lạnh_adj := adjective-lex &
+  [ STEM < "lạnh" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_lanh_a_rel" ].
+
+ngọt_adj := adjective-lex &
+  [ STEM < "ngọt" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_ngọt_a_rel" ].
 
 ;;; Verbs
 bay := intr-verb-lex &
@@ -156,7 +178,6 @@ thích := tr-verb-lex &
   [ STEM < "thích" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thich_v_rel" ].
 
-
 duoc := possible-verb-lex &
         [ STEM < "được" >,
          SYNSEM.LKEYS.KEYREL.PRED "_duoc_v_rel" ].
@@ -171,7 +192,6 @@ la := copula-verb-lex &
 nhanh+nhanh := s-adverb-lex &
   [ STEM < "nhanh", "nhanh" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_nhanh+nhanh_a_rel" ].
-
 
 nhanh := vp-adverb-lex &
   [ STEM < "nhanh" >,  
