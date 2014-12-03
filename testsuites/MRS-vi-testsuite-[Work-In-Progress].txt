@@ -1,0 +1,1091 @@
+Language: Vietnamese
+Language code: vie
+Lines: orth translit gloss translat 
+Author: Le Tuan Anh
+Date: Nov 12, 2014 
+
+#-----------------------------------------------------------------------
+# Source a: my head
+# Source b: Lorem ipsum
+# Vetted = verified by native speaker? t/f/s (true/false/grammar)
+# Judgment = g/u (grammatical/ungrammatical)
+# A comment for myself.
+# Đây  là một ví dụ.    # Original text
+# Đây  là một ví_dụ.    # transliteration
+# This be one example.  # Interlinear gloss
+# `This is an example.' # Free translation
+#
+
+########################################################################
+# Vietnamese MRS Testsuite
+########################################################################
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: 
+Trời đã  mưa.
+Trời đã  mưa.
+Sky  PST rain.
+`It rained.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+Abrams đã  sủa.
+Abrams đã  sủa.
+Abrams PST bark.
+`Abrams barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+Cửa sổ đã  mở.
+Cửa+sổ đã  mở.  
+Window PST open.
+`The window opened.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+Abrams đuổi  Browne.
+Abrams đuổi  Browne.
+Abrams chase Browne.
+`Abrams chased Browne.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+Abrams đã  đưa  Browne điếu thuốc lá.
+Abrams đã  đưa  Browne điếu thuốc+lá.
+Abrams PST hand Browne CLS  cigarette.  
+`Abrams handed Browne the cigarette.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+Abrams đã  đưa  điếu thuốc lá  cho     Browne.
+Abrams đã  đưa  điếu thuốc+lá  cho     Browne.
+Abrams PST hand CLS  cigarette give/to Browne.
+`Abrams handed the cigarette to Browne.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams bet Browne a cigarette that it rained.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+Abrams đã  biết là      trời mưa.
+Abrams đã  biết là      trời mưa.
+Abrams PST know is/that sky rain.
+`Abrams knew that it rained.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams intended to bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams intended Browne to bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Every cat barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Every cat chased some dog.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`My cat barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`It barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The cat chased it.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The cat chased itself.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The cat chased one.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Mine barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`That opened.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Cats bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Tobacco arrived.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Some bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Some of the cats bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`No cat barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Did the dog bark?`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Which dog barked?`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Whose dog barked?`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Chase Browne!`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams wondered which dog barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams wondered whether Browne barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog that Browne chased barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog to chase is barking.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog was chased by Browne.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog chased by Browne barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog is barking.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog has barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog has been barking.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog had been barking.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog will bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog is going to bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog could bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog couldn't bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The old dog barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog barked softly.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog probably barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog barked in the garden.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog barks now.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The garden dog barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The tobacco garden dog barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The cat is old.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The cat is in the garden.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The barking dog chased Browne.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Chased dogs bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Chasing the cat is old.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`That the cat chases Browne is old.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Dogs chase whatever barks.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog barked every day.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`When did the dog bark?`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Three of the dogs bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Three bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Browne's dog barks.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Browne's barks.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Twenty three dogs bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Two hundred twenty dogs bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams arrived by car.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams kept barking.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Browne squeezed the cat in.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Browne squeezed in the cat.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The picture of Abrams arrived.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams wiped the table clean.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams put Browne in the garden.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog will bark if Browne arrives.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams and Browne arrived.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams, Browne, and the dog arrived.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog arrived and barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog arrived and Browne barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog barked, didn't it?`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`It is obvious that the dog barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams promised Browne to bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams seems to bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams believes Browne to be barking.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`It bothered Abrams that Browne barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`It took Abrams ten minutes to arrive.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams left it to Browne to bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams strikes Browne as old.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Browne considers Abrams old.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams liked the idea that Browne could bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams barked from ten to three.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams was very old.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Nearly every dog barked.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams barked very softly.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Browne's chasing of cats bothered Abrams.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`It bothered Browne that Abrams chased cats.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`June third arrived.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams arrived at three twenty.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Browne arrived on Tuesday morning.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The cats found a way to bark.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The happier dog chased Browne.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`There were cats in the garden.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`That dog chased Browne.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Somebody chased Abrams.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`How happy was Abrams?`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The number five bothers Browne.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Abrams could.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Browne tried to.`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`Don't bark!`
+#
+#-----------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena:
+#-#orth
+#translit
+#gloss
+`The dog arrived barking.`
+#
+#-----------------------------------------------------------------------

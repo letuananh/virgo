@@ -20,57 +20,61 @@ nho := noncls-common-noun-lex &
   [ STEM < "nho" >,
     SYNSEM.LKEYS.KEYREL.PRED "_nho_n_rel" ].
 
+người := noncls-common-noun-lex &
+  [ STEM < "người" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_nguoi_n_rel" ].
+
 chó := noncls-common-noun-lex &
   [ STEM < "chó" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_chó_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_cho_n_rel" ].
 
 mèo := noncls-common-noun-lex &
   [ STEM < "mèo" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_mèo_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_meo_n_rel" ].
 
 bút := noncls-common-noun-lex &
   [ STEM < "bút" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_bút_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_but_n_rel" ].
 
 bánh+rán := noncls-common-noun-lex &
   [ STEM < "bánh",
            "rán" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_bánh+rán_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_banh+ran_n_rel" ].
 
 ;the colour red
 đỏ_noun := noncls-common-noun-lex &
   [ STEM < "đỏ" >,  
-    SYNSEM.LKEYS.KEYREL.PRED "_đỏ_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_đo_n_rel" ].
 
 tôi := pronoun-noun-lex &
   [ STEM < "tôi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_tôi_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_toi_n_rel" ].
 
 cô+ấy := pronoun-noun-lex &
   [ STEM < "cô",
            "ấy" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_cô+ấy_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_co+ay_n_rel" ].
 
 anh+ấy := pronoun-noun-lex &
   [ STEM < "anh",
            "ấy" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_anh+ấy_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_anh+ay_n_rel" ].
 
 nó := pronoun-noun-lex &
   [ STEM < "nó" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_nó_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_no_n_rel" ].
 
 bạn := pronoun-noun-lex &
   [ STEM < "bạn" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_bạn_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ban_n_rel" ].
 
 đây := pronoun-noun-lex &
   [ STEM < "đây" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_đây_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_đay_n_rel" ].
 
 đó_dp := pronoun-noun-lex &
   [ STEM < "đó" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_đó_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_đa_n_rel" ].
 
 kia-dp := pronoun-noun-lex &
   [ STEM < "kia" >,
@@ -84,7 +88,7 @@ xanh := adjective-lex &
 
 đỏ := adjective-lex &
   [ STEM < "đỏ" >,  
-    SYNSEM.LKEYS.KEYREL.PRED "_đỏ_a_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_đo_a_rel" ].
 
 to := adjective-lex &
   [ STEM < "to" >,  
@@ -92,11 +96,11 @@ to := adjective-lex &
 
 béo := adjective-lex &
   [ STEM < "béo" >,  
-    SYNSEM.LKEYS.KEYREL.PRED "_béo_a_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_beo_a_rel" ].
 
 thông+minh := adjective-lex &
   [ STEM < "thông", "minh" >,  
-    SYNSEM.LKEYS.KEYREL.PRED "_thông+minh_a_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_thong+minh_a_rel" ].
 
 
 nhanh_adj := adjective-lex &
@@ -112,45 +116,45 @@ bay := intr-verb-lex &
 
 cười := intr-verb-lex &
   [ STEM < "cười" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_cười_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_cuoi_v_rel" ].
 
 ngủ := intr-verb-lex &
   [ STEM < "ngủ" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ngủ_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ngu_v_rel" ].
 
 
 
 sủa := intr-verb-lex &
   [ STEM < "sủa" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_sủa_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_sua_v_rel" ].
 
 kêu := intr-verb-lex &
   [ STEM < "kêu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_kêu_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_keu_v_rel" ].
 
 ăn := tr-verb-lex &
   [ STEM < "ăn" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_ăn_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_an_v_rel" ].
 
 yêu := tr-verb-lex &
   [ STEM < "yêu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_yêu_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_yeu_v_rel" ].
 
 đuổi := tr-verb-lex &
   [ STEM < "đuổi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_đuổi_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_đuoi_v_rel" ].
 
 rán := tr-verb-lex &
   [ STEM < "rán" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_rán_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_ran_v_rel" ].
 
 hỏi := tr-verb-lex &
   [ STEM < "hỏi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_hỏi_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_hoi_v_rel" ].
 
 thích := tr-verb-lex &
   [ STEM < "thích" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_thích_v_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_thich_v_rel" ].
 
 
 duoc := possible-verb-lex &
@@ -184,7 +188,7 @@ kia := remote+dem_a_rel &
 
 đó := distal+dem_a_rel &
        [ STEM < "đó" >,
-	 SYNSEM.LKEYS.KEYREL.PRED "_đó_p_rel" ].
+	 SYNSEM.LKEYS.KEYREL.PRED "_đo_p_rel" ].
 
 ;;; CLASSIFIERS
 con := classifier-lex &
@@ -193,11 +197,11 @@ con := classifier-lex &
 
 cái := classifier-lex &
   [ STEM < "cái" >,  
-    SYNSEM.LKEYS.KEYREL.PRED "_cái_cl_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_cai_cl_rel" ].
 
 màu := classifier-lex &
   [ STEM < "màu" >,  
-    SYNSEM.LKEYS.KEYREL.PRED "_màu_cl_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_mau_cl_rel" ].
 
 ;; NEG
 khong := neg-scopal-adverb-lex &

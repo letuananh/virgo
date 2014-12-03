@@ -1,0 +1,1472 @@
+41@1@root@4@1@0@2@@(40)@@
+40@1@subj-head@3@1@0@2@@(24 4)@@
+24@1@bare-np@3@1@0@1@@(3)@@
+3@1@chó@1@1@0@1@@(1)@@
+4@1@sủa@1@1@1@2@@(2)@@
+1@1@token [ +FROM "0" +TO "3" +FORM "Chó" ]@0@0@0@1@@@@
+2@1@token [ +FROM "4" +TO "7" +FORM "sủa" ]@0@0@1@2@@@@
+1@2@token [ +FROM "0" +TO "3" +FORM "Sủa" ]@0@0@0@1@@@@
+2@2@token [ +FROM "5" +TO "8" +FORM "chó" ]@0@0@1@2@@@@
+134@3@root@4@1@0@4@@(99)@@
+99@3@subj-head@3@1@0@4@@(52 73)@@
+52@3@bare-np@3@1@0@2@@(5)@@
+5@3@tôi@1@1@0@2@@(1)@@
+73@3@head-comp@3@1@2@4@@(6 62)@@
+6@3@rán@1@1@2@3@@(2)@@
+62@3@bare-np@3@1@3@4@@(7)@@
+7@3@bánh+rán@1@1@3@4@@(3 4)@@
+1@3@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@3@token [ +FROM "4" +TO "7" +FORM "rán" ]@0@0@1@2@@@@
+3@3@token [ +FROM "8" +TO "12" +FORM "bánh" ]@0@0@2@3@@@@
+4@3@token [ +FROM "13" +TO "16" +FORM "rán" ]@0@0@3@4@@@@
+134@4@root@4@1@0@4@@(99)@@
+99@4@subj-head@3@1@0@4@@(52 73)@@
+52@4@bare-np@3@1@0@2@@(5)@@
+5@4@tôi@1@1@0@2@@(1)@@
+73@4@head-comp@3@1@2@4@@(6 62)@@
+6@4@ăn@1@1@2@3@@(2)@@
+62@4@bare-np@3@1@3@4@@(7)@@
+7@4@bánh+rán@1@1@3@4@@(3 4)@@
+1@4@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@4@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@4@token [ +FROM "8" +TO "12" +FORM "bánh" ]@0@0@2@3@@@@
+4@4@token [ +FROM "13" +TO "16" +FORM "rán" ]@0@0@3@4@@@@
+1@5@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@5@token [ +FROM "4" +TO "8" +FORM "bánh" ]@0@0@1@2@@@@
+3@5@token [ +FROM "9" +TO "12" +FORM "rán" ]@0@0@2@3@@@@
+4@5@token [ +FROM "13" +TO "16" +FORM "rán" ]@0@0@3@4@@@@
+1@6@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@6@token [ +FROM "4" +TO "6" +FORM "và" ]@0@0@1@2@@@@
+3@6@token [ +FROM "8" +TO "10" +FORM "cô" ]@0@0@2@3@@@@
+4@6@token [ +FROM "11" +TO "13" +FORM "ấy" ]@0@0@3@4@@@@
+5@6@token [ +FROM "14" +TO "17" +FORM "yêu" ]@0@0@4@5@@@@
+6@6@token [ +FROM "19" +TO "22" +FORM "anh" ]@0@0@5@6@@@@
+7@6@token [ +FROM "23" +TO "25" +FORM "ấy" ]@0@0@6@7@@@@
+1@7@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@7@token [ +FROM "4" +TO "6" +FORM "cô" ]@0@0@1@2@@@@
+3@7@token [ +FROM "7" +TO "9" +FORM "ấy" ]@0@0@2@3@@@@
+4@7@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@3@4@@@@
+5@7@token [ +FROM "15" +TO "18" +FORM "anh" ]@0@0@4@5@@@@
+6@7@token [ +FROM "19" +TO "21" +FORM "ấy" ]@0@0@5@6@@@@
+1@8@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@8@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@8@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@8@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@8@token [ +FROM "15" +TO "17" +FORM "và" ]@0@0@4@5@@@@
+6@8@token [ +FROM "19" +TO "22" +FORM "anh" ]@0@0@5@6@@@@
+7@8@token [ +FROM "23" +TO "25" +FORM "ấy" ]@0@0@6@7@@@@
+1@9@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@9@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@9@token [ +FROM "9" +TO "12" +FORM "chó" ]@0@0@2@3@@@@
+4@9@token [ +FROM "13" +TO "15" +FORM "và" ]@0@0@3@4@@@@
+5@9@token [ +FROM "17" +TO "21" +FORM "ghét" ]@0@0@4@5@@@@
+6@9@token [ +FROM "22" +TO "25" +FORM "mèo" ]@0@0@5@6@@@@
+1@10@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@10@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@10@token [ +FROM "9" +TO "12" +FORM "chó" ]@0@0@2@3@@@@
+4@10@token [ +FROM "13" +TO "17" +FORM "ghét" ]@0@0@3@4@@@@
+5@10@token [ +FROM "18" +TO "21" +FORM "mèo" ]@0@0@4@5@@@@
+1@11@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@11@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@11@token [ +FROM "9" +TO "13" +FORM "ghét" ]@0@0@2@3@@@@
+4@11@token [ +FROM "14" +TO "17" +FORM "chó" ]@0@0@3@4@@@@
+5@11@token [ +FROM "18" +TO "21" +FORM "mèo" ]@0@0@4@5@@@@
+1@12@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@12@token [ +FROM "4" +TO "6" +FORM "và" ]@0@0@1@2@@@@
+3@12@token [ +FROM "8" +TO "11" +FORM "yêu" ]@0@0@2@3@@@@
+4@12@token [ +FROM "13" +TO "16" +FORM "chó" ]@0@0@3@4@@@@
+5@12@token [ +FROM "17" +TO "20" +FORM "mèo" ]@0@0@4@5@@@@
+1@13@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@13@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@13@token [ +FROM "9" +TO "11" +FORM "và" ]@0@0@2@3@@@@
+4@13@token [ +FROM "13" +TO "17" +FORM "ghét" ]@0@0@3@4@@@@
+5@13@token [ +FROM "18" +TO "20" +FORM "và" ]@0@0@4@5@@@@
+6@13@token [ +FROM "22" +TO "25" +FORM "chó" ]@0@0@5@6@@@@
+1@14@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@14@token [ +FROM "4" +TO "6" +FORM "và" ]@0@0@1@2@@@@
+3@14@token [ +FROM "8" +TO "10" +FORM "cô" ]@0@0@2@3@@@@
+4@14@token [ +FROM "11" +TO "13" +FORM "ấy" ]@0@0@3@4@@@@
+5@14@token [ +FROM "14" +TO "16" +FORM "và" ]@0@0@4@5@@@@
+6@14@token [ +FROM "18" +TO "21" +FORM "yêu" ]@0@0@5@6@@@@
+7@14@token [ +FROM "23" +TO "26" +FORM "chó" ]@0@0@6@7@@@@
+8@14@token [ +FROM "27" +TO "29" +FORM "và" ]@0@0@7@8@@@@
+9@14@token [ +FROM "31" +TO "34" +FORM "mèo" ]@0@0@8@9@@@@
+1@15@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@15@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@15@token [ +FROM "9" +TO "12" +FORM "con" ]@0@0@2@3@@@@
+4@15@token [ +FROM "21" +TO "24" +FORM "chó" ]@0@0@3@4@@@@
+5@15@token [ +FROM "25" +TO "27" +FORM "và" ]@0@0@4@5@@@@
+6@15@token [ +FROM "29" +TO "32" +FORM "con" ]@0@0@5@6@@@@
+7@15@token [ +FROM "41" +TO "44" +FORM "mèo" ]@0@0@6@7@@@@
+1@16@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@16@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@16@token [ +FROM "9" +TO "12" +FORM "chó" ]@0@0@2@3@@@@
+4@16@token [ +FROM "13" +TO "15" +FORM "và" ]@0@0@3@4@@@@
+5@16@token [ +FROM "17" +TO "20" +FORM "mèo" ]@0@0@4@5@@@@
+1@17@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@17@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@17@token [ +FROM "9" +TO "12" +FORM "chó" ]@0@0@2@3@@@@
+4@17@token [ +FROM "13" +TO "16" +FORM "mèo" ]@0@0@3@4@@@@
+1@18@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@18@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@18@token [ +FROM "9" +TO "12" +FORM "chó" ]@0@0@2@3@@@@
+4@18@token [ +FROM "13" +TO "15" +FORM "cô" ]@0@0@3@4@@@@
+5@18@token [ +FROM "16" +TO "18" +FORM "ấy" ]@0@0@4@5@@@@
+1@19@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@19@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@19@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@19@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@19@token [ +FROM "15" +TO "18" +FORM "chó" ]@0@0@4@5@@@@
+1@20@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@20@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@20@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@20@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@20@token [ +FROM "15" +TO "18" +FORM "anh" ]@0@0@4@5@@@@
+6@20@token [ +FROM "19" +TO "21" +FORM "ấy" ]@0@0@5@6@@@@
+1@21@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@21@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@21@token [ +FROM "16" +TO "19" +FORM "kêu" ]@0@0@2@3@@@@
+4@21@token [ +FROM "21" +TO "23" +FORM "và" ]@0@0@3@4@@@@
+5@21@token [ +FROM "25" +TO "28" +FORM "sủa" ]@0@0@4@5@@@@
+1@22@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@22@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@22@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@22@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@22@token [ +FROM "15" +TO "17" +FORM "và" ]@0@0@4@5@@@@
+6@22@token [ +FROM "19" +TO "22" +FORM "con" ]@0@0@5@6@@@@
+7@22@token [ +FROM "31" +TO "34" +FORM "chó" ]@0@0@6@7@@@@
+8@22@token [ +FROM "35" +TO "38" +FORM "sủa" ]@0@0@7@8@@@@
+1@23@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@23@token [ +FROM "5" +TO "7" +FORM "cô" ]@0@0@1@2@@@@
+3@23@token [ +FROM "8" +TO "10" +FORM "ấy" ]@0@0@2@3@@@@
+4@23@token [ +FROM "11" +TO "13" +FORM "và" ]@0@0@3@4@@@@
+5@23@token [ +FROM "15" +TO "18" +FORM "anh" ]@0@0@4@5@@@@
+6@23@token [ +FROM "19" +TO "21" +FORM "ấy" ]@0@0@5@6@@@@
+7@23@token [ +FROM "22" +TO "25" +FORM "yêu" ]@0@0@6@7@@@@
+8@23@token [ +FROM "27" +TO "30" +FORM "chó" ]@0@0@7@8@@@@
+1@24@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@24@token [ +FROM "4" +TO "6" +FORM "và" ]@0@0@1@2@@@@
+3@24@token [ +FROM "8" +TO "10" +FORM "cô" ]@0@0@2@3@@@@
+4@24@token [ +FROM "11" +TO "13" +FORM "ấy" ]@0@0@3@4@@@@
+5@24@token [ +FROM "14" +TO "16" +FORM "và" ]@0@0@4@5@@@@
+6@24@token [ +FROM "18" +TO "21" +FORM "anh" ]@0@0@5@6@@@@
+7@24@token [ +FROM "22" +TO "24" +FORM "ấy" ]@0@0@6@7@@@@
+8@24@token [ +FROM "25" +TO "28" +FORM "yêu" ]@0@0@7@8@@@@
+9@24@token [ +FROM "30" +TO "33" +FORM "chó" ]@0@0@8@9@@@@
+1@25@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@25@token [ +FROM "4" +TO "6" +FORM "cô" ]@0@0@1@2@@@@
+3@25@token [ +FROM "7" +TO "9" +FORM "ấy" ]@0@0@2@3@@@@
+4@25@token [ +FROM "10" +TO "13" +FORM "anh" ]@0@0@3@4@@@@
+5@25@token [ +FROM "14" +TO "16" +FORM "ấy" ]@0@0@4@5@@@@
+6@25@token [ +FROM "17" +TO "20" +FORM "yêu" ]@0@0@5@6@@@@
+7@25@token [ +FROM "22" +TO "25" +FORM "chó" ]@0@0@6@7@@@@
+1@26@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@26@token [ +FROM "4" +TO "6" +FORM "và" ]@0@0@1@2@@@@
+3@26@token [ +FROM "8" +TO "10" +FORM "cô" ]@0@0@2@3@@@@
+4@26@token [ +FROM "11" +TO "13" +FORM "ấy" ]@0@0@3@4@@@@
+5@26@token [ +FROM "14" +TO "17" +FORM "anh" ]@0@0@4@5@@@@
+6@26@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@5@6@@@@
+7@26@token [ +FROM "21" +TO "24" +FORM "yêu" ]@0@0@6@7@@@@
+8@26@token [ +FROM "26" +TO "29" +FORM "chó" ]@0@0@7@8@@@@
+440@27@root@4@1@0@6@@(330)@@
+330@27@subj-head@3@1@0@6@@(80 292)@@
+80@27@bare-np@3@1@0@2@@(7)@@
+7@27@tôi@1@1@0@2@@(1)@@
+292@27@head-comp@3@1@2@6@@(8 173)@@
+8@27@ăn@1@1@2@3@@(2)@@
+173@27@head-spec@3@1@3@6@@(118 12)@@
+118@27@classifier-head-phrase@3@1@3@5@@(9 10)@@
+9@27@cái@1@1@3@4@@(3)@@
+10@27@bánh+rán@1@1@4@5@@(4 5)@@
+12@27@nay@1@1@5@6@@(6)@@
+1@27@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@27@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@27@token [ +FROM "8" +TO "11" +FORM "cái" ]@0@0@2@3@@@@
+4@27@token [ +FROM "18" +TO "22" +FORM "bánh" ]@0@0@3@4@@@@
+5@27@token [ +FROM "23" +TO "26" +FORM "rán" ]@0@0@4@5@@@@
+6@27@token [ +FROM "27" +TO "30" +FORM "này" ]@0@0@5@6@@@@
+115@28@root@4@1@0@3@@(111)@@
+111@28@subj-head@3@1@0@3@@(38 64)@@
+38@28@bare-np@3@1@0@1@@(4)@@
+4@28@chó@1@1@0@1@@(1)@@
+64@28@head-comp@3@1@1@3@@(5 48)@@
+5@28@đuổi@1@1@1@2@@(2)@@
+48@28@bare-np@3@1@2@3@@(6)@@
+6@28@mèo@1@1@2@3@@(3)@@
+1@28@token [ +FROM "0" +TO "3" +FORM "Chó" ]@0@0@0@1@@@@
+2@28@token [ +FROM "4" +TO "8" +FORM "đuổi" ]@0@0@1@2@@@@
+3@28@token [ +FROM "10" +TO "13" +FORM "mèo" ]@0@0@2@3@@@@
+115@29@root@4@1@0@3@@(111)@@
+111@29@subj-head@3@1@0@3@@(38 64)@@
+38@29@bare-np@3@1@0@1@@(4)@@
+4@29@chó@1@1@0@1@@(1)@@
+64@29@head-comp@3@1@1@3@@(5 48)@@
+5@29@đuổi@1@1@1@2@@(2)@@
+48@29@bare-np@3@1@2@3@@(6)@@
+6@29@mèo@1@1@2@3@@(3)@@
+1@29@token [ +FROM "0" +TO "3" +FORM "Chó" ]@0@0@0@1@@@@
+2@29@token [ +FROM "4" +TO "8" +FORM "đuổi" ]@0@0@1@2@@@@
+3@29@token [ +FROM "10" +TO "13" +FORM "mèo" ]@0@0@2@3@@@@
+347@30@root@4@1@0@5@@(262)@@
+262@30@subj-head@3@1@0@5@@(204 191)@@
+204@30@bare-np@3@1@0@2@@(90)@@
+90@30@classifier-head-phrase@3@1@0@2@@(6 7)@@
+6@30@con@1@1@0@1@@(1)@@
+7@30@chó@1@1@1@2@@(2)@@
+191@30@head-comp@3@1@2@5@@(8 190)@@
+8@30@đuổi@1@1@2@3@@(3)@@
+190@30@bare-np@3@1@3@5@@(109)@@
+109@30@classifier-head-phrase@3@1@3@5@@(9 10)@@
+9@30@con@1@1@3@4@@(4)@@
+10@30@mèo@1@1@4@5@@(5)@@
+1@30@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@30@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@30@token [ +FROM "16" +TO "20" +FORM "đuổi" ]@0@0@2@3@@@@
+4@30@token [ +FROM "22" +TO "25" +FORM "con" ]@0@0@3@4@@@@
+5@30@token [ +FROM "34" +TO "37" +FORM "mèo" ]@0@0@4@5@@@@
+402@31@root@4@1@0@5@@(283)@@
+283@31@subj-head@3@1@0@5@@(96 203)@@
+96@31@head-spec@3@1@0@2@@(6 7)@@
+6@31@chó@1@1@0@1@@(1)@@
+7@31@nay@1@1@1@2@@(2)@@
+203@31@head-comp@3@1@2@5@@(8 116)@@
+8@31@đuổi@1@1@2@3@@(3)@@
+116@31@head-spec@3@1@3@5@@(9 10)@@
+9@31@mèo@1@1@3@4@@(4)@@
+10@31@kia@1@1@4@5@@(5)@@
+1@31@token [ +FROM "0" +TO "3" +FORM "Chó" ]@0@0@0@1@@@@
+2@31@token [ +FROM "4" +TO "7" +FORM "này" ]@0@0@1@2@@@@
+3@31@token [ +FROM "13" +TO "17" +FORM "đuổi" ]@0@0@2@3@@@@
+4@31@token [ +FROM "19" +TO "22" +FORM "mèo" ]@0@0@3@4@@@@
+5@31@token [ +FROM "23" +TO "26" +FORM "kia" ]@0@0@4@5@@@@
+1297@32@root@4@1@0@7@@(659)@@
+659@32@subj-head@3@1@0@7@@(297 441)@@
+297@32@head-spec@3@1@0@3@@(130 10)@@
+130@32@classifier-head-phrase@3@1@0@2@@(8 9)@@
+8@32@con@1@1@0@1@@(1)@@
+9@32@chó@1@1@1@2@@(2)@@
+10@32@nay@1@1@2@3@@(3)@@
+441@32@head-comp@3@1@3@7@@(11 252)@@
+11@32@đuổi@1@1@3@4@@(4)@@
+252@32@head-spec@3@1@4@7@@(153 14)@@
+153@32@classifier-head-phrase@3@1@4@6@@(12 13)@@
+12@32@con@1@1@4@5@@(5)@@
+13@32@mèo@1@1@5@6@@(6)@@
+14@32@kia@1@1@6@7@@(7)@@
+1@32@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@32@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@32@token [ +FROM "16" +TO "19" +FORM "này" ]@0@0@2@3@@@@
+4@32@token [ +FROM "25" +TO "29" +FORM "đuổi" ]@0@0@3@4@@@@
+5@32@token [ +FROM "31" +TO "34" +FORM "con" ]@0@0@4@5@@@@
+6@32@token [ +FROM "43" +TO "46" +FORM "mèo" ]@0@0@5@6@@@@
+7@32@token [ +FROM "47" +TO "50" +FORM "kia" ]@0@0@6@7@@@@
+399@33@root@4@1@0@5@@(348)@@
+348@33@subj-head@3@1@0@5@@(66 272)@@
+66@33@bare-np@3@1@0@1@@(6)@@
+6@33@tôi@1@1@0@1@@(1)@@
+272@33@head-comp@3@1@1@5@@(7 198)@@
+7@33@yêu@1@1@1@2@@(2)@@
+198@33@head-spec@3@1@2@5@@(105 10)@@
+105@33@classifier-head-phrase@3@1@2@4@@(8 9)@@
+8@33@con@1@1@2@3@@(3)@@
+9@33@mèo@1@1@3@4@@(4)@@
+10@33@nay@1@1@4@5@@(5)@@
+1@33@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@33@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@33@token [ +FROM "9" +TO "12" +FORM "con" ]@0@0@2@3@@@@
+4@33@token [ +FROM "21" +TO "24" +FORM "mèo" ]@0@0@3@4@@@@
+5@33@token [ +FROM "25" +TO "28" +FORM "này" ]@0@0@4@5@@@@
+248@34@root@4@1@0@4@@(216)@@
+216@34@subj-head@3@1@0@4@@(52 174)@@
+52@34@bare-np@3@1@0@1@@(5)@@
+5@34@tôi@1@1@0@1@@(1)@@
+174@34@head-comp@3@1@1@4@@(6 91)@@
+6@34@yêu@1@1@1@2@@(2)@@
+91@34@head-spec@3@1@2@4@@(7 8)@@
+7@34@mèo@1@1@2@3@@(3)@@
+8@34@nay@1@1@3@4@@(4)@@
+1@34@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@34@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@34@token [ +FROM "9" +TO "12" +FORM "mèo" ]@0@0@2@3@@@@
+4@34@token [ +FROM "13" +TO "16" +FORM "này" ]@0@0@3@4@@@@
+115@35@root@4@1@0@3@@(111)@@
+111@35@subj-head@3@1@0@3@@(38 64)@@
+38@35@bare-np@3@1@0@1@@(4)@@
+4@35@tôi@1@1@0@1@@(1)@@
+64@35@head-comp@3@1@1@3@@(5 48)@@
+5@35@yêu@1@1@1@2@@(2)@@
+48@35@bare-np@3@1@2@3@@(6)@@
+6@35@mèo@1@1@2@3@@(3)@@
+1@35@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@35@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@35@token [ +FROM "9" +TO "12" +FORM "mèo" ]@0@0@2@3@@@@
+128@36@root@4@1@0@4@@(96)@@
+96@36@subj-head@3@1@0@4@@(51 70)@@
+51@36@bare-np@3@1@0@2@@(5)@@
+5@36@tôi@1@1@0@2@@(1)@@
+70@36@head-comp@3@1@2@4@@(6 61)@@
+6@36@yêu@1@1@2@3@@(2)@@
+61@36@bare-np@3@1@3@4@@(7)@@
+7@36@cô+ấy@1@1@3@4@@(3 4)@@
+1@36@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@36@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@36@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@36@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+1@37@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@37@token [ +FROM "4" +TO "6" +FORM "cô" ]@0@0@1@2@@@@
+3@37@token [ +FROM "7" +TO "9" +FORM "ấy" ]@0@0@2@3@@@@
+4@37@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@3@4@@@@
+1@38@token [ +FROM "0" +TO "3" +FORM "Yêu" ]@0@0@0@1@@@@
+2@38@token [ +FROM "5" +TO "8" +FORM "tôi" ]@0@0@1@2@@@@
+3@38@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@38@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+399@39@root@4@1@0@5@@(348)@@
+348@39@subj-head@3@1@0@5@@(66 272)@@
+66@39@bare-np@3@1@0@1@@(6)@@
+6@39@tôi@1@1@0@1@@(1)@@
+272@39@head-comp@3@1@1@5@@(7 198)@@
+7@39@thích@1@1@1@2@@(2)@@
+198@39@head-spec@3@1@2@5@@(105 10)@@
+105@39@classifier-head-phrase@3@1@2@4@@(8 9)@@
+8@39@cái@1@1@2@3@@(3)@@
+9@39@bút@1@1@3@4@@(4)@@
+10@39@nay@1@1@4@5@@(5)@@
+1@39@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@39@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@39@token [ +FROM "10" +TO "13" +FORM "cái" ]@0@0@2@3@@@@
+4@39@token [ +FROM "20" +TO "23" +FORM "bút" ]@0@0@3@4@@@@
+5@39@token [ +FROM "24" +TO "27" +FORM "này" ]@0@0@4@5@@@@
+399@40@root@4@1@0@5@@(348)@@
+348@40@subj-head@3@1@0@5@@(66 272)@@
+66@40@bare-np@3@1@0@1@@(6)@@
+6@40@tôi@1@1@0@1@@(1)@@
+272@40@head-comp@3@1@1@5@@(7 198)@@
+7@40@thích@1@1@1@2@@(2)@@
+198@40@head-spec@3@1@2@5@@(105 10)@@
+105@40@classifier-head-phrase@3@1@2@4@@(8 9)@@
+8@40@con@1@1@2@3@@(3)@@
+9@40@bút@1@1@3@4@@(4)@@
+10@40@nay@1@1@4@5@@(5)@@
+1@40@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@40@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@40@token [ +FROM "10" +TO "13" +FORM "con" ]@0@0@2@3@@@@
+4@40@token [ +FROM "22" +TO "25" +FORM "bút" ]@0@0@3@4@@@@
+5@40@token [ +FROM "26" +TO "29" +FORM "này" ]@0@0@4@5@@@@
+399@41@root@4@1@0@5@@(348)@@
+348@41@subj-head@3@1@0@5@@(66 272)@@
+66@41@bare-np@3@1@0@1@@(6)@@
+6@41@tôi@1@1@0@1@@(1)@@
+272@41@head-comp@3@1@1@5@@(7 198)@@
+7@41@thích@1@1@1@2@@(2)@@
+198@41@head-spec@3@1@2@5@@(105 10)@@
+105@41@classifier-head-phrase@3@1@2@4@@(8 9)@@
+8@41@con@1@1@2@3@@(3)@@
+9@41@mèo@1@1@3@4@@(4)@@
+10@41@nay@1@1@4@5@@(5)@@
+1@41@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@41@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@41@token [ +FROM "10" +TO "13" +FORM "con" ]@0@0@2@3@@@@
+4@41@token [ +FROM "22" +TO "25" +FORM "mèo" ]@0@0@3@4@@@@
+5@41@token [ +FROM "26" +TO "29" +FORM "này" ]@0@0@4@5@@@@
+399@42@root@4@1@0@5@@(348)@@
+348@42@subj-head@3@1@0@5@@(66 272)@@
+66@42@bare-np@3@1@0@1@@(6)@@
+6@42@tôi@1@1@0@1@@(1)@@
+272@42@head-comp@3@1@1@5@@(7 198)@@
+7@42@thích@1@1@1@2@@(2)@@
+198@42@head-spec@3@1@2@5@@(105 10)@@
+105@42@classifier-head-phrase@3@1@2@4@@(8 9)@@
+8@42@cái@1@1@2@3@@(3)@@
+9@42@mèo@1@1@3@4@@(4)@@
+10@42@nay@1@1@4@5@@(5)@@
+1@42@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@42@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@42@token [ +FROM "10" +TO "13" +FORM "cái" ]@0@0@2@3@@@@
+4@42@token [ +FROM "20" +TO "23" +FORM "mèo" ]@0@0@3@4@@@@
+5@42@token [ +FROM "24" +TO "27" +FORM "này" ]@0@0@4@5@@@@
+261@43@root@4@1@0@5@@(214)@@
+214@43@subj-head@3@1@0@5@@(65 137)@@
+65@43@bare-np@3@1@0@2@@(6)@@
+6@43@tôi@1@1@0@2@@(1)@@
+137@43@head-comp@3@1@2@5@@(7 97)@@
+7@43@thích@1@1@2@3@@(2)@@
+97@43@head-spec@3@1@3@5@@(8 9)@@
+8@43@hoc+sinh@1@1@3@4@@(3 4)@@
+9@43@nay@1@1@4@5@@(5)@@
+1@43@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@43@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@43@token [ +FROM "10" +TO "13" +FORM "học" ]@0@0@2@3@@@@
+4@43@token [ +FROM "14" +TO "18" +FORM "sinh" ]@0@0@3@4@@@@
+5@43@token [ +FROM "19" +TO "22" +FORM "này" ]@0@0@4@5@@@@
+289@44@root@4@1@0@5@@(235)@@
+235@44@subj-head@3@1@0@5@@(65 137)@@
+65@44@bare-np@3@1@0@2@@(6)@@
+6@44@tôi@1@1@0@2@@(1)@@
+137@44@classifier-head-phrase@3@1@2@5@@(7 94)@@
+7@44@khong@1@1@2@3@@(2)@@
+94@44@head-comp@3@1@3@5@@(8 80)@@
+8@44@yêu@1@1@3@4@@(3)@@
+80@44@bare-np@3@1@4@5@@(9)@@
+9@44@cô+ấy@1@1@4@5@@(4 5)@@
+290@44@root@4@1@0@5@@(230)@@
+230@44@subj-head@3@1@0@5@@(65 188)@@
+188@44@head-comp@3@1@2@5@@(84 80)@@
+84@44@classifier-head-phrase@3@1@2@4@@(7 8)@@
+1@44@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@44@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@44@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@44@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@44@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+560@45@root@4@1@0@6@@(455)@@
+455@45@subj-head@3@1@0@6@@(79 258)@@
+79@45@bare-np@3@1@0@2@@(7)@@
+7@45@tôi@1@1@0@2@@(1)@@
+258@45@classifier-head-phrase@3@1@2@6@@(8 227)@@
+8@45@khong@1@1@2@3@@(2)@@
+227@45@head-comp@3@1@3@6@@(106 99)@@
+106@45@classifier-head-phrase@3@1@3@5@@(9 10)@@
+9@45@khong@1@1@3@4@@(3)@@
+10@45@yêu@1@1@4@5@@(4)@@
+99@45@bare-np@3@1@5@6@@(11)@@
+11@45@cô+ấy@1@1@5@6@@(5 6)@@
+561@45@root@4@1@0@6@@(450)@@
+450@45@subj-head@3@1@0@6@@(79 342)@@
+342@45@head-comp@3@1@2@6@@(197 99)@@
+197@45@classifier-head-phrase@3@1@2@5@@(8 106)@@
+562@45@root@4@1@0@6@@(445)@@
+445@45@subj-head@3@1@0@6@@(79 402)@@
+402@45@classifier-head-phrase@3@1@2@6@@(8 167)@@
+167@45@classifier-head-phrase@3@1@3@6@@(9 116)@@
+116@45@head-comp@3@1@4@6@@(10 99)@@
+1@45@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@45@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@45@token [ +FROM "10" +TO "15" +FORM "không" ]@0@0@2@3@@@@
+4@45@token [ +FROM "16" +TO "19" +FORM "yêu" ]@0@0@3@4@@@@
+5@45@token [ +FROM "21" +TO "23" +FORM "cô" ]@0@0@4@5@@@@
+6@45@token [ +FROM "24" +TO "26" +FORM "ấy" ]@0@0@5@6@@@@
+1977@46@root@4@1@0@7@@(1509)@@
+1509@46@subj-head@3@1@0@7@@(93 498)@@
+93@46@bare-np@3@1@0@2@@(8)@@
+8@46@tôi@1@1@0@2@@(1)@@
+498@46@head-comp@3@1@2@7@@(123 314)@@
+123@46@classifier-head-phrase@3@1@2@4@@(9 10)@@
+9@46@khong@1@1@2@3@@(2)@@
+10@46@duoc@1@1@3@4@@(3)@@
+314@46@head-comp@3@1@4@7@@(136 119)@@
+136@46@classifier-head-phrase@3@1@4@6@@(11 12)@@
+11@46@khong@1@1@4@5@@(4)@@
+12@46@yêu@1@1@5@6@@(5)@@
+119@46@bare-np@3@1@6@7@@(13)@@
+13@46@cô+ấy@1@1@6@7@@(6 7)@@
+1978@46@root@4@1@0@7@@(1505)@@
+1505@46@subj-head@3@1@0@7@@(93 703)@@
+703@46@head-comp@3@1@2@7@@(123 245)@@
+245@46@classifier-head-phrase@3@1@4@7@@(11 146)@@
+146@46@head-comp@3@1@5@7@@(12 119)@@
+1979@46@root@4@1@0@7@@(1485)@@
+1485@46@subj-head@3@1@0@7@@(93 928)@@
+928@46@classifier-head-phrase@3@1@2@7@@(9 704)@@
+704@46@head-comp@3@1@3@7@@(10 245)@@
+1980@46@root@4@1@0@7@@(1480)@@
+1480@46@subj-head@3@1@0@7@@(93 1116)@@
+1116@46@classifier-head-phrase@3@1@2@7@@(9 499)@@
+499@46@head-comp@3@1@3@7@@(10 314)@@
+1@46@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@46@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@46@token [ +FROM "10" +TO "14" +FORM "được" ]@0@0@2@3@@@@
+4@46@token [ +FROM "18" +TO "23" +FORM "không" ]@0@0@3@4@@@@
+5@46@token [ +FROM "24" +TO "27" +FORM "yêu" ]@0@0@4@5@@@@
+6@46@token [ +FROM "29" +TO "31" +FORM "cô" ]@0@0@5@6@@@@
+7@46@token [ +FROM "32" +TO "34" +FORM "ấy" ]@0@0@6@7@@@@
+1@47@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@47@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@47@token [ +FROM "9" +TO "14" +FORM "không" ]@0@0@2@3@@@@
+4@47@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@47@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+1@48@token [ +FROM "0" +TO "5" +FORM "Không" ]@0@0@0@1@@@@
+2@48@token [ +FROM "6" +TO "8" +FORM "ai" ]@0@0@1@2@@@@
+3@48@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@48@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@48@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+1@49@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@49@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@49@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@49@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@49@token [ +FROM "15" +TO "20" +FORM "không" ]@0@0@4@5@@@@
+1@50@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@50@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@50@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@50@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@50@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@50@token [ +FROM "21" +TO "26" +FORM "không" ]@0@0@5@6@@@@
+1@51@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@51@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@51@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@51@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@51@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@51@token [ +FROM "21" +TO "25" +FORM "đúng" ]@0@0@5@6@@@@
+7@51@token [ +FROM "29" +TO "34" +FORM "không" ]@0@0@6@7@@@@
+1@52@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@52@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@52@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@52@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@52@token [ +FROM "15" +TO "19" +FORM "đúng" ]@0@0@4@5@@@@
+6@52@token [ +FROM "23" +TO "28" +FORM "không" ]@0@0@5@6@@@@
+1@53@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@53@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@53@token [ +FROM "8" +TO "12" +FORM "bánh" ]@0@0@2@3@@@@
+4@53@token [ +FROM "13" +TO "16" +FORM "rán" ]@0@0@3@4@@@@
+5@53@token [ +FROM "19" +TO "24" +FORM "không" ]@0@0@4@5@@@@
+1@54@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@54@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@54@token [ +FROM "8" +TO "12" +FORM "bánh" ]@0@0@2@3@@@@
+4@54@token [ +FROM "13" +TO "16" +FORM "rán" ]@0@0@3@4@@@@
+5@54@token [ +FROM "19" +TO "23" +FORM "đúng" ]@0@0@4@5@@@@
+6@54@token [ +FROM "27" +TO "32" +FORM "không" ]@0@0@5@6@@@@
+1@55@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@55@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@55@token [ +FROM "10" +TO "12" +FORM "ăn" ]@0@0@2@3@@@@
+4@55@token [ +FROM "14" +TO "18" +FORM "bánh" ]@0@0@3@4@@@@
+5@55@token [ +FROM "19" +TO "22" +FORM "rán" ]@0@0@4@5@@@@
+6@55@token [ +FROM "25" +TO "30" +FORM "không" ]@0@0@5@6@@@@
+1@56@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@56@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@56@token [ +FROM "10" +TO "12" +FORM "ăn" ]@0@0@2@3@@@@
+4@56@token [ +FROM "14" +TO "18" +FORM "bánh" ]@0@0@3@4@@@@
+5@56@token [ +FROM "19" +TO "22" +FORM "rán" ]@0@0@4@5@@@@
+6@56@token [ +FROM "25" +TO "29" +FORM "đúng" ]@0@0@5@6@@@@
+7@56@token [ +FROM "33" +TO "38" +FORM "không" ]@0@0@6@7@@@@
+1@57@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@57@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@57@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@57@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@57@token [ +FROM "15" +TO "17" +FORM "hả" ]@0@0@4@5@@@@
+1@58@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@58@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@58@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@58@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@58@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@58@token [ +FROM "21" +TO "23" +FORM "hả" ]@0@0@5@6@@@@
+1@59@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@59@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@59@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@59@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@59@token [ +FROM "15" +TO "20" +FORM "không" ]@0@0@4@5@@@@
+6@59@token [ +FROM "21" +TO "23" +FORM "hả" ]@0@0@5@6@@@@
+1@60@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@60@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@60@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@60@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@60@token [ +FROM "15" +TO "17" +FORM "hả" ]@0@0@4@5@@@@
+6@60@token [ +FROM "18" +TO "23" +FORM "không" ]@0@0@5@6@@@@
+1@61@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@61@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@61@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@61@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@61@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@61@token [ +FROM "21" +TO "26" +FORM "không" ]@0@0@5@6@@@@
+7@61@token [ +FROM "27" +TO "29" +FORM "hả" ]@0@0@6@7@@@@
+1@62@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@62@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@62@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@62@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@62@token [ +FROM "15" +TO "16" +FORM "à" ]@0@0@4@5@@@@
+1@63@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@63@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@63@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@63@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@63@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@63@token [ +FROM "21" +TO "22" +FORM "à" ]@0@0@5@6@@@@
+1@64@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@64@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@64@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@64@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@64@token [ +FROM "15" +TO "20" +FORM "không" ]@0@0@4@5@@@@
+6@64@token [ +FROM "21" +TO "22" +FORM "à" ]@0@0@5@6@@@@
+1@65@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@65@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@65@token [ +FROM "9" +TO "14" +FORM "không" ]@0@0@2@3@@@@
+4@65@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@65@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@65@token [ +FROM "21" +TO "22" +FORM "à" ]@0@0@5@6@@@@
+1@66@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@66@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@66@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@66@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@66@token [ +FROM "15" +TO "16" +FORM "á" ]@0@0@4@5@@@@
+1@67@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@67@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@67@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@67@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@67@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@67@token [ +FROM "21" +TO "22" +FORM "á" ]@0@0@5@6@@@@
+1@68@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@68@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@68@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@68@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@68@token [ +FROM "15" +TO "20" +FORM "không" ]@0@0@4@5@@@@
+6@68@token [ +FROM "21" +TO "22" +FORM "á" ]@0@0@5@6@@@@
+1@69@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@69@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@69@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@69@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@69@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@69@token [ +FROM "21" +TO "26" +FORM "không" ]@0@0@5@6@@@@
+7@69@token [ +FROM "27" +TO "28" +FORM "á" ]@0@0@6@7@@@@
+1@70@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@70@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@70@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@70@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@70@token [ +FROM "15" +TO "18" +FORM "chứ" ]@0@0@4@5@@@@
+1@71@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@71@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@71@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@71@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@71@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@71@token [ +FROM "21" +TO "24" +FORM "chứ" ]@0@0@5@6@@@@
+1@72@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@72@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@72@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@72@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@72@token [ +FROM "15" +TO "20" +FORM "không" ]@0@0@4@5@@@@
+6@72@token [ +FROM "21" +TO "24" +FORM "chứ" ]@0@0@5@6@@@@
+1@73@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@73@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@73@token [ +FROM "10" +TO "13" +FORM "yêu" ]@0@0@2@3@@@@
+4@73@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@73@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@73@token [ +FROM "21" +TO "26" +FORM "không" ]@0@0@5@6@@@@
+7@73@token [ +FROM "27" +TO "30" +FORM "chứ" ]@0@0@6@7@@@@
+1@74@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@74@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@74@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@74@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@74@token [ +FROM "15" +TO "18" +FORM "chứ" ]@0@0@4@5@@@@
+6@74@token [ +FROM "19" +TO "21" +FORM "hả" ]@0@0@5@6@@@@
+1@75@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@75@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@75@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@75@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@75@token [ +FROM "15" +TO "18" +FORM "chứ" ]@0@0@4@5@@@@
+6@75@token [ +FROM "19" +TO "20" +FORM "à" ]@0@0@5@6@@@@
+1@76@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@76@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@76@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@76@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@76@token [ +FROM "15" +TO "18" +FORM "chứ" ]@0@0@4@5@@@@
+6@76@token [ +FROM "19" +TO "20" +FORM "á" ]@0@0@5@6@@@@
+1@77@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@77@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@77@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@77@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@77@token [ +FROM "15" +TO "18" +FORM "chứ" ]@0@0@4@5@@@@
+6@77@token [ +FROM "19" +TO "22" +FORM "chứ" ]@0@0@5@6@@@@
+1@78@token [ +FROM "0" +TO "3" +FORM "Bạn" ]@0@0@0@1@@@@
+2@78@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@78@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@78@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@78@token [ +FROM "15" +TO "17" +FORM "hả" ]@0@0@4@5@@@@
+6@78@token [ +FROM "18" +TO "21" +FORM "chứ" ]@0@0@5@6@@@@
+1@79@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@79@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@79@token [ +FROM "10" +TO "12" +FORM "cô" ]@0@0@2@3@@@@
+4@79@token [ +FROM "13" +TO "15" +FORM "ấy" ]@0@0@3@4@@@@
+5@79@token [ +FROM "16" +TO "19" +FORM "yêu" ]@0@0@4@5@@@@
+6@79@token [ +FROM "21" +TO "24" +FORM "anh" ]@0@0@5@6@@@@
+7@79@token [ +FROM "25" +TO "27" +FORM "ấy" ]@0@0@6@7@@@@
+1@80@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@80@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@80@token [ +FROM "10" +TO "12" +FORM "là" ]@0@0@2@3@@@@
+4@80@token [ +FROM "14" +TO "16" +FORM "cô" ]@0@0@3@4@@@@
+5@80@token [ +FROM "17" +TO "19" +FORM "ấy" ]@0@0@4@5@@@@
+6@80@token [ +FROM "20" +TO "23" +FORM "yêu" ]@0@0@5@6@@@@
+7@80@token [ +FROM "25" +TO "28" +FORM "anh" ]@0@0@6@7@@@@
+8@80@token [ +FROM "29" +TO "31" +FORM "ấy" ]@0@0@7@8@@@@
+1@81@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@81@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@81@token [ +FROM "10" +TO "14" +FORM "rằng" ]@0@0@2@3@@@@
+4@81@token [ +FROM "15" +TO "17" +FORM "cô" ]@0@0@3@4@@@@
+5@81@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@81@token [ +FROM "21" +TO "24" +FORM "yêu" ]@0@0@5@6@@@@
+7@81@token [ +FROM "26" +TO "29" +FORM "anh" ]@0@0@6@7@@@@
+8@81@token [ +FROM "30" +TO "32" +FORM "ấy" ]@0@0@7@8@@@@
+1@82@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@82@token [ +FROM "4" +TO "6" +FORM "là" ]@0@0@1@2@@@@
+3@82@token [ +FROM "8" +TO "10" +FORM "cô" ]@0@0@2@3@@@@
+4@82@token [ +FROM "11" +TO "13" +FORM "ấy" ]@0@0@3@4@@@@
+5@82@token [ +FROM "14" +TO "17" +FORM "yêu" ]@0@0@4@5@@@@
+6@82@token [ +FROM "19" +TO "22" +FORM "anh" ]@0@0@5@6@@@@
+7@82@token [ +FROM "23" +TO "25" +FORM "ấy" ]@0@0@6@7@@@@
+1@83@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@83@token [ +FROM "4" +TO "8" +FORM "rằng" ]@0@0@1@2@@@@
+3@83@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@83@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+5@83@token [ +FROM "15" +TO "18" +FORM "yêu" ]@0@0@4@5@@@@
+6@83@token [ +FROM "20" +TO "23" +FORM "anh" ]@0@0@5@6@@@@
+7@83@token [ +FROM "24" +TO "26" +FORM "ấy" ]@0@0@6@7@@@@
+1@84@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@84@token [ +FROM "4" +TO "6" +FORM "là" ]@0@0@1@2@@@@
+3@84@token [ +FROM "8" +TO "12" +FORM "rằng" ]@0@0@2@3@@@@
+4@84@token [ +FROM "13" +TO "15" +FORM "cô" ]@0@0@3@4@@@@
+5@84@token [ +FROM "16" +TO "18" +FORM "ấy" ]@0@0@4@5@@@@
+6@84@token [ +FROM "19" +TO "22" +FORM "yêu" ]@0@0@5@6@@@@
+7@84@token [ +FROM "24" +TO "27" +FORM "anh" ]@0@0@6@7@@@@
+8@84@token [ +FROM "28" +TO "30" +FORM "ấy" ]@0@0@7@8@@@@
+1@85@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@85@token [ +FROM "4" +TO "8" +FORM "rằng" ]@0@0@1@2@@@@
+3@85@token [ +FROM "9" +TO "11" +FORM "là" ]@0@0@2@3@@@@
+4@85@token [ +FROM "13" +TO "15" +FORM "cô" ]@0@0@3@4@@@@
+5@85@token [ +FROM "16" +TO "18" +FORM "ấy" ]@0@0@4@5@@@@
+6@85@token [ +FROM "19" +TO "22" +FORM "yêu" ]@0@0@5@6@@@@
+7@85@token [ +FROM "24" +TO "27" +FORM "anh" ]@0@0@6@7@@@@
+8@85@token [ +FROM "28" +TO "30" +FORM "ấy" ]@0@0@7@8@@@@
+1@86@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@86@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@86@token [ +FROM "10" +TO "14" +FORM "rằng" ]@0@0@2@3@@@@
+4@86@token [ +FROM "15" +TO "17" +FORM "là" ]@0@0@3@4@@@@
+5@86@token [ +FROM "19" +TO "21" +FORM "cô" ]@0@0@4@5@@@@
+6@86@token [ +FROM "22" +TO "24" +FORM "ấy" ]@0@0@5@6@@@@
+7@86@token [ +FROM "25" +TO "28" +FORM "yêu" ]@0@0@6@7@@@@
+8@86@token [ +FROM "30" +TO "33" +FORM "anh" ]@0@0@7@8@@@@
+9@86@token [ +FROM "34" +TO "36" +FORM "ấy" ]@0@0@8@9@@@@
+1@87@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@87@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@87@token [ +FROM "10" +TO "12" +FORM "là" ]@0@0@2@3@@@@
+4@87@token [ +FROM "14" +TO "18" +FORM "rằng" ]@0@0@3@4@@@@
+5@87@token [ +FROM "19" +TO "21" +FORM "cô" ]@0@0@4@5@@@@
+6@87@token [ +FROM "22" +TO "24" +FORM "ấy" ]@0@0@5@6@@@@
+7@87@token [ +FROM "25" +TO "28" +FORM "yêu" ]@0@0@6@7@@@@
+8@87@token [ +FROM "30" +TO "33" +FORM "anh" ]@0@0@7@8@@@@
+9@87@token [ +FROM "34" +TO "36" +FORM "ấy" ]@0@0@8@9@@@@
+1@88@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@88@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@88@token [ +FROM "10" +TO "14" +FORM "rằng" ]@0@0@2@3@@@@
+4@88@token [ +FROM "15" +TO "19" +FORM "rằng" ]@0@0@3@4@@@@
+5@88@token [ +FROM "20" +TO "22" +FORM "cô" ]@0@0@4@5@@@@
+6@88@token [ +FROM "23" +TO "25" +FORM "ấy" ]@0@0@5@6@@@@
+7@88@token [ +FROM "26" +TO "29" +FORM "yêu" ]@0@0@6@7@@@@
+8@88@token [ +FROM "30" +TO "33" +FORM "anh" ]@0@0@7@8@@@@
+9@88@token [ +FROM "34" +TO "36" +FORM "ấy" ]@0@0@8@9@@@@
+1@89@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@89@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@89@token [ +FROM "10" +TO "13" +FORM "anh" ]@0@0@2@3@@@@
+4@89@token [ +FROM "14" +TO "16" +FORM "ấy" ]@0@0@3@4@@@@
+5@89@token [ +FROM "17" +TO "21" +FORM "nghĩ" ]@0@0@4@5@@@@
+6@89@token [ +FROM "23" +TO "25" +FORM "cô" ]@0@0@5@6@@@@
+7@89@token [ +FROM "26" +TO "28" +FORM "ấy" ]@0@0@6@7@@@@
+8@89@token [ +FROM "29" +TO "32" +FORM "yêu" ]@0@0@7@8@@@@
+9@89@token [ +FROM "34" +TO "37" +FORM "anh" ]@0@0@8@9@@@@
+10@89@token [ +FROM "38" +TO "40" +FORM "ấy" ]@0@0@9@10@@@@
+1@90@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@90@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@90@token [ +FROM "10" +TO "12" +FORM "là" ]@0@0@2@3@@@@
+4@90@token [ +FROM "14" +TO "17" +FORM "anh" ]@0@0@3@4@@@@
+5@90@token [ +FROM "18" +TO "20" +FORM "ấy" ]@0@0@4@5@@@@
+6@90@token [ +FROM "21" +TO "25" +FORM "nghĩ" ]@0@0@5@6@@@@
+7@90@token [ +FROM "27" +TO "29" +FORM "là" ]@0@0@6@7@@@@
+8@90@token [ +FROM "31" +TO "33" +FORM "cô" ]@0@0@7@8@@@@
+9@90@token [ +FROM "34" +TO "36" +FORM "ấy" ]@0@0@8@9@@@@
+10@90@token [ +FROM "37" +TO "40" +FORM "yêu" ]@0@0@9@10@@@@
+11@90@token [ +FROM "42" +TO "45" +FORM "anh" ]@0@0@10@11@@@@
+12@90@token [ +FROM "46" +TO "48" +FORM "ấy" ]@0@0@11@12@@@@
+1@91@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@91@token [ +FROM "4" +TO "8" +FORM "nghĩ" ]@0@0@1@2@@@@
+3@91@token [ +FROM "10" +TO "14" +FORM "rằng" ]@0@0@2@3@@@@
+4@91@token [ +FROM "15" +TO "18" +FORM "anh" ]@0@0@3@4@@@@
+5@91@token [ +FROM "19" +TO "21" +FORM "ấy" ]@0@0@4@5@@@@
+6@91@token [ +FROM "22" +TO "26" +FORM "nghĩ" ]@0@0@5@6@@@@
+7@91@token [ +FROM "28" +TO "32" +FORM "rằng" ]@0@0@6@7@@@@
+8@91@token [ +FROM "33" +TO "35" +FORM "cô" ]@0@0@7@8@@@@
+9@91@token [ +FROM "36" +TO "38" +FORM "ấy" ]@0@0@8@9@@@@
+10@91@token [ +FROM "39" +TO "42" +FORM "yêu" ]@0@0@9@10@@@@
+11@91@token [ +FROM "44" +TO "47" +FORM "anh" ]@0@0@10@11@@@@
+12@91@token [ +FROM "48" +TO "50" +FORM "ấy" ]@0@0@11@12@@@@
+1@92@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@92@token [ +FROM "4" +TO "6" +FORM "là" ]@0@0@1@2@@@@
+3@92@token [ +FROM "8" +TO "11" +FORM "tôi" ]@0@0@2@3@@@@
+4@92@token [ +FROM "12" +TO "15" +FORM "yêu" ]@0@0@3@4@@@@
+5@92@token [ +FROM "17" +TO "19" +FORM "cô" ]@0@0@4@5@@@@
+6@92@token [ +FROM "20" +TO "22" +FORM "ấy" ]@0@0@5@6@@@@
+1@93@token [ +FROM "0" +TO "2" +FORM "Cô" ]@0@0@0@1@@@@
+2@93@token [ +FROM "3" +TO "5" +FORM "ấy" ]@0@0@1@2@@@@
+3@93@token [ +FROM "6" +TO "8" +FORM "là" ]@0@0@2@3@@@@
+4@93@token [ +FROM "10" +TO "12" +FORM "cô" ]@0@0@3@4@@@@
+5@93@token [ +FROM "13" +TO "15" +FORM "ấy" ]@0@0@4@5@@@@
+6@93@token [ +FROM "16" +TO "19" +FORM "yêu" ]@0@0@5@6@@@@
+7@93@token [ +FROM "21" +TO "24" +FORM "tôi" ]@0@0@6@7@@@@
+330@94@root@4@1@0@5@@(266)@@
+266@94@subj-head@3@1@0@5@@(66 175)@@
+66@94@bare-np@3@1@0@2@@(6)@@
+6@94@tôi@1@1@0@2@@(1)@@
+175@94@head-comp@3@1@2@5@@(7 102)@@
+7@94@duoc@1@1@2@3@@(2)@@
+102@94@head-comp@3@1@3@5@@(8 82)@@
+8@94@ăn@1@1@3@4@@(3)@@
+82@94@bare-np@3@1@4@5@@(9)@@
+9@94@bánh+rán@1@1@4@5@@(4 5)@@
+1@94@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@94@token [ +FROM "4" +TO "8" +FORM "được" ]@0@0@1@2@@@@
+3@94@token [ +FROM "15" +TO "17" +FORM "ăn" ]@0@0@2@3@@@@
+4@94@token [ +FROM "19" +TO "23" +FORM "bánh" ]@0@0@3@4@@@@
+5@94@token [ +FROM "24" +TO "27" +FORM "rán" ]@0@0@4@5@@@@
+841@95@root@4@1@0@6@@(672)@@
+672@95@subj-head@3@1@0@6@@(80 350)@@
+80@95@bare-np@3@1@0@2@@(7)@@
+7@95@tôi@1@1@0@2@@(1)@@
+350@95@head-comp@3@1@2@6@@(107 126)@@
+107@95@classifier-head-phrase@3@1@2@4@@(8 9)@@
+8@95@khong@1@1@2@3@@(2)@@
+9@95@duoc@1@1@3@4@@(3)@@
+126@95@head-comp@3@1@4@6@@(10 101)@@
+10@95@ăn@1@1@4@5@@(4)@@
+101@95@bare-np@3@1@5@6@@(11)@@
+11@95@bánh+rán@1@1@5@6@@(5 6)@@
+842@95@root@4@1@0@6@@(612)@@
+612@95@subj-head@3@1@0@6@@(80 538)@@
+538@95@classifier-head-phrase@3@1@2@6@@(8 234)@@
+234@95@head-comp@3@1@3@6@@(9 126)@@
+1@95@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@95@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@95@token [ +FROM "10" +TO "14" +FORM "được" ]@0@0@2@3@@@@
+4@95@token [ +FROM "21" +TO "23" +FORM "ăn" ]@0@0@3@4@@@@
+5@95@token [ +FROM "25" +TO "29" +FORM "bánh" ]@0@0@4@5@@@@
+6@95@token [ +FROM "30" +TO "33" +FORM "rán" ]@0@0@5@6@@@@
+35532@96@root@4@1@0@11@@(29420)@@
+29420@96@subj-head@3@1@0@11@@(150 11781)@@
+150@96@bare-np@3@1@0@2@@(12)@@
+12@96@tôi@1@1@0@2@@(1)@@
+11781@96@head-comp@3@1@2@11@@(199 8058)@@
+199@96@classifier-head-phrase@3@1@2@4@@(13 14)@@
+13@96@khong@1@1@2@3@@(2)@@
+14@96@duoc@1@1@3@4@@(3)@@
+8058@96@head-comp@3@1@4@11@@(15 2851)@@
+15@96@yêu@1@1@4@5@@(4)@@
+2851@96@head-spec@3@1@5@11@@(1962 21)@@
+1962@96@head-adj-int@3@1@5@10@@(781 20)@@
+781@96@head-adj-int@3@1@5@9@@(418 19)@@
+418@96@head-adj-int@3@1@5@8@@(221 18)@@
+221@96@classifier-head-phrase@3@1@5@7@@(16 17)@@
+16@96@con@1@1@5@6@@(5)@@
+17@96@chó@1@1@6@7@@(6)@@
+18@96@to@1@1@7@8@@(7)@@
+19@96@béo@1@1@8@9@@(8)@@
+20@96@thông+minh@1@1@9@10@@(9 10)@@
+21@96@đó@1@1@10@11@@(11)@@
+35533@96@root@4@1@0@11@@(29220)@@
+29220@96@subj-head@3@1@0@11@@(150 12439)@@
+12439@96@head-comp@3@1@2@11@@(199 7454)@@
+7454@96@head-comp@3@1@4@11@@(15 3342)@@
+3342@96@head-spec@3@1@5@11@@(1695 21)@@
+1695@96@head-adj-int@3@1@5@10@@(896 20)@@
+896@96@classifier-head-phrase@3@1@5@9@@(16 392)@@
+392@96@head-adj-int@3@1@6@9@@(225 19)@@
+225@96@head-adj-int@3@1@6@8@@(17 18)@@
+35534@96@root@4@1@0@11@@(29092)@@
+29092@96@subj-head@3@1@0@11@@(150 13268)@@
+13268@96@head-comp@3@1@2@11@@(199 6908)@@
+6908@96@head-comp@3@1@4@11@@(15 3567)@@
+3567@96@head-spec@3@1@5@11@@(1626 21)@@
+1626@96@classifier-head-phrase@3@1@5@10@@(16 915)@@
+915@96@head-adj-int@3@1@6@10@@(392 20)@@
+35535@96@root@4@1@0@11@@(28900)@@
+28900@96@subj-head@3@1@0@11@@(150 13873)@@
+13873@96@head-comp@3@1@2@11@@(199 6355)@@
+6355@96@head-comp@3@1@4@11@@(15 3918)@@
+3918@96@head-spec@3@1@5@11@@(1458 21)@@
+1458@96@head-adj-int@3@1@5@10@@(965 20)@@
+965@96@head-adj-int@3@1@5@9@@(375 19)@@
+375@96@classifier-head-phrase@3@1@5@8@@(16 225)@@
+35536@96@root@4@1@0@11@@(26660)@@
+26660@96@subj-head@3@1@0@11@@(150 19637)@@
+19637@96@classifier-head-phrase@3@1@2@11@@(13 13874)@@
+13874@96@head-comp@3@1@3@11@@(14 6355)@@
+35537@96@root@4@1@0@11@@(26655)@@
+26655@96@subj-head@3@1@0@11@@(150 19951)@@
+19951@96@classifier-head-phrase@3@1@2@11@@(13 13269)@@
+13269@96@head-comp@3@1@3@11@@(14 6908)@@
+35538@96@root@4@1@0@11@@(26650)@@
+26650@96@subj-head@3@1@0@11@@(150 20444)@@
+20444@96@classifier-head-phrase@3@1@2@11@@(13 12440)@@
+12440@96@head-comp@3@1@3@11@@(14 7454)@@
+35539@96@root@4@1@0@11@@(26645)@@
+26645@96@subj-head@3@1@0@11@@(150 20802)@@
+20802@96@classifier-head-phrase@3@1@2@11@@(13 11782)@@
+11782@96@head-comp@3@1@3@11@@(14 8058)@@
+1@96@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@96@token [ +FROM "4" +TO "9" +FORM "không" ]@0@0@1@2@@@@
+3@96@token [ +FROM "10" +TO "14" +FORM "được" ]@0@0@2@3@@@@
+4@96@token [ +FROM "21" +TO "24" +FORM "yêu" ]@0@0@3@4@@@@
+5@96@token [ +FROM "26" +TO "29" +FORM "con" ]@0@0@4@5@@@@
+6@96@token [ +FROM "38" +TO "41" +FORM "chó" ]@0@0@5@6@@@@
+7@96@token [ +FROM "42" +TO "44" +FORM "to" ]@0@0@6@7@@@@
+8@96@token [ +FROM "46" +TO "49" +FORM "béo" ]@0@0@7@8@@@@
+9@96@token [ +FROM "50" +TO "55" +FORM "thông" ]@0@0@8@9@@@@
+10@96@token [ +FROM "56" +TO "60" +FORM "minh" ]@0@0@9@10@@@@
+11@96@token [ +FROM "61" +TO "63" +FORM "đó" ]@0@0@10@11@@@@
+1@97@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@97@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@97@token [ +FROM "8" +TO "12" +FORM "được" ]@0@0@2@3@@@@
+4@97@token [ +FROM "16" +TO "20" +FORM "bánh" ]@0@0@3@4@@@@
+5@97@token [ +FROM "21" +TO "24" +FORM "rán" ]@0@0@4@5@@@@
+1@98@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@98@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@98@token [ +FROM "8" +TO "12" +FORM "bánh" ]@0@0@2@3@@@@
+4@98@token [ +FROM "13" +TO "16" +FORM "rán" ]@0@0@3@4@@@@
+5@98@token [ +FROM "19" +TO "23" +FORM "được" ]@0@0@4@5@@@@
+1@99@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@99@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@99@token [ +FROM "8" +TO "12" +FORM "được" ]@0@0@2@3@@@@
+4@99@token [ +FROM "16" +TO "20" +FORM "bánh" ]@0@0@3@4@@@@
+5@99@token [ +FROM "21" +TO "24" +FORM "rán" ]@0@0@4@5@@@@
+6@99@token [ +FROM "27" +TO "31" +FORM "được" ]@0@0@5@6@@@@
+1@100@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@100@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@100@token [ +FROM "8" +TO "12" +FORM "được" ]@0@0@2@3@@@@
+4@100@token [ +FROM "16" +TO "20" +FORM "bánh" ]@0@0@3@4@@@@
+5@100@token [ +FROM "21" +TO "24" +FORM "rán" ]@0@0@4@5@@@@
+6@100@token [ +FROM "27" +TO "31" +FORM "được" ]@0@0@5@6@@@@
+1@101@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@101@token [ +FROM "4" +TO "8" +FORM "được" ]@0@0@1@2@@@@
+3@101@token [ +FROM "15" +TO "17" +FORM "ăn" ]@0@0@2@3@@@@
+4@101@token [ +FROM "19" +TO "23" +FORM "bánh" ]@0@0@3@4@@@@
+5@101@token [ +FROM "24" +TO "27" +FORM "rán" ]@0@0@4@5@@@@
+6@101@token [ +FROM "30" +TO "34" +FORM "được" ]@0@0@5@6@@@@
+1@102@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@102@token [ +FROM "4" +TO "8" +FORM "được" ]@0@0@1@2@@@@
+3@102@token [ +FROM "15" +TO "17" +FORM "ăn" ]@0@0@2@3@@@@
+4@102@token [ +FROM "19" +TO "23" +FORM "được" ]@0@0@3@4@@@@
+5@102@token [ +FROM "27" +TO "31" +FORM "bánh" ]@0@0@4@5@@@@
+6@102@token [ +FROM "32" +TO "35" +FORM "rán" ]@0@0@5@6@@@@
+128@103@root@4@1@0@4@@(96)@@
+96@103@subj-head@3@1@0@4@@(51 70)@@
+51@103@bare-np@3@1@0@2@@(5)@@
+5@103@tôi@1@1@0@2@@(1)@@
+70@103@head-comp@3@1@2@4@@(6 61)@@
+6@103@yêu@1@1@2@3@@(2)@@
+61@103@bare-np@3@1@3@4@@(7)@@
+7@103@cô+ấy@1@1@3@4@@(3 4)@@
+1@103@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@103@token [ +FROM "4" +TO "7" +FORM "yêu" ]@0@0@1@2@@@@
+3@103@token [ +FROM "9" +TO "11" +FORM "cô" ]@0@0@2@3@@@@
+4@103@token [ +FROM "12" +TO "14" +FORM "ấy" ]@0@0@3@4@@@@
+1@104@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@104@token [ +FROM "4" +TO "8" +FORM "đang" ]@0@0@1@2@@@@
+3@104@token [ +FROM "9" +TO "12" +FORM "yêu" ]@0@0@2@3@@@@
+4@104@token [ +FROM "14" +TO "16" +FORM "cô" ]@0@0@3@4@@@@
+5@104@token [ +FROM "17" +TO "19" +FORM "ấy" ]@0@0@4@5@@@@
+1@105@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@105@token [ +FROM "4" +TO "6" +FORM "đã" ]@0@0@1@2@@@@
+3@105@token [ +FROM "8" +TO "11" +FORM "yêu" ]@0@0@2@3@@@@
+4@105@token [ +FROM "13" +TO "15" +FORM "cô" ]@0@0@3@4@@@@
+5@105@token [ +FROM "16" +TO "18" +FORM "ấy" ]@0@0@4@5@@@@
+1@106@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@106@token [ +FROM "4" +TO "8" +FORM "chưa" ]@0@0@1@2@@@@
+3@106@token [ +FROM "9" +TO "12" +FORM "yêu" ]@0@0@2@3@@@@
+4@106@token [ +FROM "14" +TO "16" +FORM "cô" ]@0@0@3@4@@@@
+5@106@token [ +FROM "17" +TO "19" +FORM "ấy" ]@0@0@4@5@@@@
+1@107@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@107@token [ +FROM "4" +TO "6" +FORM "đã" ]@0@0@1@2@@@@
+3@107@token [ +FROM "8" +TO "12" +FORM "chưa" ]@0@0@2@3@@@@
+4@107@token [ +FROM "13" +TO "16" +FORM "yêu" ]@0@0@3@4@@@@
+5@107@token [ +FROM "18" +TO "20" +FORM "cô" ]@0@0@4@5@@@@
+6@107@token [ +FROM "21" +TO "23" +FORM "ấy" ]@0@0@5@6@@@@
+1@108@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@108@token [ +FROM "4" +TO "6" +FORM "đã" ]@0@0@1@2@@@@
+3@108@token [ +FROM "8" +TO "12" +FORM "đang" ]@0@0@2@3@@@@
+4@108@token [ +FROM "13" +TO "16" +FORM "yêu" ]@0@0@3@4@@@@
+5@108@token [ +FROM "18" +TO "20" +FORM "cô" ]@0@0@4@5@@@@
+6@108@token [ +FROM "21" +TO "23" +FORM "ấy" ]@0@0@5@6@@@@
+1@109@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@109@token [ +FROM "4" +TO "6" +FORM "đã" ]@0@0@1@2@@@@
+3@109@token [ +FROM "8" +TO "12" +FORM "từng" ]@0@0@2@3@@@@
+4@109@token [ +FROM "16" +TO "19" +FORM "yêu" ]@0@0@3@4@@@@
+5@109@token [ +FROM "21" +TO "23" +FORM "cô" ]@0@0@4@5@@@@
+6@109@token [ +FROM "24" +TO "26" +FORM "ấy" ]@0@0@5@6@@@@
+1@110@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@110@token [ +FROM "4" +TO "7" +FORM "sắp" ]@0@0@1@2@@@@
+3@110@token [ +FROM "18" +TO "21" +FORM "yêu" ]@0@0@2@3@@@@
+4@110@token [ +FROM "23" +TO "25" +FORM "cô" ]@0@0@3@4@@@@
+5@110@token [ +FROM "26" +TO "28" +FORM "ấy" ]@0@0@4@5@@@@
+1@111@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@111@token [ +FROM "4" +TO "7" +FORM "sắp" ]@0@0@1@2@@@@
+3@111@token [ +FROM "18" +TO "20" +FORM "sẽ" ]@0@0@2@3@@@@
+4@111@token [ +FROM "31" +TO "34" +FORM "yêu" ]@0@0@3@4@@@@
+5@111@token [ +FROM "36" +TO "38" +FORM "cô" ]@0@0@4@5@@@@
+6@111@token [ +FROM "39" +TO "41" +FORM "ấy" ]@0@0@5@6@@@@
+1@112@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@112@token [ +FROM "4" +TO "6" +FORM "sẽ" ]@0@0@1@2@@@@
+3@112@token [ +FROM "17" +TO "20" +FORM "yêu" ]@0@0@2@3@@@@
+4@112@token [ +FROM "22" +TO "24" +FORM "cô" ]@0@0@3@4@@@@
+5@112@token [ +FROM "25" +TO "27" +FORM "ấy" ]@0@0@4@5@@@@
+1@113@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@113@token [ +FROM "4" +TO "7" +FORM "mãi" ]@0@0@1@2@@@@
+3@113@token [ +FROM "12" +TO "15" +FORM "yêu" ]@0@0@2@3@@@@
+4@113@token [ +FROM "17" +TO "19" +FORM "cô" ]@0@0@3@4@@@@
+5@113@token [ +FROM "20" +TO "22" +FORM "ấy" ]@0@0@4@5@@@@
+1@114@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@114@token [ +FROM "4" +TO "6" +FORM "sẽ" ]@0@0@1@2@@@@
+3@114@token [ +FROM "17" +TO "20" +FORM "mãi" ]@0@0@2@3@@@@
+4@114@token [ +FROM "25" +TO "28" +FORM "yêu" ]@0@0@3@4@@@@
+5@114@token [ +FROM "30" +TO "32" +FORM "cô" ]@0@0@4@5@@@@
+6@114@token [ +FROM "33" +TO "35" +FORM "ấy" ]@0@0@5@6@@@@
+1@115@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@115@token [ +FROM "4" +TO "6" +FORM "đã" ]@0@0@1@2@@@@
+3@115@token [ +FROM "8" +TO "11" +FORM "mãi" ]@0@0@2@3@@@@
+4@115@token [ +FROM "16" +TO "19" +FORM "yêu" ]@0@0@3@4@@@@
+5@115@token [ +FROM "21" +TO "23" +FORM "cô" ]@0@0@4@5@@@@
+6@115@token [ +FROM "24" +TO "26" +FORM "ấy" ]@0@0@5@6@@@@
+1@116@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@116@token [ +FROM "4" +TO "6" +FORM "đã" ]@0@0@1@2@@@@
+3@116@token [ +FROM "8" +TO "10" +FORM "và" ]@0@0@2@3@@@@
+4@116@token [ +FROM "12" +TO "14" +FORM "sẽ" ]@0@0@3@4@@@@
+5@116@token [ +FROM "25" +TO "28" +FORM "yêu" ]@0@0@4@5@@@@
+6@116@token [ +FROM "30" +TO "32" +FORM "cô" ]@0@0@5@6@@@@
+7@116@token [ +FROM "33" +TO "35" +FORM "ấy" ]@0@0@6@7@@@@
+1@117@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@117@token [ +FROM "4" +TO "6" +FORM "đã" ]@0@0@1@2@@@@
+3@117@token [ +FROM "8" +TO "12" +FORM "đang" ]@0@0@2@3@@@@
+4@117@token [ +FROM "17" +TO "19" +FORM "và" ]@0@0@3@4@@@@
+5@117@token [ +FROM "21" +TO "23" +FORM "sẽ" ]@0@0@4@5@@@@
+6@117@token [ +FROM "34" +TO "37" +FORM "yêu" ]@0@0@5@6@@@@
+7@117@token [ +FROM "39" +TO "41" +FORM "cô" ]@0@0@6@7@@@@
+8@117@token [ +FROM "42" +TO "44" +FORM "ấy" ]@0@0@7@8@@@@
+443@118@root@4@1@0@5@@(392)@@
+392@118@subj-head@3@1@0@5@@(67 304)@@
+67@118@bare-np@3@1@0@1@@(6)@@
+6@118@tôi@1@1@0@1@@(1)@@
+304@118@head-comp@3@1@1@5@@(7 210)@@
+7@118@thích@1@1@1@2@@(2)@@
+210@118@head-spec@3@1@2@5@@(108 10)@@
+108@118@classifier-head-phrase@3@1@2@4@@(8 9)@@
+8@118@con@1@1@2@3@@(3)@@
+9@118@chó@1@1@3@4@@(4)@@
+10@118@kia@1@1@4@5@@(5)@@
+1@118@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@118@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@118@token [ +FROM "10" +TO "13" +FORM "con" ]@0@0@2@3@@@@
+4@118@token [ +FROM "22" +TO "25" +FORM "chó" ]@0@0@3@4@@@@
+5@118@token [ +FROM "26" +TO "29" +FORM "kia" ]@0@0@4@5@@@@
+1@119@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@119@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@119@token [ +FROM "10" +TO "13" +FORM "một" ]@0@0@2@3@@@@
+4@119@token [ +FROM "14" +TO "17" +FORM "con" ]@0@0@3@4@@@@
+5@119@token [ +FROM "26" +TO "29" +FORM "chó" ]@0@0@4@5@@@@
+1@120@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@120@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@120@token [ +FROM "10" +TO "13" +FORM "một" ]@0@0@2@3@@@@
+4@120@token [ +FROM "14" +TO "17" +FORM "con" ]@0@0@3@4@@@@
+5@120@token [ +FROM "26" +TO "29" +FORM "chó" ]@0@0@4@5@@@@
+6@120@token [ +FROM "30" +TO "33" +FORM "kia" ]@0@0@5@6@@@@
+272@121@root@4@1@0@4@@(240)@@
+240@121@subj-head@3@1@0@4@@(53 194)@@
+53@121@bare-np@3@1@0@1@@(5)@@
+5@121@tôi@1@1@0@1@@(1)@@
+194@121@head-comp@3@1@1@4@@(6 94)@@
+6@121@thích@1@1@1@2@@(2)@@
+94@121@head-spec@3@1@2@4@@(7 8)@@
+7@121@chó@1@1@2@3@@(3)@@
+8@121@kia@1@1@3@4@@(4)@@
+1@121@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@121@token [ +FROM "4" +TO "9" +FORM "thích" ]@0@0@1@2@@@@
+3@121@token [ +FROM "10" +TO "13" +FORM "chó" ]@0@0@2@3@@@@
+4@121@token [ +FROM "14" +TO "17" +FORM "kia" ]@0@0@3@4@@@@
+195@122@root@4@1@0@4@@(184)@@
+184@122@subj-head@3@1@0@4@@(177 8)@@
+177@122@bare-np@3@1@0@3@@(105)@@
+105@122@classifier-head-phrase@3@1@0@3@@(5 73)@@
+5@122@con@1@1@0@1@@(1)@@
+73@122@head-adj-int@3@1@1@3@@(6 7)@@
+6@122@chó@1@1@1@2@@(2)@@
+7@122@to@1@1@2@3@@(3)@@
+8@122@sủa@1@1@3@4@@(4)@@
+196@122@root@4@1@0@4@@(160)@@
+160@122@subj-head@3@1@0@4@@(153 8)@@
+153@122@bare-np@3@1@0@3@@(143)@@
+143@122@head-adj-int@3@1@0@3@@(69 7)@@
+69@122@classifier-head-phrase@3@1@0@2@@(5 6)@@
+1@122@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@122@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@122@token [ +FROM "16" +TO "18" +FORM "to" ]@0@0@2@3@@@@
+4@122@token [ +FROM "20" +TO "23" +FORM "sủa" ]@0@0@3@4@@@@
+371@123@root@4@1@0@5@@(275)@@
+275@123@subj-head@3@1@0@5@@(267 104)@@
+267@123@bare-np@3@1@0@3@@(152)@@
+152@123@classifier-head-phrase@3@1@0@3@@(6 93)@@
+6@123@con@1@1@0@1@@(1)@@
+93@123@head-adj-int@3@1@1@3@@(7 8)@@
+7@123@chim@1@1@1@2@@(2)@@
+8@123@xanh@1@1@2@3@@(3)@@
+104@123@head-adj-int@3@1@3@5@@(9 11)@@
+9@123@bay@1@1@3@4@@(4)@@
+11@123@nhanh@1@1@4@5@@(5)@@
+372@123@root@4@1@0@5@@(225)@@
+225@123@subj-head@3@1@0@5@@(217 104)@@
+217@123@bare-np@3@1@0@3@@(205)@@
+205@123@head-adj-int@3@1@0@3@@(89 8)@@
+89@123@classifier-head-phrase@3@1@0@2@@(6 7)@@
+1@123@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@123@token [ +FROM "12" +TO "16" +FORM "chim" ]@0@0@1@2@@@@
+3@123@token [ +FROM "17" +TO "21" +FORM "xanh" ]@0@0@2@3@@@@
+4@123@token [ +FROM "23" +TO "26" +FORM "bay" ]@0@0@3@4@@@@
+5@123@token [ +FROM "28" +TO "33" +FORM "nhanh" ]@0@0@4@5@@@@
+1@124@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@124@token [ +FROM "12" +TO "16" +FORM "chim" ]@0@0@1@2@@@@
+3@124@token [ +FROM "17" +TO "21" +FORM "xanh" ]@0@0@2@3@@@@
+4@124@token [ +FROM "23" +TO "26" +FORM "bay" ]@0@0@3@4@@@@
+5@124@token [ +FROM "28" +TO "30" +FORM "to" ]@0@0@4@5@@@@
+87@125@root@4@1@0@3@@(80)@@
+80@125@subj-head@3@1@0@3@@(73 6)@@
+73@125@bare-np@3@1@0@2@@(50)@@
+50@125@head-adj-int@3@1@0@2@@(4 5)@@
+4@125@chó@1@1@0@1@@(1)@@
+5@125@to@1@1@1@2@@(2)@@
+6@125@sủa@1@1@2@3@@(3)@@
+1@125@token [ +FROM "0" +TO "3" +FORM "Chó" ]@0@0@0@1@@@@
+2@125@token [ +FROM "4" +TO "6" +FORM "to" ]@0@0@1@2@@@@
+3@125@token [ +FROM "8" +TO "11" +FORM "sủa" ]@0@0@2@3@@@@
+264@126@root@4@1@0@4@@(245)@@
+245@126@subj-head@3@1@0@4@@(238 9)@@
+238@126@bare-np@3@1@0@3@@(154)@@
+154@126@classifier-head-phrase@3@1@0@3@@(5 80)@@
+5@126@con@1@1@0@1@@(1)@@
+80@126@head-adj-int@3@1@1@3@@(6 7)@@
+6@126@chó@1@1@1@2@@(2)@@
+7@126@đỏ@1@1@2@3@@(3)@@
+9@126@sủa@1@1@3@4@@(4)@@
+265@126@root@4@1@0@4@@(217)@@
+217@126@subj-head@3@1@0@4@@(210 9)@@
+210@126@bare-np@3@1@0@3@@(194)@@
+194@126@head-adj-int@3@1@0@3@@(76 7)@@
+76@126@classifier-head-phrase@3@1@0@2@@(5 6)@@
+1@126@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@126@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@126@token [ +FROM "16" +TO "18" +FORM "đỏ" ]@0@0@2@3@@@@
+4@126@token [ +FROM "20" +TO "23" +FORM "sủa" ]@0@0@3@4@@@@
+480@127@root@4@1@0@5@@(455)@@
+455@127@subj-head@3@1@0@5@@(448 11)@@
+448@127@bare-np@3@1@0@4@@(250)@@
+250@127@head-adj-int@3@1@0@4@@(224 9)@@
+224@127@head-adj-int@3@1@0@3@@(94 8)@@
+94@127@classifier-head-phrase@3@1@0@2@@(6 7)@@
+6@127@con@1@1@0@1@@(1)@@
+7@127@chó@1@1@1@2@@(2)@@
+8@127@to@1@1@2@3@@(3)@@
+9@127@đỏ@1@1@3@4@@(4)@@
+11@127@sủa@1@1@4@5@@(5)@@
+481@127@root@4@1@0@5@@(426)@@
+426@127@subj-head@3@1@0@5@@(419 11)@@
+419@127@bare-np@3@1@0@4@@(270)@@
+270@127@classifier-head-phrase@3@1@0@4@@(6 192)@@
+192@127@head-adj-int@3@1@1@4@@(98 9)@@
+98@127@head-adj-int@3@1@1@3@@(7 8)@@
+482@127@root@4@1@0@5@@(392)@@
+392@127@subj-head@3@1@0@5@@(385 11)@@
+385@127@bare-np@3@1@0@4@@(321)@@
+321@127@head-adj-int@3@1@0@4@@(167 9)@@
+167@127@classifier-head-phrase@3@1@0@3@@(6 98)@@
+1@127@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@127@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@127@token [ +FROM "16" +TO "18" +FORM "to" ]@0@0@2@3@@@@
+4@127@token [ +FROM "20" +TO "22" +FORM "đỏ" ]@0@0@3@4@@@@
+5@127@token [ +FROM "24" +TO "27" +FORM "sủa" ]@0@0@4@5@@@@
+518@128@root@4@1@0@5@@(489)@@
+489@128@subj-head@3@1@0@5@@(482 11)@@
+482@128@bare-np@3@1@0@4@@(281)@@
+281@128@head-adj-int@3@1@0@4@@(249 10)@@
+249@128@head-adj-int@3@1@0@3@@(94 8)@@
+94@128@classifier-head-phrase@3@1@0@2@@(6 7)@@
+6@128@con@1@1@0@1@@(1)@@
+7@128@chó@1@1@1@2@@(2)@@
+8@128@đỏ@1@1@2@3@@(3)@@
+10@128@to@1@1@3@4@@(4)@@
+11@128@sủa@1@1@4@5@@(5)@@
+519@128@root@4@1@0@5@@(468)@@
+468@128@subj-head@3@1@0@5@@(461 11)@@
+461@128@bare-np@3@1@0@4@@(297)@@
+297@128@classifier-head-phrase@3@1@0@4@@(6 220)@@
+220@128@head-adj-int@3@1@1@4@@(98 10)@@
+98@128@head-adj-int@3@1@1@3@@(7 8)@@
+520@128@root@4@1@0@5@@(442)@@
+442@128@subj-head@3@1@0@5@@(435 11)@@
+435@128@bare-np@3@1@0@4@@(340)@@
+340@128@head-adj-int@3@1@0@4@@(202 10)@@
+202@128@classifier-head-phrase@3@1@0@3@@(6 98)@@
+1@128@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@128@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@128@token [ +FROM "16" +TO "18" +FORM "đỏ" ]@0@0@2@3@@@@
+4@128@token [ +FROM "20" +TO "22" +FORM "to" ]@0@0@3@4@@@@
+5@128@token [ +FROM "24" +TO "27" +FORM "sủa" ]@0@0@4@5@@@@
+1@129@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@129@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@129@token [ +FROM "16" +TO "18" +FORM "to" ]@0@0@2@3@@@@
+4@129@token [ +FROM "20" +TO "23" +FORM "màu" ]@0@0@3@4@@@@
+5@129@token [ +FROM "31" +TO "33" +FORM "đỏ" ]@0@0@4@5@@@@
+6@129@token [ +FROM "35" +TO "38" +FORM "sủa" ]@0@0@5@6@@@@
+1@130@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@130@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@130@token [ +FROM "16" +TO "18" +FORM "to" ]@0@0@2@3@@@@
+4@130@token [ +FROM "20" +TO "23" +FORM "béo" ]@0@0@3@4@@@@
+5@130@token [ +FROM "24" +TO "29" +FORM "thông" ]@0@0@4@5@@@@
+6@130@token [ +FROM "30" +TO "34" +FORM "minh" ]@0@0@5@6@@@@
+7@130@token [ +FROM "35" +TO "38" +FORM "màu" ]@0@0@6@7@@@@
+8@130@token [ +FROM "46" +TO "48" +FORM "đỏ" ]@0@0@7@8@@@@
+9@130@token [ +FROM "49" +TO "52" +FORM "sủa" ]@0@0@8@9@@@@
+1321@131@root@4@1@0@8@@(1252)@@
+1252@131@subj-head@3@1@0@8@@(1245 16)@@
+1245@131@bare-np@3@1@0@7@@(758)@@
+758@131@classifier-head-phrase@3@1@0@7@@(9 590)@@
+9@131@con@1@1@0@2@@(1)@@
+590@131@head-adj-int@3@1@2@7@@(340 15)@@
+340@131@head-adj-int@3@1@2@6@@(262 14)@@
+262@131@head-adj-int@3@1@2@5@@(143 13)@@
+143@131@head-adj-int@3@1@2@4@@(10 11)@@
+10@131@chó@1@1@2@3@@(2)@@
+11@131@đỏ@1@1@3@4@@(3)@@
+13@131@to@1@1@4@5@@(4)@@
+14@131@béo@1@1@5@6@@(5)@@
+15@131@thông+minh@1@1@6@7@@(6 7)@@
+16@131@sủa@1@1@7@8@@(8)@@
+1322@131@root@4@1@0@8@@(1187)@@
+1187@131@subj-head@3@1@0@8@@(1180 16)@@
+1180@131@bare-np@3@1@0@7@@(963)@@
+963@131@head-adj-int@3@1@0@7@@(919 15)@@
+919@131@head-adj-int@3@1@0@6@@(323 14)@@
+323@131@classifier-head-phrase@3@1@0@5@@(9 262)@@
+1323@131@root@4@1@0@8@@(1166)@@
+1166@131@subj-head@3@1@0@8@@(1159 16)@@
+1159@131@bare-np@3@1@0@7@@(987)@@
+987@131@head-adj-int@3@1@0@7@@(747 15)@@
+747@131@head-adj-int@3@1@0@6@@(623 14)@@
+623@131@head-adj-int@3@1@0@5@@(308 13)@@
+308@131@head-adj-int@3@1@0@4@@(268 11)@@
+268@131@classifier-head-phrase@3@1@0@3@@(9 10)@@
+1324@131@root@4@1@0@8@@(1145)@@
+1145@131@subj-head@3@1@0@8@@(1138 16)@@
+1138@131@bare-np@3@1@0@7@@(1010)@@
+1010@131@head-adj-int@3@1@0@7@@(722 15)@@
+722@131@head-adj-int@3@1@0@6@@(668 14)@@
+668@131@head-adj-int@3@1@0@5@@(269 13)@@
+269@131@classifier-head-phrase@3@1@0@4@@(9 143)@@
+1325@131@root@4@1@0@8@@(1124)@@
+1124@131@subj-head@3@1@0@8@@(1117 16)@@
+1117@131@bare-np@3@1@0@7@@(1049)@@
+1049@131@head-adj-int@3@1@0@7@@(572 15)@@
+572@131@classifier-head-phrase@3@1@0@6@@(9 340)@@
+1@131@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@131@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@131@token [ +FROM "16" +TO "18" +FORM "đỏ" ]@0@0@2@3@@@@
+4@131@token [ +FROM "20" +TO "22" +FORM "to" ]@0@0@3@4@@@@
+5@131@token [ +FROM "24" +TO "27" +FORM "béo" ]@0@0@4@5@@@@
+6@131@token [ +FROM "28" +TO "33" +FORM "thông" ]@0@0@5@6@@@@
+7@131@token [ +FROM "34" +TO "38" +FORM "minh" ]@0@0@6@7@@@@
+8@131@token [ +FROM "39" +TO "42" +FORM "sủa" ]@0@0@7@8@@@@
+1117@132@root@4@1@0@8@@(1044)@@
+1044@132@subj-head@3@1@0@8@@(1037 16)@@
+1037@132@bare-np@3@1@0@7@@(585)@@
+585@132@classifier-head-phrase@3@1@0@7@@(9 428)@@
+9@132@con@1@1@0@2@@(1)@@
+428@132@head-adj-int@3@1@2@7@@(295 14)@@
+295@132@head-adj-int@3@1@2@6@@(231 13)@@
+231@132@head-adj-int@3@1@2@5@@(143 12)@@
+143@132@head-adj-int@3@1@2@4@@(10 11)@@
+10@132@chó@1@1@2@3@@(2)@@
+11@132@to@1@1@3@4@@(3)@@
+12@132@béo@1@1@4@5@@(4)@@
+13@132@thông+minh@1@1@5@6@@(5 6)@@
+14@132@đỏ@1@1@6@7@@(7)@@
+16@132@sủa@1@1@7@8@@(8)@@
+1118@132@root@4@1@0@8@@(963)@@
+963@132@subj-head@3@1@0@8@@(956 16)@@
+956@132@bare-np@3@1@0@7@@(745)@@
+745@132@head-adj-int@3@1@0@7@@(713 14)@@
+713@132@head-adj-int@3@1@0@6@@(276 13)@@
+276@132@classifier-head-phrase@3@1@0@5@@(9 231)@@
+1119@132@root@4@1@0@8@@(934)@@
+934@132@subj-head@3@1@0@8@@(927 16)@@
+927@132@bare-np@3@1@0@7@@(773)@@
+773@132@head-adj-int@3@1@0@7@@(566 14)@@
+566@132@head-adj-int@3@1@0@6@@(466 13)@@
+466@132@head-adj-int@3@1@0@5@@(267 12)@@
+267@132@head-adj-int@3@1@0@4@@(237 11)@@
+237@132@classifier-head-phrase@3@1@0@3@@(9 10)@@
+1120@132@root@4@1@0@8@@(905)@@
+905@132@subj-head@3@1@0@8@@(898 16)@@
+898@132@bare-np@3@1@0@7@@(800)@@
+800@132@head-adj-int@3@1@0@7@@(537 14)@@
+537@132@head-adj-int@3@1@0@6@@(503 13)@@
+503@132@head-adj-int@3@1@0@5@@(238 12)@@
+238@132@classifier-head-phrase@3@1@0@4@@(9 143)@@
+1121@132@root@4@1@0@8@@(876)@@
+876@132@subj-head@3@1@0@8@@(869 16)@@
+869@132@bare-np@3@1@0@7@@(843)@@
+843@132@head-adj-int@3@1@0@7@@(403 14)@@
+403@132@classifier-head-phrase@3@1@0@6@@(9 295)@@
+1@132@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@132@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@132@token [ +FROM "16" +TO "18" +FORM "to" ]@0@0@2@3@@@@
+4@132@token [ +FROM "20" +TO "23" +FORM "béo" ]@0@0@3@4@@@@
+5@132@token [ +FROM "24" +TO "29" +FORM "thông" ]@0@0@4@5@@@@
+6@132@token [ +FROM "30" +TO "34" +FORM "minh" ]@0@0@5@6@@@@
+7@132@token [ +FROM "35" +TO "37" +FORM "đỏ" ]@0@0@6@7@@@@
+8@132@token [ +FROM "39" +TO "42" +FORM "sủa" ]@0@0@7@8@@@@
+122@133@root@4@1@0@3@@(118)@@
+118@133@subj-head@3@1@0@3@@(39 117)@@
+39@133@bare-np@3@1@0@1@@(4)@@
+4@133@tôi@1@1@0@1@@(1)@@
+117@133@basic-head-opt-comp@3@1@1@3@@(60)@@
+60@133@head-adj-int@3@1@1@3@@(5 7)@@
+5@133@ăn@1@1@1@2@@(2)@@
+7@133@nhanh@1@1@2@3@@(3)@@
+123@133@root@4@1@0@3@@(101)@@
+101@133@subj-head@3@1@0@3@@(39 77)@@
+77@133@head-adj-int@3@1@1@3@@(47 7)@@
+47@133@basic-head-opt-comp@3@1@1@2@@(5)@@
+1@133@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@133@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@133@token [ +FROM "8" +TO "13" +FORM "nhanh" ]@0@0@2@3@@@@
+107@134@root@4@1@0@3@@(100)@@
+100@134@subj-head@3@1@0@3@@(93 51)@@
+93@134@bare-np@3@1@0@2@@(55)@@
+55@134@head-adj-int@3@1@0@2@@(4 5)@@
+4@134@tôi@1@1@0@1@@(1)@@
+5@134@nhanh_adj@1@1@1@2@@(2)@@
+51@134@basic-head-opt-comp@3@1@2@3@@(7)@@
+7@134@ăn@1@1@2@3@@(3)@@
+1@134@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@134@token [ +FROM "4" +TO "9" +FORM "nhanh" ]@0@0@1@2@@@@
+3@134@token [ +FROM "10" +TO "12" +FORM "ăn" ]@0@0@2@3@@@@
+1@135@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@135@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@135@token [ +FROM "8" +TO "11" +FORM "một" ]@0@0@2@3@@@@
+4@135@token [ +FROM "12" +TO "15" +FORM "cái" ]@0@0@3@4@@@@
+5@135@token [ +FROM "22" +TO "26" +FORM "bánh" ]@0@0@4@5@@@@
+6@135@token [ +FROM "27" +TO "30" +FORM "rán" ]@0@0@5@6@@@@
+7@135@token [ +FROM "33" +TO "38" +FORM "nhanh" ]@0@0@6@7@@@@
+1@136@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@136@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@136@token [ +FROM "8" +TO "13" +FORM "nhanh" ]@0@0@2@3@@@@
+4@136@token [ +FROM "14" +TO "17" +FORM "một" ]@0@0@3@4@@@@
+5@136@token [ +FROM "18" +TO "21" +FORM "cái" ]@0@0@4@5@@@@
+6@136@token [ +FROM "28" +TO "32" +FORM "bánh" ]@0@0@5@6@@@@
+7@136@token [ +FROM "33" +TO "36" +FORM "rán" ]@0@0@6@7@@@@
+266@137@root@4@1@0@5@@(219)@@
+219@137@subj-head@3@1@0@5@@(65 156)@@
+65@137@bare-np@3@1@0@2@@(6)@@
+6@137@tôi@1@1@0@2@@(1)@@
+156@137@head-comp@3@1@2@5@@(7 155)@@
+7@137@la@1@1@2@3@@(2)@@
+155@137@bare-np@3@1@3@5@@(92)@@
+92@137@head-adj-int@3@1@3@5@@(8 9)@@
+8@137@người@1@1@3@4@@(3)@@
+9@137@thông+minh@1@1@4@5@@(4 5)@@
+1@137@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@137@token [ +FROM "4" +TO "6" +FORM "là" ]@0@0@1@2@@@@
+3@137@token [ +FROM "8" +TO "13" +FORM "người" ]@0@0@2@3@@@@
+4@137@token [ +FROM "14" +TO "19" +FORM "thông" ]@0@0@3@4@@@@
+5@137@token [ +FROM "20" +TO "24" +FORM "minh" ]@0@0@4@5@@@@
+1@138@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@138@token [ +FROM "4" +TO "6" +FORM "là" ]@0@0@1@2@@@@
+3@138@token [ +FROM "8" +TO "13" +FORM "thông" ]@0@0@2@3@@@@
+4@138@token [ +FROM "14" +TO "18" +FORM "minh" ]@0@0@3@4@@@@
+1@139@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@139@token [ +FROM "4" +TO "6" +FORM "là" ]@0@0@1@2@@@@
+3@139@token [ +FROM "8" +TO "13" +FORM "người" ]@0@0@2@3@@@@
+4@139@token [ +FROM "14" +TO "18" +FORM "trên" ]@0@0@3@4@@@@
+5@139@token [ +FROM "19" +TO "23" +FORM "trời" ]@0@0@4@5@@@@
+1@140@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@140@token [ +FROM "4" +TO "6" +FORM "là" ]@0@0@1@2@@@@
+3@140@token [ +FROM "8" +TO "12" +FORM "trên" ]@0@0@2@3@@@@
+4@140@token [ +FROM "13" +TO "17" +FORM "trời" ]@0@0@3@4@@@@
+1@141@token [ +FROM "0" +TO "5" +FORM "Chính" ]@0@0@0@1@@@@
+2@141@token [ +FROM "6" +TO "9" +FORM "con" ]@0@0@1@2@@@@
+3@141@token [ +FROM "18" +TO "21" +FORM "chó" ]@0@0@2@3@@@@
+4@141@token [ +FROM "22" +TO "24" +FORM "đó" ]@0@0@3@4@@@@
+5@141@token [ +FROM "31" +TO "34" +FORM "sủa" ]@0@0@4@5@@@@
+1@142@token [ +FROM "0" +TO "5" +FORM "Chính" ]@0@0@0@1@@@@
+2@142@token [ +FROM "6" +TO "9" +FORM "con" ]@0@0@1@2@@@@
+3@142@token [ +FROM "18" +TO "21" +FORM "chó" ]@0@0@2@3@@@@
+4@142@token [ +FROM "22" +TO "25" +FORM "sủa" ]@0@0@3@4@@@@
+1@143@token [ +FROM "0" +TO "5" +FORM "Chính" ]@0@0@0@1@@@@
+2@143@token [ +FROM "6" +TO "9" +FORM "cái" ]@0@0@1@2@@@@
+3@143@token [ +FROM "16" +TO "19" +FORM "con" ]@0@0@2@3@@@@
+4@143@token [ +FROM "28" +TO "31" +FORM "chó" ]@0@0@3@4@@@@
+5@143@token [ +FROM "32" +TO "34" +FORM "đó" ]@0@0@4@5@@@@
+6@143@token [ +FROM "41" +TO "44" +FORM "sủa" ]@0@0@5@6@@@@
+1@144@token [ +FROM "0" +TO "3" +FORM "Hôm" ]@0@0@0@1@@@@
+2@144@token [ +FROM "4" +TO "7" +FORM "qua" ]@0@0@1@2@@@@
+3@144@token [ +FROM "10" +TO "13" +FORM "tôi" ]@0@0@2@3@@@@
+4@144@token [ +FROM "14" +TO "16" +FORM "ăn" ]@0@0@3@4@@@@
+5@144@token [ +FROM "18" +TO "22" +FORM "bánh" ]@0@0@4@5@@@@
+6@144@token [ +FROM "23" +TO "26" +FORM "rán" ]@0@0@5@6@@@@
+1@145@token [ +FROM "0" +TO "3" +FORM "Tôi" ]@0@0@0@1@@@@
+2@145@token [ +FROM "4" +TO "6" +FORM "ăn" ]@0@0@1@2@@@@
+3@145@token [ +FROM "8" +TO "12" +FORM "bánh" ]@0@0@2@3@@@@
+4@145@token [ +FROM "13" +TO "16" +FORM "rán" ]@0@0@3@4@@@@
+5@145@token [ +FROM "19" +TO "22" +FORM "hôm" ]@0@0@4@5@@@@
+6@145@token [ +FROM "23" +TO "26" +FORM "qua" ]@0@0@5@6@@@@
+1@146@token [ +FROM "0" +TO "3" +FORM "Hôm" ]@0@0@0@1@@@@
+2@146@token [ +FROM "4" +TO "7" +FORM "nay" ]@0@0@1@2@@@@
+3@146@token [ +FROM "8" +TO "11" +FORM "con" ]@0@0@2@3@@@@
+4@146@token [ +FROM "20" +TO "23" +FORM "chó" ]@0@0@3@4@@@@
+5@146@token [ +FROM "24" +TO "27" +FORM "sủa" ]@0@0@4@5@@@@
+1@147@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@147@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@147@token [ +FROM "16" +TO "19" +FORM "sủa" ]@0@0@2@3@@@@
+4@147@token [ +FROM "21" +TO "24" +FORM "hôm" ]@0@0@3@4@@@@
+5@147@token [ +FROM "25" +TO "28" +FORM "nay" ]@0@0@4@5@@@@
+1@148@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@148@token [ +FROM "12" +TO "15" +FORM "chó" ]@0@0@1@2@@@@
+3@148@token [ +FROM "16" +TO "19" +FORM "hôm" ]@0@0@2@3@@@@
+4@148@token [ +FROM "20" +TO "23" +FORM "nay" ]@0@0@3@4@@@@
+5@148@token [ +FROM "24" +TO "27" +FORM "sủa" ]@0@0@4@5@@@@
+41@149@root@4@1@0@2@@(40)@@
+40@149@subj-head@3@1@0@2@@(24 4)@@
+24@149@bare-np@3@1@0@1@@(3)@@
+3@149@chim@1@1@0@1@@(1)@@
+4@149@bay@1@1@1@2@@(2)@@
+1@149@token [ +FROM "0" +TO "4" +FORM "Chim" ]@0@0@0@1@@@@
+2@149@token [ +FROM "5" +TO "8" +FORM "bay" ]@0@0@1@2@@@@
+92@150@root@4@1@0@3@@(85)@@
+85@150@subj-head@3@1@0@3@@(78 6)@@
+78@150@bare-np@3@1@0@2@@(51)@@
+51@150@classifier-head-phrase@3@1@0@2@@(4 5)@@
+4@150@con@1@1@0@1@@(1)@@
+5@150@chim@1@1@1@2@@(2)@@
+6@150@bay@1@1@2@3@@(3)@@
+1@150@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@150@token [ +FROM "12" +TO "16" +FORM "chim" ]@0@0@1@2@@@@
+3@150@token [ +FROM "17" +TO "20" +FORM "bay" ]@0@0@2@3@@@@
+194@151@root@4@1@0@4@@(157)@@
+157@151@subj-head@3@1@0@4@@(149 82)@@
+149@151@bare-np@3@1@0@2@@(71)@@
+71@151@classifier-head-phrase@3@1@0@2@@(5 6)@@
+5@151@con@1@1@0@1@@(1)@@
+6@151@chim@1@1@1@2@@(2)@@
+82@151@head-adj-int@3@1@2@4@@(7 9)@@
+7@151@bay@1@1@2@3@@(3)@@
+9@151@nhanh@1@1@3@4@@(4)@@
+1@151@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@151@token [ +FROM "12" +TO "16" +FORM "chim" ]@0@0@1@2@@@@
+3@151@token [ +FROM "17" +TO "20" +FORM "bay" ]@0@0@2@3@@@@
+4@151@token [ +FROM "21" +TO "26" +FORM "nhanh" ]@0@0@3@4@@@@
+457@152@root@4@1@0@5@@(317)@@
+317@152@subj-head@3@1@0@5@@(309 112)@@
+309@152@bare-np@3@1@0@3@@(184)@@
+184@152@classifier-head-phrase@3@1@0@3@@(6 98)@@
+6@152@con@1@1@0@1@@(1)@@
+98@152@head-adj-int@3@1@1@3@@(7 8)@@
+7@152@chim@1@1@1@2@@(2)@@
+8@152@nhanh_adj@1@1@2@3@@(3)@@
+112@152@head-adj-int@3@1@3@5@@(10 12)@@
+10@152@bay@1@1@3@4@@(4)@@
+12@152@nhanh@1@1@4@5@@(5)@@
+458@152@root@4@1@0@5@@(265)@@
+265@152@subj-head@3@1@0@5@@(257 112)@@
+257@152@bare-np@3@1@0@3@@(240)@@
+240@152@head-adj-int@3@1@0@3@@(94 8)@@
+94@152@classifier-head-phrase@3@1@0@2@@(6 7)@@
+1@152@token [ +FROM "0" +TO "3" +FORM "Con" ]@0@0@0@1@@@@
+2@152@token [ +FROM "12" +TO "16" +FORM "chim" ]@0@0@1@2@@@@
+3@152@token [ +FROM "17" +TO "22" +FORM "nhanh" ]@0@0@2@3@@@@
+4@152@token [ +FROM "23" +TO "26" +FORM "bay" ]@0@0@3@4@@@@
+5@152@token [ +FROM "27" +TO "32" +FORM "nhanh" ]@0@0@4@5@@@@
