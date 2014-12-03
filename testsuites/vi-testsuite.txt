@@ -1719,3 +1719,123 @@ CLF.animate dog fast  chase CLF.animate cat fat slow.
 # 'Chậm' (slow) should modify the cat and not the chasing event.
 #
 #------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adverb-adjective}
+Tôi hay   ăn.
+Tôi hay   ăn.
+I   often eat.
+`I eat often.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {adverb-adjective}
+Tôi ăn  hay.
+Tôi ăn  hay.
+I   often eat.
+`I eat often.'
+# In contrast with "thường xuyên", which can appear in both pre-verb slot or post-verb slot
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adverb-adjective}
+Tôi thường xuyên ngủ.
+Tôi thường+xuyên ngủ.
+I   often        sleep.
+`I sleep often.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adverb-adjective}
+Tôi ngủ   thường xuyên.
+Tôi ngủ   thường+xuyên.
+I   sleep often.
+`I sleep often.'
+# "thường xuyên" may appear in both pre- and post-verb slots.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {adverb-adjective}
+Tôi ăn   thường xuyên bánh.
+Tôi ăn   thường+xuyên bánh.
+I   eat  often        cake.
+`I often eat cake.'
+# "thường xuyên" may appear in both pre- and post-verb slots.
+# However, it should not appear between the verb and the direct object.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adverb}
+Tôi ăn  nhanh.
+Tôi ăn  nhanh.
+I   eat fast.
+`I eat fast.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {adverb}
+Tôi nhanh ăn.
+Tôi nhanh ăn.
+I   fast  eat.
+`I eat fast.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adverb}
+Tôi rất  hay   ăn  bánh.
+Tôi rất  hay   ăn  bánh.
+I   very often eat cake.
+`I eat cakes very often.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  u
+Phenomena: {adverb}
+Tôi hay   rất  ăn  bánh.
+Tôi hay   rất  ăn  bánh.
+I   often very eat cake.
+`I eat cakes very often.'
+#
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adverb}
+Tôi hay   thỉnh thoảng ăn  bánh.
+Tôi hay   thỉnh+thoảng ăn  bánh.
+I   very often sometimes    eat cake.
+`I very often be in the state of eat a cake from time to time.'
+# This sentence can be translated loosely as "I have the habit of eating a cake from time to time."
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adverb}
+Tôi rất  hay   thỉnh thoảng ăn bánh.
+Tôi rất  hay   thỉnh+thoảng ăn  bánh.
+I   very often sometimes    eat cake.
+`I often be in the state of eat cakes from time to time.'
+# This sentence can be translated loosely as "I have the habit of eating a cake from time to time."
+#
+#------------------------------------------------------------------------------

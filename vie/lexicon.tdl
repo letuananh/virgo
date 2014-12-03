@@ -50,6 +50,22 @@ bánh+ngọt := noncls-common-noun-lex &
            "ngọt" >,
     SYNSEM.LKEYS.KEYREL.PRED "_banh+ngot_n_rel" ].
 
+máy+tính := noncls-common-noun-lex &
+  [ STEM < "máy",
+           "tính" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_may+tinh_n_rel" ].
+
+máy+vi+tính := noncls-common-noun-lex &
+  [ STEM < "máy",
+	   "vi",
+           "tính" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_may+vi+tinh_n_rel" ].
+
+bài+hát := noncls-common-noun-lex &
+  [ STEM < "bài",
+           "hát" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_bai+hat_n_rel" ].
+
 ;the colour red
 đỏ_noun := noncls-common-noun-lex &
   [ STEM < "đỏ" >,  
@@ -99,7 +115,7 @@ xanh := adjective-lex &
   [ STEM < "đỏ" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_đo_a_rel" ].
 
-to := adjective-lex &
+to_adj := adjective-lex &
   [ STEM < "to" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_to_a_rel" ].
 
@@ -131,6 +147,10 @@ ngọt_adj := adjective-lex &
   [ STEM < "ngọt" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_ngọt_a_rel" ].
 
+hay_adj := adjective-lex &
+  [ STEM < "hay" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_hay_a_rel" ].
+
 ;;; Verbs
 bay := intr-verb-lex &
   [ STEM < "bay" >,
@@ -144,8 +164,6 @@ ngủ := intr-verb-lex &
   [ STEM < "ngủ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ngu_v_rel" ].
 
-
-
 sủa := intr-verb-lex &
   [ STEM < "sủa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sua_v_rel" ].
@@ -158,9 +176,17 @@ kêu := intr-verb-lex &
   [ STEM < "ăn" >,
     SYNSEM.LKEYS.KEYREL.PRED "_an_v_rel" ].
 
+ăn_intrverb := intr-verb-lex &
+  [ STEM < "ăn" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_an_v_t_rel" ].
+
 yêu := tr-verb-lex &
   [ STEM < "yêu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_yeu_v_rel" ].
+
+ghét := tr-verb-lex &
+  [ STEM < "ghét" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_ghet_v_rel" ].
 
 đuổi := tr-verb-lex &
   [ STEM < "đuổi" >,
@@ -178,6 +204,15 @@ thích := tr-verb-lex &
   [ STEM < "thích" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thich_v_rel" ].
 
+hát_trverb := tr-verb-lex &
+  [ STEM < "hát" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hat_v_rel" ].
+
+hát_intr-verb := intr-verb-lex &
+  [ STEM < "hát" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_hat_v_rel" ].
+
+
 duoc := possible-verb-lex &
         [ STEM < "được" >,
          SYNSEM.LKEYS.KEYREL.PRED "_duoc_v_rel" ].
@@ -193,9 +228,37 @@ nhanh+nhanh := s-adverb-lex &
   [ STEM < "nhanh", "nhanh" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_nhanh+nhanh_a_rel" ].
 
-nhanh := vp-adverb-lex &
+nhanh_adv := vp-adverb-lex &
   [ STEM < "nhanh" >,  
     SYNSEM.LKEYS.KEYREL.PRED "_nhanh_a_rel" ].
+
+hay_adv := vp-adverb-lex &
+  [ STEM < "hay" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_hay_a_rel" ].
+
+hay_adv_freq := vp-adverb-lex-pre &
+  [ STEM < "hay" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_hay_a_freq_rel" ].
+
+thường+xuyên_adv_freq := adverb-lex &
+  [ STEM < "thường", "xuyên" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_thuong+xuyen_a_rel" ].
+
+thỉnh+thoảng_adv_freq := vp-adverb-lex-pre &
+  [ STEM < "thỉnh", "thoảng" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_thinh+thoang_a_rel" ].
+
+rất-adv-mod_adj := adj-adverb-lex-pre &
+  [ STEM < "rất" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_rất_a_rel" ].
+
+rất-adv-mod_v_adv := vp-adverb-lex-pre &
+  [ STEM < "rất" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_rất_a_rel" ].
+
+cực+kì-adv := adj-adverb-lex &
+  [ STEM < "cực", "kì" >,  
+    SYNSEM.LKEYS.KEYREL.PRED "_cuc+ki_a_rel" ].
 
 ;;; Demonstrative
 nay := proximal+dem_a_rel &

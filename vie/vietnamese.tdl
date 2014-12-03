@@ -198,7 +198,30 @@ s-adverb-lex := adverb-lex &
 vp-adverb-lex := adverb-lex &
    [ SYNSEM.LOCAL.CAT [ HEAD.MOD < [ LOCAL.CAT.VAL.SUBJ  < [ ] > ] >,
 			POSTHEAD + ] ].
-		 
+
+vp-adverb-lex-pre := adverb-lex &
+   [ SYNSEM.LOCAL.CAT [ HEAD.MOD < [ LOCAL.CAT.VAL.SUBJ  < [ ] > ] >,
+			POSTHEAD - ] ].
+
+adj-adverb-lex := basic-int-adverb-lex &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT.HEAD adj ]>,
+			   VAL [ SPR < >,
+				 SUBJ < >,
+				 COMPS < >,
+				 SPEC < > ] ] ] ] ].		 
+
+adj-adverb-lex-pre := basic-int-adverb-lex &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL.CAT.HEAD adj ]>,
+			   VAL [ SPR < >,
+				 SUBJ < >,
+				 COMPS < >,
+				 SPEC < > ],
+			   POSTHEAD - 
+				    ] 
+			 ] 
+		   ] 
+	   ].
+
 
 possible-verb-lex := basic-verb-lex & trans-first-arg-raising-lex-item-1  & non-mod-lex-item &
    [ SYNSEM.LOCAL.CAT [ VAL [ SUBJ < #subj >,
