@@ -1096,6 +1096,17 @@ Source:    author
 Vetted:    t
 Judgment:  g
 Phenomena: {m}
+Tôi không được       ngủ.
+Tôi không được       ngủ.
+I   not   am_allowed sleep.
+`I'm not allowed to sleep.'
+# No ambiguity here (compared to English)
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {m}
 Tôi không được       ăn  bánh rán.
 Tôi không được       ăn  bánh_rán.
 I   NEG   be_allowed eat fried_cake.
@@ -1767,6 +1778,16 @@ Tôi hay   ăn.
 Tôi hay   ăn.
 I   often eat.
 `I eat often.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {adverb}
+Tôi hát  hay.
+Tôi hát  hay.
+I   sing good.
+`I sing well.'
 #
 #------------------------------------------------------------------------------
 Source:    author

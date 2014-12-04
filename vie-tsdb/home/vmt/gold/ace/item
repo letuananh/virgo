@@ -94,77 +94,79 @@
 94@author@@@1@{emb-d}@Tôi là  tôi yêu  cô ấy.@@@@1@6@`I am (the-one-who-in-fact-that) love her.'@Le Tuan Anh@Oct 31, 2014 
 95@author@@@1@{emb-d}@Cô ấy là  cô ấy yêu  tôi.@@@@1@7@`She's (the-one-who-in-fact-that) love me.'@Le Tuan Anh@Oct 31, 2014 
 96@author@@@1@{m}@Tôi được       ăn  bánh rán.@@@@1@5@`I'm allowed to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
-97@author@@@1@{m}@Tôi không được       ăn  bánh rán.@@@@1@6@`I'm not allowed to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
-98@author@@@1@{m}@Tôi không được       yêu  con         chó to  béo thông minh đó.@@@@1@11@`I'm not allowed to love that big smart fat dog.'@Le Tuan Anh@Oct 31, 2014 
-99@author@@@1@{m}@Tôi ăn  được    bánh rán.@@@@1@5@`I'm able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
-100@author@@@1@{m}@Tôi ăn  bánh rán   được.@@@@1@5@`I'm able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
-101@author@@@1@{m}@Tôi ăn  được    bánh rán   được.@@@@0@6@`I'm able to be able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
+97@author@@@1@{m}@Tôi không được       ngủ.@@@@1@4@`I'm not allowed to sleep.'@Le Tuan Anh@Oct 31, 2014 
+98@author@@@1@{m}@Tôi không được       ăn  bánh rán.@@@@1@6@`I'm not allowed to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
+99@author@@@1@{m}@Tôi không được       yêu  con         chó to  béo thông minh đó.@@@@1@11@`I'm not allowed to love that big smart fat dog.'@Le Tuan Anh@Oct 31, 2014 
+100@author@@@1@{m}@Tôi ăn  được    bánh rán.@@@@1@5@`I'm able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
+101@author@@@1@{m}@Tôi ăn  bánh rán   được.@@@@1@5@`I'm able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
 102@author@@@1@{m}@Tôi ăn  được    bánh rán   được.@@@@0@6@`I'm able to be able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
-103@author@@@1@{m}@Tôi được       ăn  bánh rán   được.@@@@1@6@`I'm allowed to be able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
-104@author@@@1@{m}@Tôi được       ăn  được    bánh rán.@@@@1@6@`I'm allowed to be able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
-105@author@@@1@{tam}@Tôi đang ngủ.@@@@1@3@`I am sleeping.'@Le Tuan Anh@Oct 31, 2014 
-106@author@@@1@{tam}@Tôi yêu  cô ấy.@@@@1@4@`I love her.'@Le Tuan Anh@Oct 31, 2014 
-107@author@@@1@{tam}@Tôi đang yêu  cô ấy.@@@@1@5@`I am loving her.'@Le Tuan Anh@Oct 31, 2014 
-108@author@@@1@{tam}@Tôi đã  yêu  cô ấy.@@@@1@5@`I loved her.'@Le Tuan Anh@Oct 31, 2014 
-109@author@@@1@{tam}@Tôi chưa yêu  cô ấy.@@@@1@5@`I am yet to love her.'@Le Tuan Anh@Oct 31, 2014 
-110@author@@@1@{tam}@Tôi đã  chưa yêu  cô ấy.@@@@0@6@`I was yet to love her.'@Le Tuan Anh@Oct 31, 2014 
-111@author@@@1@{tam}@Tôi đã  đang yêu  cô ấy.@@@@0@6@`I was loving her.'@Le Tuan Anh@Oct 31, 2014 
-112@author@@@1@{tam}@Tôi đã  từng    yêu  cô ấy.@@@@1@6@`I used to love her.'@Le Tuan Anh@Oct 31, 2014 
-113@author@@@1@{tam}@Tôi sắp           yêu  cô ấy.@@@@1@5@`I will love her (very soon).'@Le Tuan Anh@Oct 31, 2014 
-114@author@@@1@{tam}@Tôi sắp           sẽ           yêu  cô ấy.@@@@0@6@`I am going to love her (very soon).'@Le Tuan Anh@Oct 31, 2014 
-115@author@@@1@{tam}@Tôi sẽ           yêu  cô ấy.@@@@1@5@`I am going to love her.'@Le Tuan Anh@Oct 31, 2014 
-116@author@@@1@{tam}@Tôi mãi     yêu  cô ấy.@@@@1@5@`I love her forever.'@Le Tuan Anh@Oct 31, 2014 
-117@author@@@1@{tam}@Tôi sẽ           mãi     yêu  cô ấy.@@@@1@6@`I am going to love her forever.'@Le Tuan Anh@Oct 31, 2014 
-118@author@@@1@{tam}@Tôi đã  mãi     yêu  cô ấy.@@@@0@6@`I loved her forever.'@Le Tuan Anh@Oct 31, 2014 
-119@author@@@1@{tam}@Tôi đã  và  sẽ           yêu  cô ấy.@@@@1@7@`I loved and going to love her.'@Le Tuan Anh@Oct 31, 2014 
-120@author@@@1@{tam}@Tôi đã  đang     và  sẽ           yêu  cô ấy.@@@@1@8@`I loved, still love and going to love her.'@Le Tuan Anh@Oct 31, 2014 
-121@author@@@1@{det}@Tôi thích con         chó kia.@@@@1@5@`I like that dog.'@Le Tuan Anh@Oct 31, 2014 
-122@author@@@1@{det}@Tôi thích một con         chó.@@@@1@5@`I like a dog.'@Le Tuan Anh@Oct 31, 2014 
-123@author@@@1@{det}@Tôi thích một con         chó kia.@@@@0@6@`I like that dog.'@Le Tuan Anh@Oct 31, 2014 
-124@author@@@1@{det}@Tôi thích chó kia.@@@@0@4@`I like that dog.'@Le Tuan Anh@Oct 31, 2014 
-125@author@@@1@{adj}@Con         chó to  sủa.@@@@1@4@`The big dog barks.'@Le Tuan Anh@Oct 31, 2014 
-126@author@@@1@{adj}@Con         chim xanh  bay  nhanh.@@@@1@5@`The green bird flies fast.'@Le Tuan Anh@Oct 31, 2014 
-127@author@@@1@{adj}@Con         chim xanh  bay  to.@@@@0@5@`The green bird flies big.'@Le Tuan Anh@Oct 31, 2014 
-128@author@@@1@{adj}@Chó to  sủa.@@@@0@3@`The big dog barks.'@Le Tuan Anh@Oct 31, 2014 
-129@author@@@1@{adj}@Con         chó đỏ  sủa.@@@@1@4@`The red dog barks.'@Le Tuan Anh@Oct 31, 2014 
-130@author@@@1@{adj}@Con         chó to  đỏ  sủa.@@@@0@5@`The big red dog barks.'@Le Tuan Anh@Oct 31, 2014 
-131@author@@@1@{adj}@Con         chó đỏ  to  sủa.@@@@1@5@`The red big dog barks.'@Le Tuan Anh@Oct 31, 2014 
-132@author@@@1@{adj}@Con         chó to  màu        đỏ  sủa.@@@@1@6@`The red big dog barks.'@Le Tuan Anh@Oct 31, 2014 
-133@author@@@1@{adj}@Con         chó to  béo thông minh màu        đỏ sủa.@@@@1@9@`The big fat smart red dog barks.'@Le Tuan Anh@Oct 31, 2014 
-134@author@@@1@{adj}@Con         chó đỏ  to  béo thông minh sủa.@@@@1@8@`The red big fat smart dog barks.'@Le Tuan Anh@Oct 31, 2014 
-135@author@@@1@{adj}@Con         chó to  béo thông minh đỏ  sủa.@@@@0@8@`The big fat smart red dog barks.'@Le Tuan Anh@Oct 31, 2014 
-136@author@@@1@{adj}@Tôi ăn  nhanh.@@@@1@3@`I eat fast.'@Le Tuan Anh@Oct 31, 2014 
-137@authorcon chó xanh sủa.@@@1@{adj}@Tôi nhanh ăn.@@@@0@3@`I eat fast.'@Le Tuan Anh@Oct 31, 2014 
-138@author@@@1@{adj}@Tôi ăn  một cái       bánh rán   nhanh.@@@@1@7@`I eat a fried cake fast.'@Le Tuan Anh@Oct 31, 2014 
-139@author@@@1@{adj}@Tôi ăn  nhanh một cái       bánh rán.@@@@1@7@`I eat a fried cake fast.'@Le Tuan Anh@Oct 31, 2014 
-140@author@@@1@{cop}@Tôi là  người  thông minh.@@@@1@5@`I am a smart person.'@Le Tuan Anh@Oct 31, 2014 
-141@author@@@1@{cop}@Tôi là  con người thông minh.@@@@1@6@`I am a smart human.'@Le Tuan Anh@Oct 31, 2014 
-142@author@@@1@{cop}@Tôi là  thông minh.@@@@0@4@`I am smart.'@Le Tuan Anh@Oct 31, 2014 
-143@author@@@1@{cop}@Tôi thông minh.@@@@1@3@`I am smart.'@Le Tuan Anh@Oct 31, 2014 
-144@author@@@1@{cop}@Tôi là  người trên trời.@@@@1@5@`I am human from sky.'@Le Tuan Anh@Oct 31, 2014 
-145@author@@@1@{cop}@Tôi là  trên trời.@@@@0@4@`I am from sky.'@Le Tuan Anh@Oct 31, 2014 
-146@author@@@1@{info}@Chính con         chó đó       sủa.@@@@1@5@`It_is_exactly that dog barks.'@Le Tuan Anh@Oct 31, 2014 
-147@author@@@1@{info}@Chính con         chó sủa.@@@@0@4@`It_is_exactly the dog barks.'@Le Tuan Anh@Oct 31, 2014 
-148@author@@@1@{info}@Chính cái       con         chó đó       sủa.@@@@1@6@`It_is_exactly that dog barks.'@Le Tuan Anh@Oct 31, 2014 
-149@author@@@1@{sem}@Hôm qua   tôi ăn  bánh rán.@@@@1@6@`Yesterday I ate fried cake.'@Le Tuan Anh@Oct 31, 2014 
-150@author@@@1@{sem}@Tôi ăn  bánh rán   hôm qua.@@@@1@6@`I ate fried cake (on) yesterday.'@Le Tuan Anh@Oct 31, 2014 
-151@author@@@1@{sem}@Hôm nay tôi ăn  bánh.@@@@1@5@`Today I eat a cake.'@Le Tuan Anh@Oct 31, 2014 
-152@author@@@1@{sem}@Hôm nay con         chó sủa.@@@@1@5@`Today the dog barks.'@Le Tuan Anh@Oct 31, 2014 
-153@author@@@1@{sem}@Con         chó sủa  hôm nay.@@@@1@5@`Today the dog barks.'@Le Tuan Anh@Oct 31, 2014 
-154@author@@@1@{info}@Con         chó hôm nay sủa.@@@@1@5@`the dog (which we met) today barks.'@Le Tuan Anh@Oct 31, 2014 
-155@author@@@1@{wo}@Chim bay.@@@@1@2@`The(a) bird(s) fly(es).'@Le Tuan Anh@Oct 31, 2014 
-156@author@@@1@{wo,classifier}@Con         chim bay.@@@@1@3@`The(a) bird flies.'@Le Tuan Anh@Oct 31, 2014 
-157@author@@@1@{wo,classifier,adjective}@Con         chim bay nhanh.@@@@1@4@`The(a) bird flies fast.'@Le Tuan Anh@Oct 31, 2014 
-158@author@@@1@{wo,classifier,adjective,adverb}@Con         chim nhanh bay nhanh.@@@@1@5@`The(a) fast bird flies fast.'@Le Tuan Anh@Oct 31, 2014 
-159@author@@@1@{wo,classifier,adjective,adverb}@Con         chó nhanh đuổi  con         mèo béo chậm.@@@@1@8@`The fast dog chases the slow fat cat.'@Le Tuan Anh@Oct 31, 2014 
-160@author@@@1@{adverb-adjective}@Tôi hay   ăn.@@@@1@3@`I eat often.'@Le Tuan Anh@Oct 31, 2014 
-161@author@@@1@{adverb-adjective}@Tôi ăn  hay.@@@@0@3@`I eat often.'@Le Tuan Anh@Oct 31, 2014 
-162@author@@@1@{adverb-adjective}@Tôi thường xuyên ngủ.@@@@1@4@`I sleep often.'@Le Tuan Anh@Oct 31, 2014 
-163@author@@@1@{adverb-adjective}@Tôi ngủ   thường xuyên.@@@@1@4@`I sleep often.'@Le Tuan Anh@Oct 31, 2014 
-164@author@@@1@{adverb-adjective}@Tôi ăn   thường xuyên bánh.@@@@0@5@`I often eat cake.'@Le Tuan Anh@Oct 31, 2014 
-165@author@@@1@{adverb}@Tôi ăn  nhanh.@@@@1@3@`I eat fast.'@Le Tuan Anh@Oct 31, 2014 
-166@author@@@1@{adverb}@Tôi nhanh ăn.@@@@0@3@`I eat fast.'@Le Tuan Anh@Oct 31, 2014 
-167@author@@@1@{adverb}@Tôi rất  hay   ăn  bánh.@@@@1@5@`I eat cakes very often.'@Le Tuan Anh@Oct 31, 2014 
-168@author@@@1@{adverb}@Tôi hay   rất  ăn  bánh.@@@@0@5@`I eat cakes very often.'@Le Tuan Anh@Oct 31, 2014 
-169@author@@@1@{adverb}@Tôi hay   thỉnh thoảng ăn  bánh.@@@@1@6@`I very often be in the state of eat a cake from time to time.'@Le Tuan Anh@Oct 31, 2014 
-170@author@@@1@{adverb}@Tôi rất  hay   thỉnh thoảng ăn bánh.@@@@1@7@`I often be in the state of eat cakes from time to time.'@Le Tuan Anh@Oct 31, 2014 
+103@author@@@1@{m}@Tôi ăn  được    bánh rán   được.@@@@0@6@`I'm able to be able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
+104@author@@@1@{m}@Tôi được       ăn  bánh rán   được.@@@@1@6@`I'm allowed to be able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
+105@author@@@1@{m}@Tôi được       ăn  được    bánh rán.@@@@1@6@`I'm allowed to be able to eat fried-cake.'@Le Tuan Anh@Oct 31, 2014 
+106@author@@@1@{tam}@Tôi đang ngủ.@@@@1@3@`I am sleeping.'@Le Tuan Anh@Oct 31, 2014 
+107@author@@@1@{tam}@Tôi yêu  cô ấy.@@@@1@4@`I love her.'@Le Tuan Anh@Oct 31, 2014 
+108@author@@@1@{tam}@Tôi đang yêu  cô ấy.@@@@1@5@`I am loving her.'@Le Tuan Anh@Oct 31, 2014 
+109@author@@@1@{tam}@Tôi đã  yêu  cô ấy.@@@@1@5@`I loved her.'@Le Tuan Anh@Oct 31, 2014 
+110@author@@@1@{tam}@Tôi chưa yêu  cô ấy.@@@@1@5@`I am yet to love her.'@Le Tuan Anh@Oct 31, 2014 
+111@author@@@1@{tam}@Tôi đã  chưa yêu  cô ấy.@@@@0@6@`I was yet to love her.'@Le Tuan Anh@Oct 31, 2014 
+112@author@@@1@{tam}@Tôi đã  đang yêu  cô ấy.@@@@0@6@`I was loving her.'@Le Tuan Anh@Oct 31, 2014 
+113@author@@@1@{tam}@Tôi đã  từng    yêu  cô ấy.@@@@1@6@`I used to love her.'@Le Tuan Anh@Oct 31, 2014 
+114@author@@@1@{tam}@Tôi sắp           yêu  cô ấy.@@@@1@5@`I will love her (very soon).'@Le Tuan Anh@Oct 31, 2014 
+115@author@@@1@{tam}@Tôi sắp           sẽ           yêu  cô ấy.@@@@0@6@`I am going to love her (very soon).'@Le Tuan Anh@Oct 31, 2014 
+116@author@@@1@{tam}@Tôi sẽ           yêu  cô ấy.@@@@1@5@`I am going to love her.'@Le Tuan Anh@Oct 31, 2014 
+117@author@@@1@{tam}@Tôi mãi     yêu  cô ấy.@@@@1@5@`I love her forever.'@Le Tuan Anh@Oct 31, 2014 
+118@author@@@1@{tam}@Tôi sẽ           mãi     yêu  cô ấy.@@@@1@6@`I am going to love her forever.'@Le Tuan Anh@Oct 31, 2014 
+119@author@@@1@{tam}@Tôi đã  mãi     yêu  cô ấy.@@@@0@6@`I loved her forever.'@Le Tuan Anh@Oct 31, 2014 
+120@author@@@1@{tam}@Tôi đã  và  sẽ           yêu  cô ấy.@@@@1@7@`I loved and going to love her.'@Le Tuan Anh@Oct 31, 2014 
+121@author@@@1@{tam}@Tôi đã  đang     và  sẽ           yêu  cô ấy.@@@@1@8@`I loved, still love and going to love her.'@Le Tuan Anh@Oct 31, 2014 
+122@author@@@1@{det}@Tôi thích con         chó kia.@@@@1@5@`I like that dog.'@Le Tuan Anh@Oct 31, 2014 
+123@author@@@1@{det}@Tôi thích một con         chó.@@@@1@5@`I like a dog.'@Le Tuan Anh@Oct 31, 2014 
+124@author@@@1@{det}@Tôi thích một con         chó kia.@@@@0@6@`I like that dog.'@Le Tuan Anh@Oct 31, 2014 
+125@author@@@1@{det}@Tôi thích chó kia.@@@@0@4@`I like that dog.'@Le Tuan Anh@Oct 31, 2014 
+126@author@@@1@{adj}@Con         chó to  sủa.@@@@1@4@`The big dog barks.'@Le Tuan Anh@Oct 31, 2014 
+127@author@@@1@{adj}@Con         chim xanh  bay  nhanh.@@@@1@5@`The green bird flies fast.'@Le Tuan Anh@Oct 31, 2014 
+128@author@@@1@{adj}@Con         chim xanh  bay  to.@@@@0@5@`The green bird flies big.'@Le Tuan Anh@Oct 31, 2014 
+129@author@@@1@{adj}@Chó to  sủa.@@@@0@3@`The big dog barks.'@Le Tuan Anh@Oct 31, 2014 
+130@author@@@1@{adj}@Con         chó đỏ  sủa.@@@@1@4@`The red dog barks.'@Le Tuan Anh@Oct 31, 2014 
+131@author@@@1@{adj}@Con         chó to  đỏ  sủa.@@@@0@5@`The big red dog barks.'@Le Tuan Anh@Oct 31, 2014 
+132@author@@@1@{adj}@Con         chó đỏ  to  sủa.@@@@1@5@`The red big dog barks.'@Le Tuan Anh@Oct 31, 2014 
+133@author@@@1@{adj}@Con         chó to  màu        đỏ  sủa.@@@@1@6@`The red big dog barks.'@Le Tuan Anh@Oct 31, 2014 
+134@author@@@1@{adj}@Con         chó to  béo thông minh màu        đỏ sủa.@@@@1@9@`The big fat smart red dog barks.'@Le Tuan Anh@Oct 31, 2014 
+135@author@@@1@{adj}@Con         chó đỏ  to  béo thông minh sủa.@@@@1@8@`The red big fat smart dog barks.'@Le Tuan Anh@Oct 31, 2014 
+136@author@@@1@{adj}@Con         chó to  béo thông minh đỏ  sủa.@@@@0@8@`The big fat smart red dog barks.'@Le Tuan Anh@Oct 31, 2014 
+137@author@@@1@{adj}@Tôi ăn  nhanh.@@@@1@3@`I eat fast.'@Le Tuan Anh@Oct 31, 2014 
+138@authorcon chó xanh sủa.@@@1@{adj}@Tôi nhanh ăn.@@@@0@3@`I eat fast.'@Le Tuan Anh@Oct 31, 2014 
+139@author@@@1@{adj}@Tôi ăn  một cái       bánh rán   nhanh.@@@@1@7@`I eat a fried cake fast.'@Le Tuan Anh@Oct 31, 2014 
+140@author@@@1@{adj}@Tôi ăn  nhanh một cái       bánh rán.@@@@1@7@`I eat a fried cake fast.'@Le Tuan Anh@Oct 31, 2014 
+141@author@@@1@{cop}@Tôi là  người  thông minh.@@@@1@5@`I am a smart person.'@Le Tuan Anh@Oct 31, 2014 
+142@author@@@1@{cop}@Tôi là  con người thông minh.@@@@1@6@`I am a smart human.'@Le Tuan Anh@Oct 31, 2014 
+143@author@@@1@{cop}@Tôi là  thông minh.@@@@0@4@`I am smart.'@Le Tuan Anh@Oct 31, 2014 
+144@author@@@1@{cop}@Tôi thông minh.@@@@1@3@`I am smart.'@Le Tuan Anh@Oct 31, 2014 
+145@author@@@1@{cop}@Tôi là  người trên trời.@@@@1@5@`I am human from sky.'@Le Tuan Anh@Oct 31, 2014 
+146@author@@@1@{cop}@Tôi là  trên trời.@@@@0@4@`I am from sky.'@Le Tuan Anh@Oct 31, 2014 
+147@author@@@1@{info}@Chính con         chó đó       sủa.@@@@1@5@`It_is_exactly that dog barks.'@Le Tuan Anh@Oct 31, 2014 
+148@author@@@1@{info}@Chính con         chó sủa.@@@@0@4@`It_is_exactly the dog barks.'@Le Tuan Anh@Oct 31, 2014 
+149@author@@@1@{info}@Chính cái       con         chó đó       sủa.@@@@1@6@`It_is_exactly that dog barks.'@Le Tuan Anh@Oct 31, 2014 
+150@author@@@1@{sem}@Hôm qua   tôi ăn  bánh rán.@@@@1@6@`Yesterday I ate fried cake.'@Le Tuan Anh@Oct 31, 2014 
+151@author@@@1@{sem}@Tôi ăn  bánh rán   hôm qua.@@@@1@6@`I ate fried cake (on) yesterday.'@Le Tuan Anh@Oct 31, 2014 
+152@author@@@1@{sem}@Hôm nay tôi ăn  bánh.@@@@1@5@`Today I eat a cake.'@Le Tuan Anh@Oct 31, 2014 
+153@author@@@1@{sem}@Hôm nay con         chó sủa.@@@@1@5@`Today the dog barks.'@Le Tuan Anh@Oct 31, 2014 
+154@author@@@1@{sem}@Con         chó sủa  hôm nay.@@@@1@5@`Today the dog barks.'@Le Tuan Anh@Oct 31, 2014 
+155@author@@@1@{info}@Con         chó hôm nay sủa.@@@@1@5@`the dog (which we met) today barks.'@Le Tuan Anh@Oct 31, 2014 
+156@author@@@1@{wo}@Chim bay.@@@@1@2@`The(a) bird(s) fly(es).'@Le Tuan Anh@Oct 31, 2014 
+157@author@@@1@{wo,classifier}@Con         chim bay.@@@@1@3@`The(a) bird flies.'@Le Tuan Anh@Oct 31, 2014 
+158@author@@@1@{wo,classifier,adjective}@Con         chim bay nhanh.@@@@1@4@`The(a) bird flies fast.'@Le Tuan Anh@Oct 31, 2014 
+159@author@@@1@{wo,classifier,adjective,adverb}@Con         chim nhanh bay nhanh.@@@@1@5@`The(a) fast bird flies fast.'@Le Tuan Anh@Oct 31, 2014 
+160@author@@@1@{wo,classifier,adjective,adverb}@Con         chó nhanh đuổi  con         mèo béo chậm.@@@@1@8@`The fast dog chases the slow fat cat.'@Le Tuan Anh@Oct 31, 2014 
+161@author@@@1@{adverb-adjective}@Tôi hay   ăn.@@@@1@3@`I eat often.'@Le Tuan Anh@Oct 31, 2014 
+162@author@@@1@{adverb}@Tôi hát  hay.@@@@1@3@`I sing well.'@Le Tuan Anh@Oct 31, 2014 
+163@author@@@1@{adverb-adjective}@Tôi ăn  hay.@@@@0@3@`I eat often.'@Le Tuan Anh@Oct 31, 2014 
+164@author@@@1@{adverb-adjective}@Tôi thường xuyên ngủ.@@@@1@4@`I sleep often.'@Le Tuan Anh@Oct 31, 2014 
+165@author@@@1@{adverb-adjective}@Tôi ngủ   thường xuyên.@@@@1@4@`I sleep often.'@Le Tuan Anh@Oct 31, 2014 
+166@author@@@1@{adverb-adjective}@Tôi ăn   thường xuyên bánh.@@@@0@5@`I often eat cake.'@Le Tuan Anh@Oct 31, 2014 
+167@author@@@1@{adverb}@Tôi ăn  nhanh.@@@@1@3@`I eat fast.'@Le Tuan Anh@Oct 31, 2014 
+168@author@@@1@{adverb}@Tôi nhanh ăn.@@@@0@3@`I eat fast.'@Le Tuan Anh@Oct 31, 2014 
+169@author@@@1@{adverb}@Tôi rất  hay   ăn  bánh.@@@@1@5@`I eat cakes very often.'@Le Tuan Anh@Oct 31, 2014 
+170@author@@@1@{adverb}@Tôi hay   rất  ăn  bánh.@@@@0@5@`I eat cakes very often.'@Le Tuan Anh@Oct 31, 2014 
+171@author@@@1@{adverb}@Tôi hay   thỉnh thoảng ăn  bánh.@@@@1@6@`I very often be in the state of eat a cake from time to time.'@Le Tuan Anh@Oct 31, 2014 
+172@author@@@1@{adverb}@Tôi rất  hay   thỉnh thoảng ăn bánh.@@@@1@7@`I often be in the state of eat cakes from time to time.'@Le Tuan Anh@Oct 31, 2014 
