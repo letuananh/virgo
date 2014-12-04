@@ -1186,6 +1186,16 @@ Source:    author
 Vetted:    t
 Judgment:  g
 Phenomena: {tam}
+Tôi đang ngủ.
+Tôi đang ngủ.
+I   PROG sleep.
+`I am sleeping.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {tam}
 Tôi yêu  cô ấy.
 Tôi yêu  cô_ấy.
 I   love she.
@@ -1533,10 +1543,20 @@ Source:    author
 Vetted:    t
 Judgment:  g
 Phenomena: {cop}
-Tôi là  người thông minh.
-Tôi là  người thông_minh.
-I   COP human smart.
+Tôi là  người  thông minh.
+Tôi là  người  thông+minh.
+I   COP person smart.
 `I am a smart person.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {cop}
+Tôi là  con người thông minh.
+Tôi là  con người thông+minh.
+I   COP human     smart.
+`I am a smart human.'
 #
 #------------------------------------------------------------------------------
 Source:    author
@@ -1546,6 +1566,16 @@ Phenomena: {cop}
 Tôi là  thông minh.
 Tôi là  thông_minh.
 I   COP smart.
+`I am smart.'
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {cop}
+Tôi thông minh.
+Tôi thông+minh.
+I   smart.
 `I am smart.'
 #
 #------------------------------------------------------------------------------
@@ -1628,6 +1658,16 @@ Tôi ăn  bánh_rán   hôm_qua.
 I   eat fried_cake yesterday.
 `I ate fried cake (on) yesterday.'
 # There's no 'on' in the original text.
+#
+#------------------------------------------------------------------------------
+Source:    author
+Vetted:    t
+Judgment:  g
+Phenomena: {sem}
+Hôm nay tôi ăn  bánh.
+Hôm+nay tôi ăn  bánh.
+Today   I   eat cake.
+`Today I eat a cake.'
 #
 #------------------------------------------------------------------------------
 Source:    author
