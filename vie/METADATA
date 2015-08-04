@@ -24,25 +24,19 @@
 
 ## Grammar maintainers and contributors
 
-MAINTAINER=""
+MAINTAINER="Le Tuan Anh"
 CONTRIBUTORS=""
-CONTACT_EMAIL=""
+CONTACT_EMAIL="tuananh.ke@gmail.com"
 
 ## Grammar name and web presence
 ## Note: if SHORT_GRAMMAR_NAME is not defined, the directory name is used.
 
-GRAMMAR_NAME=""
-SHORT_GRAMMAR_NAME=""
+GRAMMAR_NAME="Vietnamese Resource Grammar (Obviously)"
+SHORT_GRAMMAR_NAME="VIRGO"
 WEBSITE=""
 DEMO_WEBSITE=""
 DOCUMENTATION_URL=""
-ISSUE_TRACKER=""
-LICENSE=""
-
-## You may optionally specify a release date for the grammar. If unspecified,
-## the grammar catalogue script will attempt to extract a date from the
-## Version.l(i)sp file.
-LATEST_RELEASE=""
+LICENSE="MIT License"
 
 ## Citation data
 ## If this is not provided, the text of citation.bib or canonical.bib
@@ -55,7 +49,7 @@ CITE=""
 ## If this is not provided, it is automatically extracted from the
 ## local version control info. You only need to modify this if the
 ## version control URL you use locally is not the one you want published
-VCS=""
+VCS="https://github.com/letuananh/virgo"
 
 ## Semi-colon separated list of required external resources 
 ## e.g.
@@ -84,17 +78,17 @@ ASSOCIATED_RESOURCES=""
 #GRAMMAR_TYPE="Resource grammar"
 #GRAMMAR_TYPE="Treebank trained grammar"
 #GRAMMAR_TYPE="Medium-sized linguistic grammar"
-#GRAMMAR_TYPE="Experimental grammar"
+GRAMMAR_TYPE="Experimental grammar"
 
 
 ## Language identification
 ## Iso-codes can be looked up at http://www.sil.org/iso639-3/codes.asp
 
-LANGUAGE_NAME=""
-ISO_CODE=""
+LANGUAGE_NAME="Vietnamese"
+ISO_CODE="vie"
 
 ## File locations of LKB script file and .grm file read by cheap
 ## Paths relative to top of grammar directory
 
-LKB_SCRIPT_FILE=""
+LKB_SCRIPT_FILE="lkb/script"
 CHEAP_GRM_FILE_NAME=""
