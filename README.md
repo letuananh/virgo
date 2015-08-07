@@ -17,3 +17,5 @@ virgo/vie-tsdb/skeletons -> ~/logon/lingo/lkb/src/tsdb/vrg
 2. Run ```cd ~/vigro```
 3. Run ```chmod u+x setup.sh```
 3. Run ```./setup.sh```
+
+More information can be found at: http://moin.delph-in.net/GrammarCatalogue#VIRGO
