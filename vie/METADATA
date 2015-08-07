@@ -33,9 +33,9 @@ CONTACT_EMAIL="tuananh.ke@gmail.com"
 
 GRAMMAR_NAME="Vietnamese Resource Grammar (Obviously)"
 SHORT_GRAMMAR_NAME="VIRGO"
-WEBSITE=""
-DEMO_WEBSITE=""
-DOCUMENTATION_URL=""
+WEBSITE="https://github.com/letuananh/virgo"
+DEMO_WEBSITE="http://compling.hss.ntu.edu.sg/demophin/virgo/"
+DOCUMENTATION_URL="https://github.com/letuananh/virgo/wiki"
 LICENSE="MIT License"
 
 ## Citation data
