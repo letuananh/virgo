@@ -1,0 +1,3 @@
+[submodule "modules/demophin"]
+	path = modules/demophin
+	url = https://github.com/goodmami/demophin

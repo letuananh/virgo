@@ -19,5 +19,5 @@ flop vietnamese-pet.tdl
 # Test using PET
 #cheap vietnamese-pet.grm
 echo "-------------------------------------------------------------------"
-echo "DONE"
+echo "DONE - Virgo is ready to use"
 echo "-------------------------------------------------------------------"
